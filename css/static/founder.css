@@ -1,0 +1,90 @@
+.founder {
+  height: 100%;
+  width: 100%;
+  background: #fcf3ec;
+  padding-bottom: 80px;
+}
+.founder .fou-h {
+  width: 100%;
+  height: 320px;
+  position: relative;
+}
+.founder .fou-h p {
+  font-size: 60px;
+  line-height: 60px;
+  font-family: "华文中宋";
+  position: absolute;
+  top: 230px;
+  left: 100px;
+}
+.founder .fou-h .book-img {
+  position: absolute;
+  top: 40px;
+  right: 110px;
+  width: 454px;
+  height: 276px;
+  background: url(../../images/aboutus/fou-bg.png);
+}
+.founder .fou-c {
+  width: 100%;
+  height: 568px;
+  background: #fff;
+  padding-top: 132px;
+}
+.founder .fou-c .fou-img {
+  width: 287px;
+  height: 430px;
+  background: url(../../images/aboutus/founder.jpg);
+  margin: 0 20px 0 153px;
+}
+.founder .fou-c .fou-text .fou-t {
+  font-size: 18px;
+  line-height: 36px;
+}
+.founder .fou-c .fou-text .fou-t .fou-h2 span {
+  font-size: 36px;
+  color: #f19c32;
+  margin-right: 12px;
+}
+.founder .fou-c .fou-text .fou-t .f-color {
+  color: #f19c32;
+  font-size: 21px;
+}
+.founder .fou-c .fou-text .fou-f {
+  font-size: 18px;
+  line-height: 36px;
+  margin-top: 35px;
+}
+@media screen and (max-width: 1024px) {
+  .founder .founder-c {
+    height: 9.2rem;
+    padding: .28rem 0 .5rem;
+  }
+  .founder .founder-c .fou-tit {
+    font-size: .3rem;
+    line-height: .3rem;
+    margin-bottom: .28rem;
+  }
+  .founder .founder-c .fou-c {
+    width: 3.4rem;
+    height: 5.08rem;
+  }
+  .founder .founder-c .fou-c .fou-img {
+    width: 2.76rem;
+    height: 3.56rem;
+  }
+  .founder .founder-c .fou-c .fou-h {
+    font-size: .28rem;
+    line-height: .28rem;
+    margin: .28rem 0 0.05rem;
+  }
+  .founder .founder-c .fou-c .fou-t {
+    font-size: .16rem;
+    line-height: .26rem;
+  }
+  .founder .founder-c .fou-text {
+    font-size: .20rem;
+    line-height: .39rem;
+    padding-left: .58rem;
+  }
+}

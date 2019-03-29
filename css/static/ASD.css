@@ -1,0 +1,201 @@
+.asd {
+  width: 100%;
+  height: 100%;
+}
+.sta-h {
+  width: 100%;
+  height: 20px;
+  line-height: 22px;
+  position: relative;
+  margin-top: 22px;
+}
+.sta-h span {
+  position: absolute;
+  top: 0px;
+  width: 20px;
+  height: 22px;
+  background: url(../../images/home.png);
+  background-size: 100% 100%;
+}
+.sta-h .nav_bar {
+  font-size: 16px;
+  position: absolute;
+  top: 0;
+  left: 30px;
+  color: #666;
+}
+.sta-h .nav_bar a {
+  color: #666;
+}
+.sta-h .nav_bar .active {
+  color: #f08300;
+}
+.asd-c {
+  padding: 0 100px;
+  width: 1000px;
+  margin-bottom: 120px;
+}
+.asd-c .c-h {
+  width: 100%;
+  height: 243px;
+  margin-bottom: 44px;
+}
+.asd-c .c-h li {
+  float: left;
+}
+.asd-c .c-h .asd-img {
+  width: 427px;
+  height: 243px;
+  margin-right: 20px;
+}
+.asd-c .c-h .asd-img img {
+  width: 100%;
+  height: 100%;
+}
+.asd-c .c-h .asd-text {
+  width: 517px;
+  font-size: 18px;
+  line-height: 32px;
+  color: #666666;
+  margin-top: 20px;
+}
+.asd-c .c-h .asd-text p {
+  text-indent: 2em;
+}
+.asd-c .standard {
+  font-size: 18px;
+  line-height: 32px;
+  color: #666666;
+}
+.asd-c .standard h3 {
+  font-size: 28px;
+  font-weight: bold;
+  line-height: 38px;
+}
+.asd-c .standard .main {
+  text-indent: 2em;
+}
+.asd-c .standard .main span {
+  font-weight: bold;
+}
+.asd-c .standard .A {
+  margin-bottom: 40px;
+}
+.asd-c .standard .A b {
+  font-size: 24px;
+  font-weight: bold;
+}
+.asd-c .standard .A p {
+  text-indent: 2em;
+}
+.asd-c .standard .A p span {
+  font-weight: bold;
+}
+.asd-c .degree {
+  font-size: 18px;
+  line-height: 31px;
+  color: #666666;
+}
+.asd-c .degree h3 {
+  font-size: 28px;
+  line-height: 38px;
+  font-weight: bold;
+}
+.asd-c .degree .frist {
+  margin-bottom: 40px;
+}
+.asd-c .degree .frist h4 {
+  font-size: 24px;
+  line-height: 38px;
+  font-weight: bold;
+}
+.asd-c .degree .frist .tit {
+  font-weight: bold;
+}
+@media screen and (max-width: 1024px) {
+  .asd {
+    width: 7.3rem;
+    height: 100%;
+    margin: 0 auto;
+  }
+  .sta-h {
+    height: .20rem;
+    line-height: .20rem;
+    margin-top: .2rem;
+  }
+  .sta-h span {
+    width: .20rem;
+    height: .22rem;
+    top: -0.02rem;
+  }
+  .sta-h .nav_bar {
+    font-size: .18rem;
+    line-height: .22rem;
+    left: .30rem;
+  }
+  .asd-c {
+    padding: 0;
+    margin: 0 auto;
+    width: 7.1rem;
+    margin-bottom: 1rem;
+  }
+  .asd-c .c-h {
+    width: 100%;
+    height: 100%;
+    margin-bottom: .14rem;
+  }
+  .asd-c .c-h li {
+    float: left;
+  }
+  .asd-c .c-h .asd-img {
+    width: 4.27rem;
+    height: 2.43rem;
+    margin: .28rem 0 0 1.42rem;
+  }
+  .asd-c .c-h .asd-img img {
+    width: 100%;
+    height: 100%;
+  }
+  .asd-c .c-h .asd-text {
+    width: 7.1rem;
+    height: 1.5rem;
+    font-size: .18rem;
+    line-height: .32rem;
+    margin-top: .20rem;
+  }
+  .asd-c .c-h .asd-text p {
+    text-indent: 2em;
+  }
+  .asd-c .standard {
+    font-size: .18rem;
+    line-height: .32rem;
+  }
+  .asd-c .standard h3 {
+    font-size: .28rem;
+    line-height: .34rem;
+  }
+  .asd-c .standard .A {
+    margin-bottom: .1rem;
+  }
+  .asd-c .standard .A b {
+    font-size: .24rem;
+  }
+  .asd-c .standard .A p {
+    text-indent: 2em;
+  }
+  .asd-c .degree {
+    font-size: .18rem;
+    line-height: .32rem;
+  }
+  .asd-c .degree h3 {
+    font-size: .28rem;
+    line-height: .34rem;
+  }
+  .asd-c .degree .frist {
+    margin-bottom: .1rem;
+  }
+  .asd-c .degree .frist h4 {
+    font-size: .24rem;
+    line-height: .38rem;
+  }
+}

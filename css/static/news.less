@@ -1,0 +1,166 @@
+
+.activity{
+    background: #fcf3eb;
+    padding-bottom: 120px;
+    .act-h{
+        width: 100%;
+        height: 320px;
+        background: url(../../images/news/banner.png);
+    }
+    .act-list{
+        height:100%;
+        padding: 57px 15px 0;
+        width: 1170px;
+        overflow: hidden;
+        background: #fff;
+        ul{
+            width:100%;
+        }
+        li{
+            float: left;
+            height:100%;
+            width: 380px;
+            margin: 0 5px;
+            .img{
+                width:100%;
+                height: 210px;
+                position: relative;
+                img{
+                    width: 100%;
+                    height:100%;
+                    position: absolute;
+                    top:0;
+                    left: 0;
+                }
+            }
+            .text{
+                width: 100%;
+                height:118px;
+                background: #fff;
+                h3{
+                    font-size: 16px;
+                    line-height: 24px;
+                    color: #333333;
+                    padding-top: 16px;
+                }
+                p{
+                    font-size: 16px;
+                    line-height: 27px;
+                    color: #999999;
+                    span{
+                        margin-right: 40px;
+                        display: inline-block;
+                    }
+                }
+            }
+        }
+    }
+    .page{
+        width: 100%;
+        height: 60px;
+        line-height: 60px;
+        background: #f7cead;
+        #page-table2{
+            text-align: right;
+            font-size: 18px;
+            width:100%;
+            height:100%;
+        }
+    }
+    
+}
+
+@media screen and (max-width: 1024px) {
+    .activity{
+        width:7.3rem;
+        height:100%;
+        padding:.08rem 0 1rem;
+        .act-h{
+            font-size:.3rem;
+            line-height: .3rem;
+            padding-left:.46rem;
+            span{
+                width: .38rem;
+                height:.33rem;
+                position: absolute;
+                top:-0.03rem;
+                left:2.81rem;
+            }
+        }
+        .fresh{
+            span{
+                width: .36rem;
+                height:.36rem;
+                top:-0.06rem;
+                left: 2.86rem;
+            }
+        }
+        .industry{
+            span{
+                top:.01rem;
+                width: .40rem;
+                height:.30rem;
+            }
+        }
+        .media{
+            span{
+                top:-0.06rem;
+                width: .40rem;
+                height:.36rem;
+                
+            }
+        }
+        .act-list{
+            height:100%;
+            width: 7.1rem;
+            overflow: hidden;
+            margin:.20rem auto 0;
+            ul{
+                width:7.3rem;
+            }
+            li{
+                width: 3.54rem;
+                height:3.36rem;
+                margin-right:.1rem;
+                margin-bottom: .2rem;
+                .img{
+                    height: 2.50rem;
+                    img{
+                        width: 100%;
+                        height:100%;
+                    }
+                }
+                .text{
+                    height:.90rem;
+                    h3{
+                        font-size: .20rem;
+                        line-height: .26rem;
+                        padding-right: 0;
+                        padding-top: 0;
+                        margin-top: .14rem;
+                    }
+                    p{
+                        font-size: .16rem;
+                        line-height: .16rem;
+                        margin-top: .07rem;
+                        span{
+                            margin-right: .40rem;
+                            display: inline-block;
+                        }
+                    }
+                }
+            }
+        }
+        #page-table2{
+            position: absolute;
+            bottom: .30rem;
+            right: 0;
+            text-align: right;
+            font-size: .18rem;
+            width:100%;
+            height:.50rem;
+    
+        }
+    }
+    
+}

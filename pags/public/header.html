@@ -1,0 +1,156 @@
+
+<script type="text/javascript">
+    //移动端   设计图纸是750px
+    $(function(){
+            document.querySelector("html").style.opacity = 1;
+            $("html").css("fontSize",parseInt($(window).width()) / 7.5 +"px");
+            $(window).resize(function(){
+                $("html").css("fontSize",parseInt($(window).width()) / 7.5 +"px");
+                document.getElementsByTagName("html")[0].style.opacity = 1;
+
+            });
+        
+    });
+</script>
+<body>
+<!-- 移动端头部 -->
+<ul class="m-header clearfix mobile-show">
+    <li class="h-left fl"></li>
+    <a href="/"><li class="logo fl"></li></a>
+    <li class="h-right fr">
+        <p class="one">全国咨询热线</p>
+        <p class="two">010-52668752</p>     
+    </li>
+    <ul class="m-nav" id="nav">
+            <li class="list1 close">
+                导航
+               <div></div> 
+            </li>
+            <li class="list1"> <a href="/"><span>首页</span></a></li>
+            <li class="list1 button">
+                <span>MUST课程体系</span>
+                <i></i>
+                <ul class="list2">
+                    <li><a href="/pags/course/skill.html">MUST技术</a></li>
+                    <li><a href="/pags/course/course.html">MUST课程</a></li>
+                    <li><a href="/pags/course/faculty.html">师资力量</a></li>
+                    <li><a href="/pags/course/case.html">成功案例</a></li>
+                </ul>
+            </li>
+            <li class="list1"> <a href="/pags/internet/internet.html"><span>星希望网校</span></a></li>
+            <li class="list1 button">
+                <span>关于我们</span>
+                <i></i>
+                <ul class="list2">
+                    <li><a href="/pags/aboutus/company.html">星希望简介</a></li>
+                    <li><a href="/pags/aboutus/progress.html">发展历程</a></li>
+                    <li><a href="/pags/aboutus/founder.html">创始人简介</a></li>
+                    <li><a href="/pags/aboutus/brand.html">品牌故事</a></li>
+                    <li><a href="/pags/aboutus/glory.html">所获荣誉</a></li>
+                    <li><a href="/pags/aboutus/campus.html">校区概况</a></li>
+                </ul>
+            </li>
+            <li class="list1 button">
+                <span>新闻中心</span>
+                <i></i>
+                <ul class="list2">
+                    <li><a href="/pags/news/fresh.html">最新动态</a></li>
+                    <li><a href="/pags/news/industry.html">行业新闻</a></li>
+                    <li><a href="/pags/news/activity.html">公益活动</a></li>
+                    <li><a href="/pags/news/media.html">媒体报道</a></li>
+                </ul>
+            </li>
+            <li class="list1 button">
+                <span>爱心社</span>
+                <i></i>
+                <ul class="list2">
+                    <li><a href="/pags/love/volunteer.html">志愿者招募</a></li>
+                    <li><a href="/pags/love/donation.html">爱心捐赠</a></li>
+                </ul>
+            </li>
+            
+        </ul>
+    </ul>
+<!-- pc端头部 -->
+<div class="header mobile-none">
+    <div class="header-c clearfix">
+        <a href="/index.html"><div class="logo fl"></div></a>
+        <ul class="nav fl clearfix">
+            <li class="test">
+                <a href="/"><span class="title">首 页</span></a>
+              <p></p>
+            </li>
+            <li class="test">
+                <a href="/pags/course/course.html"><span class="title" path="course">MUST课程体系</span></a>
+                <p></p>
+            </li>
+            <li class="test">
+                <a href="/pags/underCourse/underCourse.html"><span class="title" path="underCourse">线下校区</span></a>
+              <p></p>
+            </li>
+            <li class="test">
+                <a href="/pags/internet/internet.html"><span class="title" path="internet">网校学习</span></a>
+              <p></p>
+            </li>
+            <li class="test">
+              <span class="title">关于我们</span>
+                <div class="menu">
+                    <a href="/pags/aboutus/company.html?a=4">星希望简介</a> 
+                    <a href="/pags/aboutus/progress.html?a=4" >发展历程</a>
+                    <a href="/pags/aboutus/founder.html?a=4">创始人简介</a>
+                    <a href="/pags/aboutus/brand.html?a=4">品牌故事</a>
+                    <a href="/pags/aboutus/glory.html?a=4" >所获荣誉</a>
+                    <a href="/pags/aboutus/campus.html?a=4" >校区概况</a>
+                    <a href="/pags/aboutus/teachers.html?4">师资力量</a>
+                    <a href="/pags/aboutus/case.html?4">成功案例</a>
+                </div>
+                <p></p>
+            
+            </li>
+            <li class="test">
+              <span class="title">新闻中心</span>
+              <div class="menu">
+                  <a href="/pags/news/fresh.html?a=5">最新动态</a>
+                  <a href="/pags/news/industry.html?a=5">行业新闻</a>
+                  <a href="/pags/news/activity.html?a=5">公益活动</a>
+                  <a href="/pags/news/media.html?a=5">媒体报道</a>
+              </div>
+              <p></p>
+    
+            </li>
+            <li class="test">
+                <a href="/pags/love/love.html"><span class="title" path="internet">爱心社</span></a>
+                <p></p>
+            </li>
+        </ul>
+        <div class="contact fr">
+            <p class="consult">全国咨询热线</p>   
+            <p class="blue"> <span></span>010-52668752</p>
+        </div>
+    </div>   
+  </div>
+    <script>
+       
+        
+        var heightArr = [];
+        $(".h-left").click(function(){
+        $("#nav").css("display","block")
+            
+        })
+        $(".close>div").click(function(){
+        $("#nav").css("display","none")
+        })
+
+        $("#nav").on("click", "li.button", function (e) {
+            if ($(e.target).is('SPAN')||$(e.target).is('I')) {
+                $(this).siblings().removeClass("active");
+                $(this).toggleClass("active");
+            }
+        })
+    </script>
+    <script src="/js/plugins/jquery-1.11.3.min.js"></script>
+    <script src="/js/plugins/jquery-1.11.3.js"></script>
+    <script src="/js/plugins/jquery.cookie.js"></script>
+    <script src="/js/static/utils.js"></script>
+    <script src="/js/static/index.js"></script>
+ 

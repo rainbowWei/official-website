@@ -1,0 +1,436 @@
+.content {
+  width: 1200px;
+  margin: 0 auto;
+  height: 100%;
+}
+.u-banner {
+  width: 100%;
+  height: 480px;
+  background: #eee;
+}
+.s-tit {
+  width: 550px;
+  height: 113px;
+  margin: 0 auto;
+  position: relative;
+  text-align: center;
+}
+.s-tit h3 {
+  font-size: 50px;
+  line-height: 50px;
+  color: #000000;
+}
+.s-tit h3 span {
+  font-family: Arial;
+  margin-right: 14px;
+}
+.s-tit div {
+  width: 352px;
+  height: 19px;
+  background: url(../../images/5.png);
+  margin: 10px auto 12px;
+}
+.s-tit p {
+  font-size: 24px;
+  line-height: 24px;
+  color: #a5a5a5;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  font-family: Arial;
+}
+.s-tit a {
+  font-size: 25px;
+  color: #e24956;
+  position: absolute;
+  bottom: -4px;
+  right: -155px;
+  text-transform: uppercase;
+}
+.suggest {
+  width: 100%;
+  height: 1792px;
+  padding-top: 59px;
+}
+.suggest .s-list {
+  width: 100%;
+  height: 1622px;
+  overflow: hidden;
+  margin-top: 58px;
+}
+.suggest .s-list ul {
+  width: 1220px;
+  height: 100%;
+}
+.suggest .s-list ul li {
+  width: 590px;
+  margin-right: 20px;
+  margin-top: 17px;
+  float: left;
+  margin-bottom: 37px;
+}
+.suggest .s-list ul li .s-bg {
+  height: 350px;
+  background: #f5f5fc;
+}
+.suggest .s-list ul li .s-left {
+  float: left;
+  width: 220px;
+  height: 310px;
+  background: #1ab7ea;
+  margin-right: 15px;
+  position: relative;
+  border-radius: 20px;
+}
+.suggest .s-list ul li .s-left .s-img {
+  width: 129px;
+  height: 137px;
+  position: absolute;
+  top: -16px;
+  left: 50%;
+  margin-left: -64px;
+}
+.suggest .s-list ul li .s-left .s-img img {
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+.suggest .s-list ul li .s-left .s-text {
+  width: 110px;
+  font-size: 36px;
+  line-height: 48px;
+  color: #01396b;
+  text-align: center;
+  position: absolute;
+  left: 50%;
+  margin-left: -55px;
+  top: 155px;
+}
+.suggest .s-list ul li .s-left .s-text span {
+  font-family: Arial;
+}
+.suggest .s-list ul li .s-left2 {
+  background: #ffcf09;
+}
+.suggest .s-list ul li .s-left2 .s-text {
+  color: #683a02;
+}
+.suggest .s-list ul li .s-left3 {
+  background: #725cf7;
+}
+.suggest .s-list ul li .s-left3 .s-text {
+  color: #ffffff;
+}
+.suggest .s-list ul li .s-left4 .s-text {
+  color: #ffffff;
+}
+.suggest .s-list ul li .s-right {
+  float: left;
+  width: 332px;
+  height: 337px;
+  padding-top: 13px;
+  font-size: 18px;
+  color: #5d5d5d;
+  line-height: 26px;
+}
+.suggest .s-list ul li .s-right p {
+  font-size: 24px;
+  color: #231815;
+  margin: 4px 0  2px;
+}
+.suggest .s-list ul li .s-right span {
+  font-size: 14px;
+}
+.model {
+  height: 1090px;
+  padding-top: 60px;
+}
+.model .m-tit {
+  font-size: 30px;
+  color: #000000;
+  text-align: center;
+  margin: 25px 0 21px;
+}
+.model .model-list div {
+  height: 100px;
+  font-size: 36px;
+  margin-bottom: 3px;
+}
+.model .model-list div p {
+  float: left;
+  text-align: center;
+  line-height: 48px;
+}
+.model .model-list div .tradition {
+  width: 528px;
+  font-size: 48px;
+  color: #5d5d5d;
+  margin-top: 47px;
+}
+.model .model-list div .m-content {
+  width: 143px;
+  height: 100%;
+  background: url(../../images/underCourse/xx1-2.png);
+}
+.model .model-list div .must {
+  width: 528px;
+  color: #ef8200;
+  font-size: 48px;
+  margin-top: 47px;
+}
+.model .model-list div .must span {
+  font-family: Arial;
+}
+.model .model-list ul {
+  width: 100%;
+  height: 120px;
+  background: url(../../images/underCourse/xx1-3.png);
+  margin-bottom: 26px;
+  font-size: 32px;
+}
+.model .model-list ul li {
+  float: left;
+  text-align: center;
+}
+.model .model-list ul .tradition {
+  width: 500px;
+  color: #ffffff;
+  margin-top: 30px;
+}
+.model .model-list ul .m-content {
+  width: 200px;
+  position: relative;
+  font-size: 36px;
+}
+.model .model-list ul .m-content img {
+  position: absolute;
+  top: 4px;
+  left: 70px;
+}
+.model .model-list ul .m-content p {
+  margin-top: 66px;
+}
+.model .model-list ul .must {
+  width: 470px;
+  margin-top: 30px;
+  padding-left: 30px;
+}
+.life {
+  height: 660px;
+  width: 100%;
+  background: url(../../images/underCourse/xx1-4.png);
+}
+.u-campus {
+  height: 2283px;
+}
+.u-campus .campus3 {
+  height: 970px;
+}
+.u-campus .campus3 .c-txt {
+  font-size: 18px;
+  line-height: 30px;
+  color: #595757;
+  text-indent: 2em;
+}
+.u-campus .campus3 .c-txt p {
+  margin-bottom: 30px;
+}
+.faculty {
+  width: 100%;
+  height: 1133px;
+}
+.faculty .faculty2 {
+  position: relative;
+}
+.faculty .faculty-list {
+  width: 1162px;
+  height: 900px;
+  margin: 60px auto 60px;
+}
+.faculty .faculty-list li {
+  float: left;
+  width: 232px;
+  height: 300px;
+  position: relative;
+}
+.faculty .faculty-list li .img {
+  width: 100%;
+  height: 100%;
+}
+.faculty .faculty-list li .img img {
+  width: 100%;
+  height: 100%;
+}
+.faculty .faculty-list li .title {
+  position: absolute;
+  left: 1px;
+  bottom: 1px;
+  text-align: center;
+  width: 230px;
+  padding: 10px 0;
+  color: #ffffff;
+  font-size: 24px;
+  z-index: 99;
+}
+.faculty .faculty-list li .mask2 {
+  position: absolute;
+  background: #442500;
+  opacity: 0.5;
+  filter: alpha(opacity=50);
+  left: 1px;
+  bottom: 1px;
+  z-index: 40;
+  width: 230px;
+  height: 51px;
+}
+.faculty .faculty-list .show-f .mask2 {
+  background: #f08300;
+  opacity: 0.7;
+  filter: alpha(opacity=70);
+}
+.faculty .faculty-list .ml {
+  margin-left: 696px;
+}
+.faculty .faculty-c {
+  width: 696px;
+  height: 300px;
+  background: url(../../images/faculty/bg.png);
+  background-size: 100% 100%;
+  position: absolute;
+  top: 473px;
+  left: 251px;
+}
+.faculty .faculty-c div {
+  padding: 70px 0 0 35px;
+  font-size: 20px;
+  line-height: 31px;
+  color: #ffffff;
+  display: none;
+}
+.faculty .faculty-c div p {
+  font-size: 26px;
+  margin-bottom: 5px;
+}
+.faculty .faculty-c .show-c {
+  display: block;
+}
+.ganyan .tit-bg {
+  width: 1000px;
+  height: 222px;
+  background: url(../../images/underCourse/xx1-5.png);
+  margin: 0 auto;
+  padding-top: 54px;
+  position: relative;
+  z-index: 1000;
+}
+.ganyan .gy-bg {
+  height: 580px;
+  width: 100%;
+  margin-top: -52px;
+  background: #f5f5fc;
+}
+.ganyan .gy-list {
+  width: 1200px;
+  overflow: hidden;
+  margin: 0 auto;
+}
+.ganyan .gy-list ul {
+  width: 1220px;
+  height: 100%;
+}
+.ganyan .gy-list ul li {
+  width: 285px;
+  height: 100%;
+  float: left;
+  margin-right: 20px;
+}
+.ganyan .gy-list ul li .g-header {
+  width: 100%;
+  height: 60px;
+}
+.ganyan .gy-list ul li .g-content {
+  padding: 3px 5px;
+  width: 275px;
+  height: 434px;
+  font-family: MicrosoftYaHeiLight;
+  font-size: 16px;
+  line-height: 24px;
+  text-indent: 2em;
+}
+.ganyan .gy-list ul li .g-content p {
+  margin-top: 7px;
+}
+.ganyan .gy-list ul li .g-footer {
+  width: 100%;
+  height: 70px;
+  padding-top: 10px;
+}
+.ganyan .gy-list ul li .g-footer .g-left {
+  width: 40px;
+  height: 33px;
+  background: url(../../images/underCourse/xx1-5-1.png);
+  float: left;
+  margin: 12px 0 0 6px;
+}
+.ganyan .gy-list ul li .g-footer .g-right {
+  float: right;
+  line-height: 27px;
+  font-size: 18px;
+  text-align: right;
+  padding-right: 6px;
+}
+.ganyan .gy-list ul li .g-footer .g-right .time {
+  color: #595757;
+}
+.ganyan .gy-list ul .g1 .g-header {
+  background: #9c97fc;
+}
+.ganyan .gy-list ul .g1 .g-content {
+  background: #e3e0fe;
+}
+.ganyan .gy-list ul .g2 .g-header {
+  background: #f9a5af;
+}
+.ganyan .gy-list ul .g2 .g-content {
+  background: #fce2e4;
+}
+.ganyan .gy-list ul .g3 .g-header {
+  background: #f9e280;
+}
+.ganyan .gy-list ul .g3 .g-content {
+  background: #fff5ce;
+}
+.ganyan .gy-list ul .g4 .g-header {
+  background: #72e2fc;
+}
+.ganyan .gy-list ul .g4 .g-content {
+  background: #d1f1fb;
+}
+.media {
+  height: 647px;
+  width: 100%;
+  padding-top: 68px;
+}
+.media .media-list {
+  width: 100%;
+  height: 444px;
+  overflow: hidden;
+}
+.media .media-list ul {
+  width: 1210px;
+  height: 100%;
+  margin-top: 50px;
+}
+.media .media-list ul li {
+  width: 190px;
+  height: 60px;
+  float: left;
+  margin: 0 10px 50px 0;
+  position: relative;
+}
+.media .media-list ul li img {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+}

@@ -1,0 +1,166 @@
+.friendly-link {
+  width: 100%;
+  height: 38px;
+  line-height: 38px;
+  background: #343434;
+  font-size: 14px;
+  color: #dcdcdd;
+  border-top: 2px solid #535353;
+}
+.friendly-link p {
+  width: 1200px;
+  margin: 0 auto;
+}
+.friendly-link p a {
+  color: #ef8200;
+  margin-right: 40px;
+}
+.post-service {
+  float: left;
+  width: 100%;
+  height: 360px;
+  background-color: #343434;
+}
+.other-service {
+  width: 1200px;
+  height: 260px;
+  margin: 0 auto;
+}
+.service-class {
+  float: left;
+  margin: 22px 80px 0 0;
+  width: 88px;
+  height: 155px;
+}
+.service-class .s-big {
+  font-size: 18px;
+  line-height: 40px;
+}
+.w-127 {
+  width: 127px;
+}
+.service-class a {
+  display: block;
+  color: #dcdcdd!important;
+  text-decoration: none;
+  font-size: 14px;
+  position: relative;
+  line-height: 25px;
+}
+.service-class p {
+  font-size: 18px;
+  line-height: 20px;
+  height: 20px;
+  border-left: 2px solid #dcdcdd;
+  margin-left: -10px;
+  padding-left: 8px;
+  color: #dcdcdd;
+  margin-bottom: 5px;
+}
+.service-class p a {
+  line-height: 20px;
+  font-size: 18px;
+}
+.tel-box {
+  float: right;
+  width: 120px;
+  height: 155px;
+  text-align: center;
+  margin-left: 35px;
+}
+.tel-box .tel-icon {
+  width: 120px;
+  height: 120px;
+  margin: 22px auto 0;
+  position: relative;
+}
+.tel-box .tel-icon img {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+.tel-box .week {
+  color: #999;
+  text-align: center;
+  font-size: 18px;
+  line-height: 41px;
+  letter-spacing: 1px;
+  color: #ffffff;
+}
+.tel-box p {
+  font-size: 14px;
+  line-height: 14px;
+  color: #dcdcdd;
+}
+.copyright-box {
+  background: #ef8200;
+  text-align: center;
+  font-size: 16px;
+  color: #343434;
+  height: 60px;
+  line-height: 60px;
+}
+@media screen and (max-width: 1024px) {
+  .friendly-link {
+    width: 100%;
+    height: .34rem;
+    line-height: .34rem;
+    font-size: .18rem;
+    margin-bottom: .1rem;
+  }
+  .friendly-link p {
+    width: 7.3rem;
+  }
+  .post-service {
+    height: 2.64rem;
+  }
+  .other-service {
+    width: 7.3rem;
+    height: 2.22rem;
+  }
+  .post-service-per {
+    height: 1.35rem;
+  }
+  .service-class {
+    margin: .27rem 0 0 0;
+    width: 1rem;
+    height: 1.55rem;
+  }
+  .w-200 {
+    width: 1.5rem;
+  }
+  .w-150 {
+    width: 1.2rem;
+  }
+  .service-class a span {
+    font-size: .18rem;
+    line-height: .36rem;
+  }
+  .service-class a {
+    font-size: .14rem;
+    line-height: .23rem;
+  }
+  .service-class a:hover {
+    text-decoration: underline;
+  }
+  .tel-box {
+    width: 1.42rem;
+    height: 1.42rem;
+  }
+  .tel-icon {
+    width: 1.42rem;
+    height: 1.42rem;
+    margin: .3rem auto 0;
+  }
+  .week {
+    font-size: .18rem;
+    line-height: .24rem;
+    letter-spacing: 1px;
+  }
+  .copyright-box {
+    font-size: .14rem;
+    margin-bottom: -0.1rem;
+  }
+}

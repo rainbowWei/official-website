@@ -1,0 +1,463 @@
+.love-bg {
+  width: 100%;
+  height: 40px;
+  background: #e94f65;
+}
+.l-banner {
+  width: 100%;
+  height: 480px;
+  background: url(../../images/aboutus/banner.png);
+}
+.l-tab {
+  width: 100%;
+  height: 100%;
+  position: relative;
+}
+.l-tab .tab-bg {
+  width: 100%;
+  height: 50px;
+  background: #e94f65;
+  margin-top: 120px;
+}
+.l-tab .tab-c {
+  font-size: 25px;
+  line-height: 27px;
+  color: #ffffff;
+  width: 348px;
+  position: absolute;
+  top: -111px;
+  left: 50%;
+  margin-left: -174px;
+}
+.l-tab .tab-c li {
+  float: left;
+  width: 158px;
+  height: 158px;
+  border: 1px solid #e94f65;
+  text-align: center;
+  border-radius: 20px;
+  cursor: pointer;
+}
+.l-tab .tab-c li:first-child {
+  margin-right: 25px;
+}
+.l-tab .tab-c li div {
+  width: 84px;
+  height: 82px;
+  background: url(../../images/aboutus/z2-2.png);
+  margin: 25px auto 10px;
+}
+.l-tab .tab-c li p {
+  font-family: 'STZhongsong';
+}
+.l-tab .tab-c .tab_on {
+  background: #e94f65;
+}
+.l-tab .tab-c .tab_on div {
+  background: url(../../images/aboutus/z2-1.png);
+}
+.l-tab .v-header {
+  width: 100%;
+  height: 230px;
+  background: #c7f9f9;
+  margin-top: 60px;
+  border-radius: 20px 0 0 20px;
+}
+.l-tab .v-header .v-icon {
+  width: 230px;
+  height: 230px;
+  background: #e94f65;
+  border-radius: 20px;
+}
+.l-tab .v-header .v-icon div {
+  width: 121px;
+  height: 116px;
+  background: url(../../images/aboutus/z3-1.png);
+  margin: 36px  auto 16px;
+}
+.l-tab .v-header .v-icon p {
+  font-family: 'STZhongsong';
+  font-size: 36px;
+  text-align: center;
+  color: #fff;
+}
+.l-tab .v-header .v-txt {
+  width: 970px;
+  height: 155px;
+  padding-top: 75px;
+  text-align: center;
+}
+.l-tab .v-header .v-txt h3 {
+  font-family: 'STZhongsong';
+  font-size: 50px;
+  line-height: 50px;
+  margin-bottom: 22px;
+}
+.l-tab .v-header .v-txt p {
+  font-family: 'STZhongsong';
+  font-size: 36px;
+  line-height: 36px;
+}
+.l-tab .volunteer {
+  width: 100%;
+  height: 2452px;
+}
+.l-tab .volunteer .v-list {
+  width: 100%;
+  height: 100%;
+}
+.l-tab .volunteer .v-list li {
+  margin-top: 47px;
+}
+.l-tab .volunteer .v-list .tit {
+  width: 100%;
+  height: 37px;
+  padding-top: 44px;
+  background: url(../../images/aboutus/z4-1.png);
+  position: relative;
+}
+.l-tab .volunteer .v-list .tit div {
+  font-family: 'STZhongsong';
+  font-size: 30px;
+  line-height: 30px;
+}
+.l-tab .volunteer .v-list .tit .t1 {
+  margin: 0 59px 0 93px;
+  color: #fff;
+}
+.l-tab .volunteer .v-list .tit .t3 {
+  width: 200px;
+  position: absolute;
+  top: -22px;
+  right: 51px;
+}
+.l-tab .volunteer .v-list .tit .t3 a {
+  width: 100%;
+  height: 100%;
+}
+.l-tab .volunteer .v-list .tit .t3 span {
+  width: 66px;
+  height: 60px;
+  background: url(../../images/aboutus/z4-2.png);
+  display: block;
+  margin: 0 auto;
+}
+.l-tab .volunteer .v-list .tit .t3 p {
+  width: 200px;
+  height: 37px;
+  background: #e94f65;
+  border-radius: 60px;
+  text-align: center;
+  line-height: 37px;
+  font-family: 'STZhongsong';
+  font-size: 24px;
+  color: #fff;
+}
+.l-tab .volunteer .v-list .list-c {
+  margin-left: 50px;
+}
+.l-tab .volunteer .v-list .list-c li {
+  font-family: 'STZhongsong';
+  font-size: 24px;
+  line-height: 24px;
+  margin-top: 28px;
+}
+.l-tab .volunteer .v-list .list-c li span {
+  font-family: 'STZhongsong';
+  color: #e94f65;
+}
+.l-tab .volunteer .v-list .list-c div {
+  width: 920px;
+  margin-left: 191px;
+}
+.l-tab .volunteer .v-list .list-c div p {
+  font-family: 'STZhongsong';
+  font-size: 24px;
+  line-height: 36px;
+  margin-top: 12px;
+}
+.l-tab .volunteer .v-list .list-c div .small {
+  font-size: 18px;
+  color: #5d5d5d;
+  line-height: 24px;
+}
+.l-tab .volunteer .l-table {
+  width: 100%;
+  height: 500px;
+  padding-top: 50px;
+  background: #e94f65;
+  margin-top: 76px;
+  position: relative;
+}
+.l-tab .volunteer .entry {
+  width: 1000px;
+  height: 440px;
+  margin: 0 auto ;
+}
+.l-tab .volunteer .entry .theader {
+  width: 500px;
+  height: 83px;
+  line-height: 83px;
+  text-align: center;
+  font-family: 'STZhongsong';
+  font-size: 50px;
+  color: #ffffff;
+  margin: 0 auto;
+  border-radius: 60px;
+  position: absolute;
+  left: 50%;
+  margin-left: -250px;
+  top: -35px;
+  background: #e94f65;
+}
+.l-tab .volunteer .entry .tbody {
+  width: 100%;
+  height: 100%;
+}
+.l-tab .volunteer .entry .tbody .table {
+  border-right: 2px solid #e94f65;
+  border-bottom: 2px solid #e94f65;
+}
+.l-tab .volunteer .entry .tbody .table tr {
+  height: 40px;
+  background: #f8cbd1;
+}
+.l-tab .volunteer .entry .tbody .table tr input,
+.l-tab .volunteer .entry .tbody .table tr textarea {
+  background: #f8cbd1;
+  width: 300px;
+  font-size: 14px;
+}
+.l-tab .volunteer .entry .tbody .table tr .w1 {
+  width: 200px;
+}
+.l-tab .volunteer .entry .tbody .table tr .w2 {
+  width: 290px;
+  padding-left: 10px;
+}
+.l-tab .volunteer .entry .tbody .table tr td {
+  border-left: 2px solid #e94f65;
+  border-top: 2px solid #e94f65;
+  font-size: 18px;
+  vertical-align: middle;
+  text-align: center;
+  color: #333333;
+}
+.l-tab .volunteer .entry .tbody .table tr td input {
+  height: 100%;
+}
+.l-tab .volunteer .entry .tbody .table tr td textarea {
+  background: #f8cbd1;
+  height: 38px;
+  width: 300px;
+}
+.l-tab .volunteer .entry .tbody .table tr td .experience {
+  width: 800px;
+}
+.l-tab .volunteer .entry .tbody .t-txt {
+  width: 980px;
+  font-size: 18px;
+  color: #ffffff;
+  margin: 10px 0 0 6px;
+}
+.l-tab .volunteer .entry .tbody .t-txt .big {
+  font-size: 24px;
+  font-family: 'STZhongsong';
+}
+.l-tab .volunteer .entry .tbody .t-txt p {
+  font-family: 'STZhongsong';
+}
+.l-tab .volunteer .entry .tbody .submit {
+  width: 300px;
+  height: 55px;
+  background: #fff;
+  position: absolute;
+  bottom: 63px;
+  left: 50%;
+  margin-left: -150px;
+  font-size: 36px;
+  line-height: 55px;
+  color: #e94f65;
+  border-radius: 60px;
+  text-align: center;
+  font-family: 'STZhongsong';
+}
+.l-tab .donation {
+  display: none;
+}
+.l-tab .donation .v-header {
+  width: 100%;
+  height: 230px;
+  background: #f7f5bc;
+}
+.l-tab .donation .fund {
+  height: 1160px;
+}
+.l-tab .donation .fund .fund-h {
+  height: 182px;
+  border-bottom: 5px solid #e94f65;
+  margin-top: 40px;
+}
+.l-tab .donation .fund .fund-h .fund-icon {
+  width: 231px;
+  height: 100%;
+  margin: 0 50px 0 485px;
+}
+.l-tab .donation .fund .fund-h .fund-icon p {
+  width: 121px;
+  height: 106px;
+  background: url(../../images/aboutus/jz-1.png);
+  margin: 0 auto;
+}
+.l-tab .donation .fund .fund-h .fund-icon div {
+  width: 231px;
+  height: 81px;
+  font-family: 'STZhongsong';
+  font-size: 36px;
+  line-height: 81px;
+  color: #ffffff;
+  text-align: center;
+  border-radius: 20px;
+  background: #e94f65;
+}
+.l-tab .donation .fund .fund-h .fund-txt {
+  width: 414px;
+  font-family: 'STZhongsong';
+  font-size: 24px;
+  line-height: 36px;
+  color: #e94f65;
+  margin-top: 20px;
+}
+.l-tab .donation .fund .fund-c {
+  width: 1000px;
+  height: 835px;
+  margin: 0 auto;
+}
+.l-tab .donation .fund .fund-c ul {
+  width: 100%;
+  height: 362px;
+  margin-top: 40px;
+}
+.l-tab .donation .fund .fund-c ul .f-img {
+  width: 241px;
+  height: 348px;
+}
+.l-tab .donation .fund .fund-c ul .f-img img {
+  width: 100%;
+  height: 100%;
+}
+.l-tab .donation .fund .fund-c ul .f-text {
+  width: 742px;
+  font-size: 20px;
+  line-height: 36px;
+}
+.l-tab .donation .fund .fund-c ul .f-text p {
+  margin-bottom: 14px;
+  text-indent: 2em;
+}
+.l-tab .donation .fund .fund-c .f-news {
+  width: 100%;
+  height: 430px;
+  margin-top: 30px;
+}
+.l-tab .donation .fund .fund-c .f-news h3 {
+  width: 100%;
+  height: 50px;
+  background: #e94f65;
+  font-size: 36px;
+  line-height: 50px;
+  color: #ffffff;
+  text-align: center;
+}
+.l-tab .donation .fund .fund-c .table2 {
+  width: 100%;
+  height: 186px;
+  border-right: 2px solid #fff;
+  border-bottom: 2px solid #fff;
+  font-size: 20px;
+  margin-top: 27px;
+}
+.l-tab .donation .fund .fund-c .table2 tr {
+  height: 60px;
+  line-height: 60px;
+  text-align: center;
+}
+.l-tab .donation .fund .fund-c .table2 tr td {
+  border-left: 2px solid #fff;
+  border-top: 2px solid #fff;
+}
+.l-tab .donation .fund .fund-c .table2 tr span {
+  color: #e94f65;
+  font-size: 24px;
+}
+.l-tab .donation .fund .fund-c .table2 .odd {
+  background: #fdedef;
+}
+.l-tab .donation .fund .fund-c .table2 .even {
+  background: #fbdce0;
+}
+.l-tab .donation .fund .fund-c .table2 .f-w1 {
+  width: 111px;
+}
+.l-tab .donation .fund .fund-c .table2 .f-w2 {
+  width: 382px;
+}
+.l-tab .donation .fund .fund-c .table2 .f-w3 {
+  width: 76px;
+}
+.l-tab .donation .fund .fund-c .table2 .f-w4 {
+  width: 418px;
+}
+.l-tab .donation .fund .fund-c .notice {
+  font-size: 20px;
+  line-height: 36px;
+  margin-top: 22px;
+}
+.l-tab .donation .fund .fund-c .notice .tit {
+  font-size: 24px;
+}
+.l-tab .donation .fund .table3 {
+  width: 100%;
+  height: 186px;
+  border-right: 2px solid #fff;
+  border-bottom: 2px solid #fff;
+  font-family: 'STZhongsong';
+  font-size: 24px;
+  margin-top: 58px;
+}
+.l-tab .donation .fund .table3 tr {
+  height: 60px;
+  line-height: 60px;
+  text-align: center;
+  background: #fbdce0;
+}
+.l-tab .donation .fund .table3 tr td {
+  width: 300px;
+  border-top: 2px solid #fff;
+}
+.l-tab .donation .fund .table3 tr .color {
+  background: #fdedef;
+}
+.l-tab .donation .fund .table3 tr .color2 {
+  background: #f08393;
+}
+.l-tab .donation .fund .table3 tr span {
+  color: #e94f65;
+  font-size: 24px;
+}
+.l-tab .donation .fund .table3 .blod {
+  background: #eb6074;
+  font-size: 30px;
+}
+.l-tab .donation .fund .table3 .odd {
+  background: #fdedef;
+}
+.l-tab .donation .fund .table3 .even {
+  background: #fbdce0;
+}
+.l-tab .donation .goods {
+  height: 1082px;
+}
+.l-tab .donation .goods .fund-h {
+  margin-top: 0;
+}

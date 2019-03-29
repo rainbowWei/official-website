@@ -1,0 +1,270 @@
+
+//头部
+
+iframe{
+    position: relative;
+    top:0;
+    left: 0;
+    z-index: 1;
+}
+
+.content{
+    width:1200px;
+    margin: 0 auto;
+}
+.header{
+  width: 100%;
+  height: 100%;
+  background-color: #ffffff;
+  padding:20px 0 ;
+  font-size: 16px;
+  .header-c{
+      margin: 0 auto;
+      width:1200px;
+      height:100%;
+      .logo{
+            width: 166px;
+            height: 66px;
+            background: url(../../images/logo.png);
+      }
+      .nav{
+          width:721px;
+          margin-left:50px;
+          height: 100%;
+          padding-top: 32px;
+          font-size: 18px;
+          li{
+              float: left;
+              margin-left:42px;
+              position: relative;
+              height:30px;
+              cursor: pointer;
+              
+              &:first-child{
+                  margin-left: 0px;
+              }
+              .title{
+                  color:#333;
+              }
+              .menu{
+                  width: 110px;
+                  margin-top: 10px;
+                  background-color: #fa8d0a;
+                  border-radius: 6px;
+                  left: 50%;
+                  margin-left:-55px;
+                  position: absolute;
+                  z-index: 1001;
+                  top: 20px;
+                  padding: 10px 0;
+                  text-align: center;
+                  display: none;
+                  a{
+                      width: 110px;
+                      display:block;
+                      height: 36px;
+                      line-height: 36px;
+                      color: #ffffff;
+                      border-top: 1px solid #f08300;
+                      &:first-child{
+                          border-top:none;
+                      }
+                      &:hover{
+                          background: #fcb45f;
+                      }
+                  }
+              }
+              .line{
+                  width: 48px;
+                  height: 4px;
+                  background: #f08300;
+                  position: absolute;
+                  top:26px;
+                  left: 50%;
+                  margin-left:-24px;
+                  // display: none;
+              }
+              a{
+                  font-size: 16px;
+                  color: #333333;
+                  width:100%;
+                  height: 100%;
+                  display: inline-block;
+              }
+              &:hover{
+                .menu{
+                    display: block;
+                }
+              }
+          }
+          
+          .active .title{
+            color:#f08300;
+            font-weight: bold;
+        }
+          .on{
+              width: 48px;
+              border-bottom: 4px solid   #f08300;
+          }
+      }
+      .contact{
+          width: 225px;
+          height: 41px;
+          p{
+              font-size: 18px;
+              line-height: 24px;
+              color: #666666;
+              text-align: center;
+          }
+          .consult{
+            width: 155px;
+            height: 31px;
+            background: #ef8200;
+            color: #fff;
+            border-radius: 10px;
+            font-size: 23px;
+            line-height: 31px;
+            margin: 0 auto  8px;
+          }
+          .blue{
+              font-family: Arial;
+              font-size: 30px;
+              line-height: 27px;
+              color: #000000;
+              span{
+                width: 23px;
+                height: 24px;
+                display: inline-block;
+                background: url(../../images/2.png);
+                margin-right:7px;
+              }
+          }
+      }
+  }
+}
+@media screen and (max-width: 1024px) {
+    html {
+        font-size: .1rem;
+        opacity: 0;
+      }
+      .content{
+          width: 7.3rem;
+          height: 100%;
+          margin:  0 auto;
+      }
+   
+    body{
+          background: #fff;
+    }
+    .m-header{
+       width:7.3rem;
+       margin: 0 auto;
+       height:.66rem;
+       padding: .14rem 0;
+       .h-left{
+           width: .55rem;
+           height: .47rem;
+           margin-top: .1rem;
+           background: url(../../img/index/nav.png);
+           background-size: 100% 100%;
+          
+       }
+       .logo{
+            width: 1.18rem;
+            height:.58rem;
+            background: url(../../img/index/logo.png);
+            background-size: 100% 100%;
+            margin:  0.05rem 0 0 2rem;
+       }
+       .h-right{
+            // width: 1.5rem;
+            height: .38rem;
+            font-size: .20rem;
+            line-height: .26rem;
+            color: #666666;
+            margin-top: .12rem;
+            .two{
+                color: #00b8e9;
+                font-weight: bold;
+            }
+       }
+       .m-nav{
+        width: 4rem;
+        background: #f39800;
+        position: fixed;
+        top:0;
+        left:0;
+        font-size: .3rem;
+        display: none;
+        z-index: 3000;
+    
+        @time: .5s;
+      .list1{
+        background: #f39800;
+        width: 100%;
+        padding: .22rem 0;
+        border-bottom:1px solid #e1910b;
+        font-size: .3rem;
+        color: #f7f7f7;
+        text-indent: .3rem;
+        position: relative;
+        line-height:.45rem;
+        transition: background @time;
+        a{
+            color: #f7f7f7;  
+        }
+        span {
+            width: 100%;
+            height: 100%;
+            display: block;
+            cursor: pointer;
+        }
+        .list2{
+            overflow: hidden;
+            max-height:0;
+            // height: 0;
+            height: auto;
+            font-size: .26rem;
+            line-height:.45rem;
+            transition: all @time;
+            a{
+               color: #ffecda;
+               font-size: .26rem;
+               display: block;
+               width:100%;
+            }
+        } 
+        div{
+            width: .36rem;
+            height: .36rem;
+            position: absolute;
+            top:.2rem;
+            right:.2rem;
+            background: url(../../img/index/close.png);
+            background-size: 100% 100%;
+        }
+        i{
+            width: .33rem;
+            height:.18rem;
+            position: absolute;
+            top:.26rem;
+            right:.16rem;
+            background: url(../../img/index/jt.png);
+            background-size: 100% 100%;
+            transform: rotate(0);
+            transition: all @time;
+        }
+      } 
+      .active {
+          background: #f5a94f;
+          .list2 {
+            max-height: 280px;
+            height: auto;
+          }
+          i {
+              transform: rotate(180deg);
+          }
+      }
+    }
+    }
+}
