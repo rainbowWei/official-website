@@ -28,40 +28,40 @@
                     <p>Dillenburger教授是BCBA-D，在来到贝尔法斯特女王大学之前，她已经在儿童照料、教育和治疗学领域工作了20多年，在业内有着丰富的成果，包括出版了5本书和一本电子书，5张在DVD和CD-ROM刻盘的训练课程以及60多篇学术文章。还是多次受邀参加美国、印度、欧洲和澳大利亚等国际会议的关键发言人，并且参与了Simple Steps多媒体教学网站的研发。</p>     
                 </div>
             </div>
-            <div class="ex-list">
-                <ul class="clearfix">
-                    <li>
-                        <a href="javascript:"><img src="/images/expert/1.png" alt=""></a>
-                    </li>
-                    <li>
-                        <a href="javascript:"><img src="/images/expert/2.png" alt=""></a>
-                    </li>
-                    <li>
-                        <a href="javascript:"><img src="/images/expert/3.png" alt=""></a>
-                    </li>
-                    <li>
-                        <a href="javascript:"><img src="/images/expert/4.png" alt=""></a>
-                    </li>
-                    <li>
-                        <a href="javascript:"><img src="/images/expert/5.png" alt=""></a>
-                    </li>
-                    <li>
-                        <a href="javascript:"><img src="/images/expert/6.png" alt=""></a>
-                    </li>
-                    <li>
-                        <a href="javascript:"><img src="/images/expert/7.png" alt=""></a>
-                    </li>
-                    <li>
-                        <a href="javascript:"><img src="/images/expert/8.png" alt=""></a>
-                    </li>
-                    <li>
-                        <a href="javascript:"><img src="/images/expert/9.png" alt=""></a>
-                    </li>
-                    <li>
-                        <a href="javascript:"><img src="/images/expert/10.png" alt=""></a>
-                    </li>
-                </ul>
-            </div>
+        </div>
+        <div class="ex-list">
+            <ul class="clearfix" id="ex-list">
+                <!-- <li>
+                    <a href="javascript:"><img src="/images/expert/1.png" alt=""></a>
+                </li>
+                <li>
+                    <a href="javascript:"><img src="/images/expert/2.png" alt=""></a>
+                </li>
+                <li>
+                    <a href="javascript:"><img src="/images/expert/3.png" alt=""></a>
+                </li>
+                <li>
+                    <a href="javascript:"><img src="/images/expert/4.png" alt=""></a>
+                </li>
+                <li>
+                    <a href="javascript:"><img src="/images/expert/5.png" alt=""></a>
+                </li>
+                <li>
+                    <a href="javascript:"><img src="/images/expert/6.png" alt=""></a>
+                </li>
+                <li>
+                    <a href="javascript:"><img src="/images/expert/7.png" alt=""></a>
+                </li>
+                <li>
+                    <a href="javascript:"><img src="/images/expert/8.png" alt=""></a>
+                </li>
+                <li>
+                    <a href="javascript:"><img src="/images/expert/9.png" alt=""></a>
+                </li>
+                <li>
+                    <a href="javascript:"><img src="/images/expert/10.png" alt=""></a>
+                </li> -->
+            </ul>
         </div>
     </div>
     <div id="footer"></div>
@@ -77,4 +77,53 @@
 
 
 
+
+<!-- 
+$(function() {
+    var exList = JSON.parse(sessionStorage.getItem('exList'));
+    exList = exList.data;
+    var id = getParams('id');
+    var currentEx = null;
+    var str = "";
+    var listLi = "";
+    $.each(exList, function(index, ex) {
+      listLi += '<li class = "list-item">'+
+        '<a href="javascript:"><img src="'+ex.img+'" alt=""></a>'+
+      '</li>';
+      if (ex.id == id) {
+        currentEx = ex;
+        var desp = "";
+        $.each(currentEx.desp,function( index, d){
+          desp += "<p>"+ d +"</p>"
+        })
+        str += '<div class="ex-img fl">'+
+        '<img src="'+ currentEx.img +'" alt="">'+
+        '</div>'+
+        '<div class="ex-text fl">'+
+            '<div class="ex-name">'+ currentEx.name +'</div>'+
+            '<div class="ex-txt">'+
+              desp+
+            '</div>'+
+        '</div>'
+        }
+    })
+    
+    var exList_Li = "";
+    exList_Li += listLi;
+  
+    $("#expert-c").html(str)
+    $("#ex-list").html(exList_Li);
+  
+  $("#ex-list").on("click",".list-item",function(e){
+     var currentIndex = $(e.target).eq();
+     var aa =exList[currentIndex];
+  console.log(currentIndex);
+     
+  })
+  
+  
+  
+    console.log(currentEx.desp,'hjdhjehdj')
+    console.log(getParams('id'), 'llllllllllllllllllll');
+  }) -->
 

@@ -9,7 +9,7 @@
 }
 .expert-d .expert-c {
   width: 830px;
-  margin: 55px auto 25px;
+  margin: 55px auto 0px;
 }
 .expert-d .ex-img {
   width: 170px;
@@ -38,6 +38,7 @@
   width: 830px;
   height: 100%;
   overflow: hidden;
+  margin: 0 auto 45px;
 }
 .expert-d .ex-list ul {
   width: 850px;
