@@ -47,7 +47,7 @@
 .c-banner {
   width: 100%;
   height: 480px;
-  background: #eee;
+  background: url(../../images/course/banner.png);
 }
 .emerge-tit {
   font-size: 50px;
