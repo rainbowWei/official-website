@@ -186,7 +186,7 @@ $(function () {
       work += "<p>"+w+"</p>"
     })
    str += '<li>' +
-      '<a href="pags/index/expert.html?id='+ info.id+'">' +
+      '<a href="pags/index/expert.html?id='+ info.id+'" target="_blank">' +
           '<div class="img">' +
               '<img src="'+info.img+'" alt="">  ' +
           '</div>' +

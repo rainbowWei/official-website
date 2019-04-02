@@ -43,21 +43,14 @@ $(function() {
     return str;
   }
 
-  // 将当前拼接好的讲师信息字符串渲染到对应容器
+  // 将当前拼接好的专家信息字符串渲染到对应容器
   function strToDoms (str) {
     $("#expert-c").html(str);
   }
 
+  //点击专家列表切换每个专家所对应的内容
   $('#ex-list').on('click', '.list-item', function (e) {
-    var currentLiIndex = $(e.target).eq();   
-     console.log(currentLiIndex,"-------") 
-     console.log(exList,"hkkshdjsdjksdjkskdhj") 
+    var currentLiIndex = $(this).index();
     strToDoms(despFunc(exList[currentLiIndex]));
- 
-    console.log(exList[currentLiIndex],'lllllll')
   })
-
-  console.log(currentEx,'hjdhjehdj')
-
-  // console.log(getParams('id'), 'llllllllllllllllllll');
 })
