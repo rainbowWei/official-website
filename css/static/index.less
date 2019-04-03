@@ -24,19 +24,11 @@
            display: block;
            width:100%;
            height:100%; 
+           img{
+               width: 100%;
+               height: 100%;
+           }
         }
-    }
-    .img1{
-        background: url(../../images/banner.jpg);
-        background-size: 100% 100%;
-    }
-    .img2{
-        background: url(../../images/banner2.jpg);
-        background-size: 100% 100%;
-    }
-    .img3{
-        background: url(../../images/banner3.jpg);
-        background-size: 100% 100%;
     }
     .on{
         display:block;
@@ -44,7 +36,7 @@
 }
 #two{
     position:absolute;
-    margin-left: -75px;
+    margin-left: -150px;
     left:50%;
     bottom:41px;
     li{
@@ -203,7 +195,7 @@
 
 //公共的头部
 .common-tit{
-    width: 358px;
+    width: 435px;
     height: 113px;
     margin:  0 auto;
     position: relative;
@@ -211,6 +203,7 @@
         font-size: 50px;
         line-height: 50px;
         color: #000000;
+        text-align: center;
         span{
             font-family: Arial;
             margin-right:14px;
@@ -220,14 +213,18 @@
         width: 352px;
         height: 19px;
         background: url(../../images/5.png);
-        margin: 10px 0 12px 0 ;
+        margin: 10px auto 12px ;
     }
     p{
         font-size: 25px;
         line-height: 25px;
         color: #a5a5a5;
         text-transform:uppercase;
-       
+        text-align: center;
+    //    letter-spacing: 1px;
+       span{
+           font-family: 'Times New Roman';
+       }
     } 
     a{
         font-size: 25px;
@@ -235,6 +232,7 @@
         position: absolute;
         bottom: -4px;
         right: -155px;
+        font-family: "宋体";
         text-transform:uppercase;
     }
 }
@@ -451,12 +449,6 @@
 .expert{
     padding-top: 82px;
     background: #fff;
-    // height: 1018px;
-   .common-tit{
-       p{
-           text-align: center;
-       }
-   }
     .ex-list{
         width:100%;
         height:100%;
@@ -573,9 +565,6 @@
     width: 100%;
     height:100%;
     padding: 82px 0 40px 0;
-    .common-tit{
-        p{text-align: center;}
-    }
     .case-list{
         width: 100%;
         height: 205px;
@@ -698,10 +687,6 @@
 .honor{
     padding-top: 82px;
     background: #fff;
-    .common-tit{
-        h3{text-align: center;}
-        p{text-align: center;}
-    }
     .honor-list{
         width: 100%;
         height: 235px;
@@ -778,10 +763,6 @@
     height:100%;
     padding: 82px 0 33px;
     background: #c9f0f7;
-    .common-tit{
-        h3{text-align: center;}
-        p{text-align: center;}
-    }
     .tab{
         width:100%;
         height:68px;
