@@ -8,6 +8,7 @@
   width: 100%;
   height: 320px;
   position: relative;
+  background: url(../../images/aboutus/campus-bg.png);
 }
 .campus .campus-h p {
   font-size: 60px;
@@ -16,14 +17,6 @@
   position: absolute;
   top: 230px;
   left: 100px;
-}
-.campus .campus-h .campus-img {
-  position: absolute;
-  top: 40px;
-  right: 110px;
-  width: 454px;
-  height: 276px;
-  background: url(../../images/aboutus/fou-bg.png);
 }
 .campus .campus-con {
   padding: 20px 20px;
@@ -49,6 +42,9 @@
 .campus .campus-con .campus1 .ca1-c .ca1-list li img {
   width: 100%;
   height: 100%;
+}
+.campus-m {
+  padding-top: 0;
 }
 @media screen and (max-width: 1024px) {
   .campus {
