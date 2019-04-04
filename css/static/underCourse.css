@@ -237,13 +237,11 @@
 .faculty {
   width: 100%;
 }
-.faculty .faculty2 {
-  position: relative;
-}
 .faculty .faculty-list {
   width: 1162px;
   height: 900px;
   margin: 60px auto 60px;
+  position: relative;
 }
 .faculty .faculty-list li {
   float: left;
@@ -290,7 +288,7 @@
   margin-left: 696px;
 }
 .faculty .faculty-list2 {
-  margin-top: 80px;
+  margin: 80px auto 80px;
 }
 .faculty .faculty-c {
   width: 696px;
@@ -298,8 +296,8 @@
   background: url(../../images/faculty/bg.png);
   background-size: 100% 100%;
   position: absolute;
-  bottom: 360px;
-  left: 251px;
+  bottom: 300px;
+  left: 232px;
 }
 .faculty .faculty-c div {
   padding: 70px 0 0 35px;
