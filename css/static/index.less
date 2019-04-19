@@ -24,11 +24,43 @@
            display: block;
            width:100%;
            height:100%; 
-           img{
-               width: 100%;
-               height: 100%;
-           }
         }
+    }
+    .img1{
+        background: url(../../images/banner.jpg);
+        background-repeat: no-repeat;
+        background-position: center top;
+        background-size: auto 100%;
+    }
+    .img2{
+        background: url(../../images/banner2.jpg);
+        background-repeat: no-repeat;
+        background-position: center top;
+        background-size: auto 100%;
+    }
+    .img3{
+        background: url(../../images/banner3.jpg);
+        background-repeat: no-repeat;
+        background-position: center top;
+        background-size: auto 100%;
+    }
+    .img4{
+        background: url(../../images/banner4.jpg);
+        background-repeat: no-repeat;
+        background-position: center top;
+        background-size: auto 100%;
+    }
+    .img5{
+        background: url(../../images/banner5.jpg);
+        background-repeat: no-repeat;
+        background-position: center top;
+        background-size: auto 100%;
+    }
+    .img6{
+        background: url(../../images/banner6.jpg);
+        background-repeat: no-repeat;
+        background-position: center top;
+        background-size: auto 100%;
     }
     .on{
         display:block;
@@ -97,7 +129,6 @@
     .w-list{
         width: 954px;
         height: 218px;
-        margin-top: 43px;
         margin: 43px auto 0;
         overflow: hidden;
         .list-c{
@@ -114,6 +145,8 @@
                     height: 167px;
                     position: relative;
                     img{
+                        width: 100%;
+                        height: 100%;
                         position: absolute;
                         top:0;
                         left: 0;
@@ -132,9 +165,8 @@
 //星希望教育
 .intro{
     width: 100%;
-    height: 460px;
     background:#e0f0e7;
-    padding-top: 40px;
+    padding: 40px 0 40px;
     .i-video{
         width: 480px;
         height: 271px;
@@ -148,7 +180,6 @@
     .i-text{
         width: 592px;
         font-size: 16px;
-        color: #000000;
         line-height: 36px;
         margin-left: 52px;
         margin-top: 20px;
@@ -184,7 +215,6 @@
                         float: right;
                         font-size: 24px;
                         line-height: 67px;
-                        color: #000000;
                     }
                 }
             }
@@ -202,7 +232,6 @@
     h3{
         font-size: 50px;
         line-height: 50px;
-        color: #000000;
         text-align: center;
         span{
             font-family: Arial;
@@ -221,7 +250,6 @@
         color: #a5a5a5;
         text-transform:uppercase;
         text-align: center;
-    //    letter-spacing: 1px;
        span{
            font-family: 'Times New Roman';
        }
@@ -239,15 +267,15 @@
 //MUST 理论技术
 .w-skill{
     width: 100%;
-    height: 717px;
-    padding-top: 83px;
+    height:100%;
+    padding: 83px 0 73px;
     background: #f9ebdc;
     .skill-text{
         width: 1054px;
         font-size: 18px;
         line-height: 30px;
         color: #595757;
-        margin: 45px auto 0;
+        margin: 45px auto 10px;
     }
     .skill-con{
         width: 740px;
@@ -313,12 +341,6 @@
                     margin-left: 348px;
                  }
             }
-            a{
-                font-size: 25px;
-                color: #e24956;
-                margin-top: 34px;
-                text-transform:uppercase;
-            }
            
         }
         .tit-bg{
@@ -336,7 +358,7 @@
             margin: 30px auto 0;
         }
         .c-tit3{
-            width: 521px;
+            width: 523px;
             font-size: 18px;
             line-height: 30px;
             color: #595757;
@@ -373,10 +395,12 @@
     width:100%;
     height: 801px;
     background: #d1edd8;
+   
     
     .padding-top{
        padding-top: 82px; 
        height: 719px;
+       position: relative;
     }
     .learn-left{
         height: 801px;
@@ -419,13 +443,16 @@
         }
     }
     .learn-c2{
-        width: 985px;
+        width: 984px;
         height: 285px;
         margin:9px 0 0 216px;
         padding-top: 60px;
         background: url(../../images/10.png);
+        position: absolute;
+        right: 0;
+        bottom: 0;
         .c2-list{
-            margin-left: 336px;
+            margin-left: 334px;
             h3{
                 font-size: 40px;
                 line-height: 38px;
@@ -473,6 +500,10 @@
                 position:absolute; 
                 left:0;
                 top:0;
+                img{
+                    width: 100%;
+                    height: 100%;
+                }
             }
             .title-m{
                 position: absolute;
@@ -618,7 +649,7 @@
     }
     .case-list3{
         width: 100%;
-        height:270px;
+        // height:270px;
         overflow: hidden;
         margin-top: 10px;
         ul{
@@ -636,12 +667,11 @@
             }
             div{
                 width: 270px;
-                height: 166px;
+                // height: 166px;
                 font-size: 18px;
                 line-height: 36px;
-                color: #000000;
                 padding-right: 18px;
-                border-right:3px solid #fff;
+                border-right:2px solid #fff;
             }
         }
         .c1{
@@ -655,7 +685,9 @@
             }
         }
         .border-n{
-            border-right: none;
+            div{
+                border-right: none; 
+            }
             p{
                 background: #778cde;
             }
@@ -692,64 +724,39 @@
         height: 235px;
         margin: 55px auto 55px;
         position: relative;
-        .list-content{
-            width:1200px;
+        overflow: hidden;
+        .hidden{
+            overflow: hidden;
+            width: 100%;
             height:100%;
-            margin: 0 auto;
-            .hidden{
-                overflow: hidden;
-                width: 100%;
-                height:100%;
-            }
-            .list{
-                width: 1220px;
-                height:100%;
-                li{
-                    float: left;
-                    margin-right: 20px;
+        }
+        .list{
+            width: 1220px;
+            height:100%;
+            li{
+                float: left;
+                margin-right: 20px;
+                width: 285px;
+                height: 235px;
+                
+                .img{
                     width: 285px;
-	                height: 235px;
-                    
-                    .img{
-                        width: 285px;
-	                    height: 190px;
-                        position: relative;
-                        img{
-                            width: 100%;
-                            height:100%;
-                            position: absolute;
-                            top:0;
-                            left: 0;
+                    height: 190px;
+                    position: relative;
+                    img{
+                        width: 100%;
+                        height:100%;
+                        position: absolute;
+                        top:0;
+                        left: 0;
 
-                        }
-                    }
-                    p{
-                        text-align: center;
-                        line-height: 48px;
-                        font-size: 18px;
-                        color: #333333;
                     }
                 }
-            }
-            .honor-page{
-                position: absolute;
-                top:0;
-                a{
-                    display: block;
-                    width: 21px;
-                    height: 78px;
-                    position: absolute;
-                    z-index: 10;
-                    top:63px;
-              
-                }
-                #left2{
-                    background: url(../../images/left2.png);
-                    left:-61px;
-                }
-                #right2{
-                    background: url(../../images/right2.png);
-                    right:-1261px;
+                p{
+                    text-align: center;
+                    line-height: 48px;
+                    font-size: 18px;
+                    color: #333333;
                 }
             }
         }
@@ -873,9 +880,10 @@
                 }
                 .describe{
                     font-size:16px;
+                    line-height: 24px;
                     color: #999999;
                     width:100%;
-                    height:45px;
+                    height:50px;
                     overflow: hidden;
                 }
                 .time{
@@ -1018,35 +1026,49 @@
 
 @media screen and (max-width: 1024px) {
     //轮播部分
+    html{
+        font-size: .1rem;
+    }
     .w100{
         width: 100%;
-        height: 3.54rem;
+        height: 4.5rem;
     }
-    #one{
+    #one{      
         .img1{
-            background: url(../../img/index/banner1.png);
+            background: url(../../img/index/banner1.jpg);
             background-size: 100% 100%;
         }
         .img2{
-            background: url(../../img/index/banner2.png);
+            background: url(../../img/index/banner2.jpg);
             background-size: 100% 100%;
         }
         .img3{
-            background: url(../../img/index/banner3.png);
+            background: url(../../img/index/banner3.jpg);
             background-size: 100% 100%;
+        }
+        .img4{
+            background: url(../../img/index/banner4.jpg);
+            background-size: 100% 100%;
+        }
+        .img5{
+            background: url(../../img/index/banner5.jpg);
+            background-size: 100% 100%;
+        }
+        .img6{
+            background: url(../../img/index/banner6.jpg);
+            background-size: 100% 100%;
+        }
+        .on{
+            display:block;
         }
     }
     #two{
-        margin-left: -1rem;
-        bottom:.41rem;
+        margin-left: -1.5rem;
+        bottom:.15rem;
         li{
-            width: .18rem;
-            height: .18rem;
-            border:1px solid #dbdbdb;
+            width: .10rem;
+            height: .10rem;
             margin-left:.30rem;
-        }
-        .on{
-            border:1px solid #fdad4c;
         }
     }
     #left{
@@ -1055,759 +1077,759 @@
     #right{
         display: none;
     }
-
-// must简介部分
-.abstract{
-    padding-top: .20rem;
-    .ab-h{
-        width: 3.77rem;
-        height: .71rem;
-        .line{
-            height: 1px;   
-        }
-        .title{
-            width: 1.87rem;
-            margin-left: -.96rem;
-            top: .20rem;
-            .t1{
-                font-size: .3rem;
-                line-height: .30rem;
-            }
-            .underline{
-                width: .55rem;
-	            height: .04rem;
-                margin: .02rem 0 0 1.08rem;
-            }
-            .t2{
-                font-size: .14rem;
-                line-height: .14rem;
-                margin-top: .05rem;
-            }
-        }
-    }
-    .ab-c{
-        width:5.97rem;
-        height: 5.5rem;
-        margin: .3rem auto 0;
-        .circle{
-            width: 3.69rem;
-            height:4.3rem;
-            background-size: 100% 100%;
-            .m{
-                width: 2.28rem;
-                height:1.08rem;
-                position: absolute;
-                left: 2.57rem;
-                top: -0.14rem;
-                text-align: center;
-                .m-c{
-                    font-size: .34rem;
-                    line-height: .58rem;
-                }
-                .m-line{
-                    width: 2.28rem;
-                    height: 1px;
-                }
-                .m-e{
-                    font-size: .24rem;
-                    line-height: .45rem;
-                }
-                
-            }
-            .u{
-                left: 3.7rem;
-                top: .96rem;
-            }
-            .s{
-                left: 3.55rem;
-                top: 2.45rem;
-            }
-            .t{
-                left: 2.02rem;
-                top: 3.35rem;
-            }
-        }
-        .arrow{
-            width:.25rem;
-            height: .78rem;
-            background-size:100% 100%;
-            left: 2.86rem;
-        }
-    }
-    .ab-f{
-        width:6rem;
-        margin: .2rem auto .3rem;
-        p{
-            font-size: .18rem;
-            line-height: .33rem;
-            span{
-                font-size: .22rem;
-            }
-        }
-        div{
-            margin-top: 0.05rem;
-            font-size: .22rem;
-            line-height: .3rem;
-        }
-    }
-}
-//must课程体系
-.system{
-    height: 9.6rem;
-    padding-top: .15rem;
-    .sy-h{
-        width: 2.97rem;
-	    height: .24rem;
-        font-size: .24rem;
-        line-height: .36rem;
-        i{
-            top: .28rem;
-            left: -0.03rem;
-            width:.13rem;
-            height:0.07rem;
-            background: url(../../images/tit2.png);
-            background-size: 100% 100%;
-        }
-        span{
-            font-size: .20rem;
-        }
-        b{
-            top: -.01rem;
-            left: 1.78rem;
-            width:.13rem;
-            height:0.07rem;
-            background: url(../../images/tit1.png);
-            background-size: 100% 100%;
-        }
-    }
-    .sy-c{
-        width:4.03rem;
-        height:2.28rem;
-        margin-top: .36rem;
-        li{
-            width: 1.32rem;
-            height: 2.23rem;
-            p{
-                width: .40rem;
-                height: 1.56rem;
-                margin: .25rem auto 0;  
-                i{
-                    font-size: .34rem;
-                    line-height: .35rem;
-                }
-                span{
-                    top:-0.05rem; 
-                    font-size:.4rem;
-                    line-height: .44rem;
-                }    
-            }
-            
-        }
-        .left{
-            background: url(../../images/left.png);
-            background-size: 100% 100%;
-        }
-        .right{
-            background: url(../../images/right.png);
-            background-size: 100% 100%;
-        }
-    }
-    .on-line{
-        margin: .34rem auto 0;
-        width: 2.3rem;
-        height: .24rem;
-        font-size: .24rem;
-        line-height: .36rem;
-        i{
-            top: .28rem;
-            left: -0.05rem;
-            width:.13rem;
-            height:0.07rem;
-            background: url(../../images/tit2.png);
-            background-size: 100% 100%;
-        }
-        b{
-            top: -.01rem;
-            left: 2.15rem;
-            width:.13rem;
-            height:0.07rem;
-            background: url(../../images/tit1.png);
-            background-size: 100% 100%;
-        }
-        
-    }
-    .title{
-        margin: .25rem 0 .14rem;
-        div{
-            font-size: .18rem;
-            line-height: .30rem;
-        }
-        p{
-            font-size: .18rem;
-            line-height: .27rem;
-        }
-    }
-    .sy-list{
-        width:100%;
-        margin: 0 auto;
-        overflow: hidden;
-        ul{
-            width: 7.5rem;
-        }
+    //移动端的导航
+    .m-nav2{
+        width: 100%;
+        height: 1.2rem;
+        background: #e0f0e7;
         li{
             float: left;
-           
-            width: 2.3rem;
-            height: 2.4rem;
-            text-align: center;
-            margin-right: .2rem;
-            div{
-                width: 2.30rem;
-                height: 1.98rem;
+            width: 1.49rem;
+            height: 100%;
+            a{
+                width: 100%;
+                height: 100%;
+            }
+            .nav-img{
+                width: 100%;
+                height: .61rem;
+                position: relative;
+                margin: .14rem 0 .1rem;
                 img{
-                    width:100%;
-                    height:100%;
+                    position: absolute;
+                    top:0;
+                    left: 50%;
+                    margin-left: -.30rem;
+                    width: .61rem;
+                    height: .61rem;
                 }
             }
             p{
-                font-size: .20rem;
-                line-height: .36rem;
-                margin-top: 0.08rem;
+                font-size: .24rem;
+                line-height: .24rem;
+                text-align: center;
             }
-        }
-    }
-    .under{
-        margin-top: .3rem;
-    }
-    .more{
-        width: 1.72rem;
-	    height: .40rem;
-        line-height: .43rem;
-        border-radius: .20rem;
-        font-size: .18rem;
-        bottom: .3rem;
-        left:50%;
-        margin-left:-.86rem;
-    }
-}
 
-//MUST线下课程简介
-.must-under{
-    height:16.44rem;
-    padding-top: .20rem;
-    .content2{
-        margin-left:-3.65rem;
-    }
-    .bg{
-        height: 9.05rem;
-    }
-    .ab-h{
-        width: 6.04rem;
-        height: .71rem;
-        margin: 0 auto;
-        position: relative;
-        .title{
-            width: 2.98rem;
-            margin-left: -1.66rem;
-            top: .20rem;
-            .t1{
-                font-size: .3rem;
-                line-height: .3rem;
-            }
-            .underline{
-                width: .55rem;
-	            height: .04rem;
-                margin: .02rem 0 0 1.02rem;
-            }
-            .t2{
-                font-size: .14rem;
-                line-height: .14rem;
-                margin-top: .10rem;
-            }
-        }
-    } 
-    .title2{
-        width:100%;
-        margin-top: .2rem;
-        p{
-            font-size:.18rem;
-            line-height: .29rem;
         }
     }
-    .under-tit{
-            width: 1.69rem;
-            height: .24rem;
-            font-size: .24rem;
+    //让1300万孤独症家庭更从容
+
+    .w-1300{
+        height: 2.78rem;
+        padding-top: .58rem;
+        .w-title{
+            font-size: .36rem;
             line-height: .36rem;
-            margin-top: .30rem;
-            i{
-                top: .28rem;
-                left: -0.05rem;
-                width:.13rem;
-                height:0.07rem;
-                background: url(../../images/tit2.png);
-                background-size: 100% 100%;
-            }
-            b{
-                top: -.01rem;
-                left: 1.66rem;
-                width:.13rem;
-                height:0.07rem;
-                background: url(../../images/tit1.png);
-                background-size: 100% 100%;
-            }
-    }
-    .under-list{
-        height:13.3rem;
-        margin-top: .40rem;
-        ul{
-            width: 7.4rem;
         }
-        li{
-            width: 3.59rem;
-	        height: 3.16rem;
-            margin-right:.1rem;
-            margin-bottom:.20rem;
-             img{
-                width: 100%;
-	            height: 2.58rem;
-            }
-            p{
-                width: 100%;
-                height: .6rem;
-                font-size: .26rem;
-                line-height: .6rem;
-                margin-top: -0.04rem;
+        .w-list{
+            width: 6.55rem;
+            height: 1.6rem;
+            margin: .43rem auto 0;
+            .list-c{
+                width: 6.81rem;
+                height: 100%;
+                li{
+                    width: 1.45rem;
+                    height: 100%;
+                    margin-right:.25rem;
+                    .w-img{
+                        width: 1.21rem;
+	                    height: 1.21rem;
+                        position: relative;
+                        margin:  0 auto;
+                    }
+                    .w-text{
+                        font-size: .24rem;
+                        line-height: .24rem;
+                        margin-top: .14rem;
+                    }
+                }
             }
         }
     }
-    .more2{
-        width: 2.02rem;
-        height: .40rem;
-        border-radius: .20rem;
-        font-size: .18rem;
-        line-height: .43rem;
-        bottom: .4rem;
-        left:50%;
-        margin-left:-1.01rem;
-    }
-}
-//专家团队部分
-.expert{
-    padding-top: .2rem;
-    .ab-h{
-        width: 4.67rem;
-        height: .71rem;
-       
-        .title{
-            width: 1.4rem;
-            margin-left:-.7rem;
-            top: .20rem;
-            .t1{
-                font-size: .3rem;
-                line-height: .3rem;
+    //星希望教育
+    .intro{
+        width: 100%;
+        background:#e0f0e7;
+        padding: .28rem 0 .28rem;
+        .i-video{
+            width: 4.97rem;
+            height: 3.25rem;
+            font-size: .16rem;
+            margin-left: 1.25rem;
+            border: none;
+            .player{
+                width: 4.81rem;
+                height: 2.71rem;
+                border:.08rem solid #fff;
             }
-            .underline{
-                width: .54rem;
-                height: .04rem;
-                margin: 0.02rem 0 0 .14rem;
+            video{
+                width: 100%;
+                height: 100%;
+            }
+            .video-pro{
+                padding-left: 2.9rem;
+                width: 2.07rem;
+                height:.45rem;
+                margin-top: .02rem;
+                background: #edf9f0;
+                li{
+                    width: .76rem;
+                    height: 100%;
+                    float: left;
+                    font-size: .16rem;
+                    line-height: .45rem;
+                    margin-right: .24rem;
+                    color: #97CCB4;
+                    position: relative;
+                    span{
+                        width: .31rem;
+                        height: .31rem;
+                        display: inline-block;
+                        margin-left: .1rem;
+                        background: url(../../img/index/play.png);
+                        background-size: 100% 100%;
+                        position: absolute;
+                        right: 0;
+                        top:0.08rem;
+                    }
+                    i{
+                      position: absolute;
+                      top:.01rem;
+                      left: 0;
+                    }
+                    
+                }
+                .span-bg{
+                    span{
+                        background: url(../../img/index/pause.png);
+                        background-size: 100% 100%;
+                    }  
+                }
+            }
+            
+        }
+        .i-text{
+            width: 6.44rem;
+            font-size: .16rem;
+            line-height: .30rem;
+            margin-left: .43rem;
+            margin-top: .27rem;
+            h3{
+                font-size: .24rem;
+                margin-bottom: .05rem;
+            }
+        }
+        .intro-bg{
+            width: 100%;
+            height: .80rem;
+            margin-top: .26rem;
+            .intro-list{
+                width: 6.6rem;
+                height: .60rem;
+                padding-top: .20rem;
+                ul{
+                    width: 6.94rem;
+                    li{
+                        margin-right:.3rem;
+                        div{
+                            width: .47rem;
+                            height: .47rem;
+                            background: url(../../images/4.png);
+                            background-size: 100% 100%;
+                            margin-right: .10rem;
+                        }
+                        p{
+                            font-size: .20rem;
+                            line-height: .47rem;
+                        }
+                    }
+                }
+            }
+        }
+    
+    }
+
+    //公共的头部
+    .common-tit{
+        width:3rem;
+        height: .90rem;
+        h3{
+            font-size: .36rem;
+            line-height: .36rem;
+            span{
+                margin-right:.08rem;
+            }
+        }
+        div{
+            width: 2.61rem;
+            height: .15rem;
+            background: url(../../images/5.png);
+            background-size: 100% 100%;
+            margin: .08rem auto .12rem ;
+        }
+        p{
+            font-size: .16rem;
+            line-height: .16rem;
+        } 
+        a{
+            font-size: .16rem;
+            bottom:.03rem;
+            right: -1.25rem;
+        }
+    }
+
+    //MUST 理论技术
+    .w-skill{
+        padding: .51rem 0 .40rem;
+        .skill-text{
+            width: 6.60rem;
+            font-size: .16rem;
+            line-height: .36rem;
+            margin: .3rem auto .1rem;
+        }
+        .skill-con{
+            width: 5.46rem;
+            height: 3.06rem;
+            background: url(../../images/6.png);
+            background-size: 100% 100%;
+            .s1{
+                top:-.06rem;
+                left:.68rem;
+                p{
+                    font-size: .20rem;
+                    span{
+                        font-size: .44rem;
+                        margin-right: .08rem;
+                    }
+                }
+                div{
+                    font-size: .18rem;
+                    letter-spacing: 0.02rem;
+                }
+            }
+            .s2{
+                top:-.06rem;
+                left:3.52rem;
+            }
+            .s3{
+                top:2.46rem;
+                left:2.10rem;
+            }
+            .s4{
+                top:2.46rem;
+                left: 4.93rem;
+            }
+        }
+
+    }
+    //线下校区概况
+    .w-campus{
+        padding-top: .4rem;
+        height: 100%;
+        .campus1{
+            width: 7.16rem;
+            height: 5.16rem;
+            margin: .29rem auto .6rem ;
+            .c-tit{
+                width: 100%;
+                height: .48rem;
+                background: url(../../img/index/7.png);
+                background-size: 100% 100%;
+                font-size: .20rem;
+                .tit-c{
+                line-height: .48rem;; 
+                    span{
+                        margin: 0 .2rem 0 1.85rem;
+                    }
+                }
             
             }
-            .t2{
-                font-size: .14rem;
-                line-height: .2rem;
-                margin-top: .04rem;
+            .tit-bg{
+                background: url(../../img/index/8.png);
+                background-size: 100% 100%;
             }
-        }
-    } 
-    .ex-list{
-        margin: .2rem auto 0;
-        ul{
-            width:7.4rem;
-        }
-        a{
-            width: 1.378rem;
-            height: 2.11rem;
-            margin-right:.10rem;
-            margin-bottom:.20rem;
-            .img{
-                width:100%;
-                height:100%;
-                overflow: hidden;
-                position:absolute; 
-                left:0;
-                 top:0;
-                 img{
-                     width: 100%;
-                     height: 100%;
-                 }
+            .c-tit2{
+                width:6.92rem;
+                // height: 1.32rem;
+                font-size: .18rem;
+                line-height: .36rem;
+                margin: .20rem auto .1rem;
+                text-align: left;
             }
-            .title-m{
-                height: .35rem;   
-                line-height: .35rem;
-                font-size: .14rem;
+            .c-tit3{
+                width: 5.6rem;
+                font-size: .18rem;
+                line-height: .36rem;
+                margin: .34rem auto .26rem;
                 text-align: center;
-                
             }
-            .title-m2{
-                display: none;
+            .ca1-c{   
+                width:100%;
+                margin:  0 auto;
+                overflow: hidden;
+                .ca1-list{
+                    width:7.32rem;
+                    height:3.32rem;
+                    li{
+                        float: left;
+                        margin: 0 .16rem .15rem  0;
+                        width: 2.28rem;
+                        height: 1.5rem;  
+                    }
+                }
             }
         }
-        li:hover{
-            .title-m{
-                display: block;
-            }
-            .title-m2{
-                display: none;
-            }
+        .campus2{
+            margin-top: 0;
         }
     }
-}
 
-//模式对比部分
-.mode{
-    height:7.4rem;
-    background-color: #f7f7f7;
-    padding-top:.2rem;
-    .ab-h{
-        width: 4.67rem;
-        height: .71rem;
-        .title{
-            width: 1.62rem;
-            margin-left:-.74rem;
-            top: .20rem;
-            .t1{
-                font-size: .3rem;
-                line-height: .3rem;
-            }
-            .underline{
-      
-                width: .54rem;
-                height: .04rem;
-                margin: 0.02rem 0 0 .22rem;
-              
-            }
-            .t2{
-                font-size: .14rem;
-                line-height:.14rem;
-                margin-top: .04rem;
+    //星希望网校学习
+    .learn{
+        width:100%;
+        height: 5.21rem; 
+        position: relative;  
+        .padding-top{
+            padding-top:.42rem; 
+            height: 4.79rem;
+            width: 7.5rem;
+            margin:  0 auto;
+            
+        }
+        .learn-left{
+            width: .01rem;
+            height: 5.21rem; 
+            background: url(../../img/index/left.png) repeat-x;
+            background-size: 100% 100%;
+        }
+        .learn-right{
+            width: .01rem;
+            height: 5.21rem; 
+            background: url(../../img/index/right.png) repeat-x;
+            background-size: 100% 100%;
+        }
+        .learn-c{
+            width: 6.62rem;
+            height: 1.02rem;
+            margin-top: .2rem;
+            padding-top: .3rem;
+            background: url(../../images/9.png);
+            background-size: 100% 100%;
+            position: absolute;
+            left: 0;
+            .c1-tit{
+                width:4.7rem;
+                text-align: center;
+                margin-left: 1.49rem;
+                h3{
+                    font-size: .32rem;
+                    line-height: .32rem;
+                    span{
+                        font-size:.28rem;
+                    }
+                    b{
+                        margin-left: .12rem;
+                    }
+                }
+                p{
+                    font-size: .30rem;
+                    line-height: .30rem;
+                    margin-top: .20rem;
+                }
             }
         }
-    } 
-    .mode-list{
-        width:100%;
-        height:100%;
-        margin: .35rem auto 0;
-        li{
-            div{
-                float: left;
-            }
-            .tl{
-                width: 2.75rem;
-                margin-top: .2rem;
+        .learn-c2{
+            width: 6.84rem;
+            height:1.96rem;
+            margin:.06rem 0 0 0;
+            padding-top: .14rem;
+            background: url(../../img/index/c-bg.png);
+            background-size: 100% 100%;
+            position: absolute;
+            right: 0;
+            bottom: .20rem;
+            .c2-list{
+                margin-left: 2.30rem;
+                width:4rem;
+                h3{
+                    font-size: .24rem;
+                    line-height: .30rem;
+                    width:100%;
+                    border-bottom:1px solid #7bb7fa;
+                    margin-bottom: .05rem;
+                    span{
+                        font-size: .16rem;
+                    }
+                }
                 p{
+                    font-size:.16rem;
+                    line-height: .24rem;
+                }
+            }
+        }
+
+    }
+
+    //专家团队部分
+    .expert{
+        padding: .55rem 0 .28rem;
+        .ab-h{
+            width: 4.67rem;
+            height: .71rem;
+        
+            .title{
+                width: 1.4rem;
+                margin-left:-.7rem;
+                top: .20rem;
+                .t1{
                     font-size: .3rem;
                     line-height: .3rem;
                 }
-                div{
-                    width: 1.1rem;
-                    height: 0.04rem;
-                    margin: .05rem 0 0 .83rem;
+                .underline{
+                    width: .54rem;
+                    height: .04rem;
+                    margin: 0.02rem 0 0 .14rem;
+                
+                }
+                .t2{
+                    font-size: .14rem;
+                    line-height: .2rem;
+                    margin-top: .04rem;
                 }
             }
-            .tp{
-                margin: 0 .45rem;
-                width: .86rem;
-	            height: .53rem;
-                background: url(../../images/contrast.png);
-                background-size: 100% 100%;
-            }
-            .tr{
-                div{
-                    width: 1rem;
-                    margin-left: .9rem;
-                }
-            }
-        }
-        .t1{
-        width:100%;
-        }
-        .t2{
-            margin-top: .1rem;
-
-          .t2l{
-            width: 2.75rem;
-            height: .58rem;
-            line-height: .58rem;
-            margin-top: .2rem;
-              p{
-                font-size: .22rem;
-              }
-          }
-          .t2r{
-            width: 2.75rem;
-            height: .58rem;
-            line-height: .58rem;
-            font-size: .22rem;
-            margin-top: .2rem;
-          }
-         
-          .tp2{
-                width: 1.52rem;
-                height: .76rem;
-                margin: 0 .14rem;
-                padding: .12rem 0;
-            .icon{
-                margin-left:.56rem;
-                width: .40rem;
-                height: .40rem;
-            }
-            .text{
-                font-size: .26rem;
-                line-height: .38rem;
-            }
-          } 
-        }
-    }
-}
-
-// 公司动态  行业新闻  ASD百科
-.trends{
-    padding-top: .24rem;
-    .tab{
-        height:.52rem;
-        li{ 
-            width: 2.4333rem;
-            height:.42rem;
-            line-height:.42rem;
-            font-size: .22rem;
-            margin-top: .1rem;
-        }
-        .line2{
-            width: 1px;
-            height: .22rem;
-            top:.2rem;
-            left: 2.4rem; 
-            z-index: -1000;
-        }
-        .l2{
-            left: 4.92rem;
-        }
-        .tab_on{
-            height:.42rem;
-            line-height:.42rem;
-            border-radius: .20rem .20rem 0 0;
-        }
-        .tab_on2{
-            height:.42rem;
-            line-height:.42rem;
-            border-radius: .20rem .20rem 0 0;
-        }
-        .tab_on3{
-            height:.42rem;
-            line-height:.42rem;
-            border-radius: .20rem .20rem 0 0;
-        }
-
-    }
-    .line{
-        height: .05rem;
-        background-size: 100% 100%;
-    }
-    .content1{
-        width: 7.1rem;
-        height:3.28rem;
-        padding:.1rem .1rem 0px .1rem;
-        .list{
+        } 
+        .ex-list{
+            margin: .2rem auto 0;
             ul{
-                width:7.26rem;
+                width:7.4rem;
+            }
+            a{
+                width: 1.42rem;
+                height: 2.13rem;
+                margin-right:.06rem;
+                margin-bottom:.12rem;
+                .img{
+                    width:100%;
+                    height:100%;
+                    overflow: hidden;
+                    position:absolute; 
+                    left:0;
+                    top:0;
+                    img{
+                        width: 100%;
+                        height: 100%;
+                    }
+                }
+                .title-m{
+                    height: .35rem;   
+                    line-height: .35rem;
+                    font-size: .14rem;
+                    text-align: center;
+                    
+                }
+                .title-m2{
+                    display: none;
+                }
+            }
+            li:hover{
+                .title-m{
+                    display: block;
+                }
+                .title-m2{
+                    display: none;
+                }
+            }
+        }
+    }
+    //成功案例部分
+    .case{
+        padding: .42rem 0 .30rem 0;
+        .case-list{
+            width: 100%;
+            height:1.30rem;
+            margin-top: .32rem;
+            overflow: hidden;
+            ul{
+                width:7.4rem;
             }
             li{
-                width: 2.25rem;
-                margin-right:.16rem;
+                width: 1.75rem;
+                height: 100%;
+                float: left;
+                margin-right: .1rem;
                 .img{
-                    height:1.3rem;
+                    width: 100%;
+                    height:1.04rem;
                 }
-                .title{
+                p{
+                    width: 100%;
+                    height: .24rem;
+                    font-size: .18rem;
+                    line-height:.24rem;
+                    margin-top:.03rem;
+                }
+            }
+        }
+        .case-list2{
+            margin-top: 60px;
+        }
+        .case-list3{
+            width: 100%;
+            // height:1.80rem;
+            overflow: hidden;
+            margin-top: 0.07rem;
+            ul{
+                width:7.38rem;
+            }
+            li{ 
+                width: 1.76rem;
+                margin-right:.08rem;
+                float: left;
+                p{
+                    width: .49rem;
+                    height: .49rem;
+                }
+                div{
+                    width: 1.7rem;
+                    height: 1.88rem;
                     font-size: .16rem;
                     line-height: .24rem;
-                    margin: .07rem 0 .06rem;
-                    height:.45rem;
+                    padding-right: .06rem;
+                    border-right:1px solid #fff;
                 }
-               
-                .describe{
-                    font-size:.14rem;
-                    line-height: .18rem;
-                    height:.64rem;
-                }
-                .time{
-                    font-size: .12rem;
-                    line-height: .28rem;
-                    margin-left:.08rem;
-                }
-            }
-            .more3{
-                width: 1.60rem;
-	            height: .30rem;
-                line-height: .33rem;
-                border-radius: .20rem;
-                font-size: .14rem;
-                bottom: .2rem;
-                left:50%;
-                margin-left:-.8rem;
-            }
-            .mt{
-                bottom: 60px;
             }
         }
-        .on{display: block;}
+        .video{
+            width: 100%;
+            height:2.12rem;
+            margin-top:.28rem;
+            a{
+                width: 3.58rem;
+                &:first-child{
+                    margin-right:.12rem;
+                }
+            } 
+        }
+        .case-video{
+            margin-bottom: 120px;
+        }
     }
-}
 
-//成功案例部分
-.case{
-    padding-top: .2rem;
-    .ab-h{
-       width: 4.67rem;
-       height: .71rem;
-       .title{
-           width: 1.5rem;
-           margin-left:-.75rem;
-           top: .20rem;
-           .t1{
-               font-size: .3rem;
-               line-height: .3rem;
-           }
-           .underline{
-            width: .54rem;
-            height: .04rem;
-            margin: 0.02rem 0 0 .17rem; 
-            }
-            .t2{
-                font-size: .14rem;
-                line-height:.14rem;
-                margin-top: .04rem;
-            }
-       }
-   }   
-   
-   .case-list{
-       height:5.7rem;
-       margin-top: .16rem;
-       ul{
-           width:7.4rem;
-       }
-       li{
-           width:3.6rem;
-           height: 2.76rem;
-           margin-right: .1rem;
-           margin-bottom: .16rem;
-           .img{
-               height: 2.1rem;
-           }
-           p{
-               height: .6rem;
-               font-size: .22rem;
-               line-height: .6rem;
-               margin-top: .05rem;
-               border-radius: 0 .16rem 0 .16rem;
-           }
-       }
-   }
-   .case-list2{
-       margin-top: .20rem;
-   }
-   .video{
-       height: 2.1rem;
-       margin-top: .20rem;
-       a{
-           width: 3.6rem;
-           &:first-child{
-               margin-right:.1rem;
-           }
-       } 
-   }
-   .case-video{
-        margin-bottom: 1.20rem;
-   }
-   
-   }
-
-   //所获荣誉部分
-.honor{
-    padding-top: .2rem;
-    .ab-h{
-        width: 4.67rem;
-        height: .71rem;
-        .title{
-            width: 1.48rem;
-            margin-left:-.74rem;
-            top: .20rem;
-            .t1{
-                font-size: .3rem;
-                line-height: .3rem;
-            }
-            .underline{
-            width: .54rem;
-            height: .04rem;
-            margin: 0.02rem 0 0 .17rem; 
-            }
-            .t2{
-                font-size: .14rem;
-                line-height:.14rem;
-                margin-top: .04rem;
-            }
-        }
-    } 
-    .honor-list{
-        height:1.92rem;
-        margin: .22rem auto .5rem;
-        .list-content{
-            width: 6.54rem;
+    //所获荣誉部分
+    .honor{
+        padding-top:.55rem;
+        background: #fff;
+        .honor-list{
+            width: 100%;
+            height: 1.4rem;
+            margin: .30rem auto .25rem;
+            position: relative;
+            overflow: hidden;
             .list{
+                width: 7.4rem;
                 li{
-                    margin-left:.05rem;
-                    width: 2.14rem;
-                    height: 1.92rem;
-                    background-size: 100% 100%;
+                    margin-right: .10rem;
+                    width: 1.75rem;
+                    height: 100%;
                     .img{
-                        width: 1.78rem;
-                        height:1.27rem;
-                        margin: .19rem .18rem 0;
+                        width: 100%;
+                        height: 1.15rem;
                     }
                     p{
-                        line-height: .38rem;
-                        font-size: .18rem;
+                        line-height: .28rem;
+                        font-size: .16rem;
                     }
                 }
             }
-            .honor-page{
-                a{
-                    width: .20rem;
-                    height: .72rem;
-                    top:.57rem;
-              
-                }
-                #left2{
-                    background-size: 100% 100%;
-                    left:-.39rem;
-                }
-                #right2{
-                    background-size: 100% 100%;
-                    right:-6.9rem;
-                }
-            }
+            
         }
     }
-}
 
-//返回顶部
-#back{
-    bottom:2.5rem; 
-    right: .20rem; 
-    z-index: 3000; 
-    width:.5rem;
-    height:.5rem;
-}
+    // 公司动态  行业新闻  ASD百科
+    .trends{
+        padding: .58rem 0 .29rem 0;
+        .tab{
+            height:.52rem;
+            margin-top: .26rem;
+            border-radius: .20rem .20rem 0 0;
+            li{ 
+                width: 2.4333rem;
+                height:.42rem;
+                line-height:.42rem;
+                font-size: .22rem;
+                margin-top: .1rem;
+            }
+            .line2{
+                width: 1px;
+                height: .22rem;
+                top:.2rem;
+                left: 2.4rem; 
+                z-index: -1000;
+            }
+            .l2{
+                left: 4.92rem;
+            }
+            .tab_on{
+                height:.42rem;
+                line-height:.42rem;
+                border-radius: .20rem .20rem 0 0;
+            }
+            .tab_on2{
+                height:.42rem;
+                line-height:.42rem;
+                border-radius: .20rem .20rem 0 0;
+            }
+            .tab_on3{
+                height:.42rem;
+                line-height:.42rem;
+                border-radius: .20rem .20rem 0 0;
+            }
+
+        }
+        .line{
+            height: .05rem;
+            background-size: 100% 100%;
+        }
+        .content1{
+            width: 7.1rem;
+            height:3.60rem;
+            padding:.1rem .1rem 0px .1rem;
+            .list{
+                ul{
+                    width:7.26rem;
+                }
+                li{
+                    width: 2.25rem;
+                    margin-right:.16rem;
+                    .img{
+                        height:1.3rem;
+                    }
+                    .title{
+                        font-size: .16rem;
+                        line-height: .24rem;
+                        margin: .07rem 0 .15rem;
+                        height:.45rem;
+                    }
+                
+                    .describe{
+                        font-size:.14rem;
+                        line-height: .30rem;
+                        height:.6rem;
+                    }
+                    .time{
+                        font-size: .12rem;
+                        line-height: .28rem;
+                        margin-left:.08rem;
+                        margin-top: .05rem;
+                    }
+                }
+                .more3{
+                    width: 1.60rem;
+                    height: .30rem;
+                    line-height: .33rem;
+                    border-radius: .20rem;
+                    font-size: .14rem;
+                    bottom: .2rem;
+                    left:50%;
+                    margin-left:-.8rem;
+                }
+                .mt{
+                    bottom: 60px;
+                }
+            }
+            .on{display: block;}
+        }
+    }
+
+    //免费领取体验课程
+    .receive{
+        width: 100%;
+        height: 5.18rem;
+        padding-top: .82rem;
+        .r-tit{
+            width: 5rem;
+            height:.84rem;
+            background: url(../../img/index/receive.png);
+            background-size: 100% 100%;
+            margin: 0 auto .28rem;
+        }
+        h3{
+            font-size: .24rem;
+            line-height: .24rem;
+            color: #717071;
+            text-align: center;
+            margin-bottom: .46rem;
+        }
+        .r-input{
+            width:5.5rem;
+            height: .5rem;
+            border:1px solid #b3b3b4;
+            margin:  0 auto .22rem;
+            font-size: .24rem;
+            line-height: .5rem;
+            color: #717071;
+            position: relative;
+            text-indent: .57rem;
+            border-radius: .05rem;
+            span{
+                display: inline-block;
+                position: absolute;
+            }
+            input{
+                width: 4.38rem;
+                height: .5rem;
+                padding: 0;
+                position: absolute;
+                right: 0;
+                top:0;
+                font-size: .24rem;
+                border-radius: .05rem;
+            }
+        }
+        .r-name{
+            span{
+                width: .24rem;
+                height: .27rem;
+                background: url(../../images/11.png);
+                background-size: 100% 100%;
+                top:.13rem;
+                left: .25rem;
+            }
+        }
+        .r-phone{
+            span{
+                width:.18rem;
+                height: .30rem;
+                background: url(../../images/12.png);
+                background-size: 100% 100%;
+                top:.09rem;
+                left:.29rem;
+            }
+        }
+        .r-btn{
+            width:5.11rem;
+            height: .70rem;
+            margin: .32rem auto 0;
+            li{
+                float: left;
+                width: 2.4rem;
+                height: 100%;
+                margin-left: .30rem;
+                font-size: .30rem;
+                line-height: .7rem;
+                border-radius: .05rem;
+            }
+
+        }
+    }
+    //返回顶部
+    #back{
+        bottom:2.8rem; 
+        right: .20rem; 
+        z-index: 3000; 
+        width:.5rem;
+        height:.5rem;
+    }
 
 }

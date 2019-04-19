@@ -4,10 +4,10 @@
     background: #f7f7f7;
     padding-bottom: 100px;
     .case-h{
-        width: 100%;
+        width: 1200px;
         height: 210px;
         background: url(../../images/case/banner.png);
-        margin: 10px 0 14px;
+        margin: 10px auto 14px;
         .case-img {
             width: 288px;
             height: 170px;
@@ -38,9 +38,16 @@
             width: 590px;
             height: 448px;
             margin:  0 auto;
+            .player{
+                width: 590px;
+                height: 340px;
+                margin:  0 auto;
+                
+            }
             video{
                 width: 100%;
                 height: 100%;
+                text-align: center;
             }
         }
         h3{
@@ -58,5 +65,100 @@
             line-height: 24px;
         }
 
+    }
+}
+@media screen and (max-width:1024px){
+    .case-c{
+        padding-bottom: .30rem;
+        .case-h{
+            width: 100%;
+            height: 1.3rem;
+            background: url(../../images/case/banner.png);
+            background-size: 100% 100%;
+            margin: 0;
+            .case-img {
+                width: 1.81rem;
+	            height: 1.07rem;
+                position: relative;
+                margin: .02rem 0 0 .05rem;
+
+            }
+            .case-txt{
+                width: 5.62rem;
+                line-height:1.3rem;
+                font-size: .30rem;
+            }
+        }
+        .c-text{
+            padding: .30rem .55rem .40rem;
+            font-size:.18rem;
+            margin-top: .08rem;
+            .video{
+                width: 4.2rem;
+                height: 3.3rem;
+                
+                .player{
+                    width: 3.80rem;
+                    height: 2.25rem;
+                    margin:  0 auto;
+                }
+                .video-pro{
+                    padding-left: 1.74rem;
+                    width: 2.07rem;
+                    height:.45rem;
+                    margin: .02rem auto 0;
+                    background: #edf9f0;
+                    li{
+                        width: .76rem;
+                        height: 100%;
+                        float: left;
+                        font-size: .16rem;
+                        line-height: .45rem;
+                        margin-right: .24rem;
+                        color: #97CCB4;
+                        position: relative;
+                        span{
+                            width: .31rem;
+                            height: .31rem;
+                            display: inline-block;
+                            margin-left: .1rem;
+                            background: url(../../img/index/play.png);
+                            background-size: 100% 100%;
+                            position: absolute;
+                            right: 0;
+                            top:0.08rem;
+                        }
+                        i{
+                          position: absolute;
+                          top:.01rem;
+                          left: 0;
+                        }
+                        
+                    }
+                    .span-bg{
+                        span{
+                            background: url(../../img/index/pause.png);
+                            background-size: 100% 100%;
+                        }  
+                    }
+                }
+                
+            }
+            h3{
+                font-size: .24rem;
+                margin-bottom: 5px;
+            }
+            .tit{
+                font-size: .18rem;
+                text-align: center;
+                margin-top: .10rem;
+            }
+            p{
+                margin-bottom: .3rem;
+                text-indent: 2em;
+                line-height: .36rem;
+            }
+    
+        }
     }
 }

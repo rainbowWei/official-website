@@ -50,12 +50,15 @@
     width: 100%;
     height: 480px;
     background:url(../../images/course/banner.png);
+    background-repeat: no-repeat;
+    background-position: center top;
+    background-size: auto 100%;
+
 }
 //公共头
- .emerge-tit{
+.emerge-tit{
         font-size: 50px;
         line-height: 50px;
-        color: #000000;
         text-align: center;
         span{
             font-family: Arial;
@@ -339,6 +342,8 @@
             }
         }
         .m-right{
+            position: relative;
+            height: 100%;
             h3{
                 font-size: 24px;
                 line-height: 24px;
@@ -355,7 +360,8 @@
             .m-img{
                 width: 900px;
                 height: 311px;
-                margin-top: -6px;
+                position: absolute;
+                bottom: 0;
                 img{
                     width: 100%;
                     height: 100%;
@@ -377,6 +383,9 @@
             }
         }
         .i-right{
+            height: 100%;
+            width: 900px;
+            position: relative;
             p{
                 font-size: 24px;
                 padding-left: 68px;
@@ -386,9 +395,11 @@
                 }
             }
             .i-list{
-                width: 900px;
+                width: 100%;
                 height: 280px;
-                margin-top: 15px;
+                position: absolute;
+                bottom: 0;
+                right: 0;
                 li{
                     float: left;
                     width: 225px;
@@ -465,7 +476,7 @@
     }
     .way{
         width: 100%;
-        height: 850px;
+        height: 100%;
         background: #f5f5fc;
         margin-top: 109px;
         .w-left{
@@ -499,6 +510,8 @@
                                 position: absolute;
                                 top:0;
                                 left:0;
+                                width: 100%;
+                                height: 100%;
                             }
                         }
                         .w-tit{
@@ -513,6 +526,14 @@
                         }
                     }
                 }
+            }
+        }
+        .w-right{
+            width: 300px;
+            height: 850px;
+            img{
+                width: 100%;
+                height: 100%;
             }
         }
     }
@@ -638,4 +659,537 @@
             }
         }
     }
+}
+@media screen and (max-width: 1024px) {
+    html{
+        font-size: .1rem;
+    }
+    .course-header{
+       display: none;
+    }
+    //banner
+    .c-banner{
+        width: 100%;
+        height: 3.5rem;
+        background:url(../../img/course/banner.png);
+        background-size: 100% 100%;
+    }
+    //公共头
+    .emerge-tit{
+            font-size: .36rem;
+            line-height:.36rem;
+            text-align: center;
+            span{
+                font-family: Arial;
+            }
+        }
+    //MUST行为引导技术——诞生
+    .emerge{
+        width: 100%;
+        height: 5.62rem;
+        padding-top:.38rem;
+        background: #f5f5fc;
+    
+        .emerge-list{
+            width: 7.2rem;
+            height: 3.6rem;
+            margin: .2rem auto .12rem;
+            li{
+                float: left;
+                height: 1.2rem;
+                .e-right{
+                    width: 100%;
+                    height: 100%;
+                    background: #f05924;
+                    position: relative;
+                    cursor: pointer;
+                    .e-text{
+                        font-size: .16rem;
+                        line-height: .30rem;
+                        color: #ffffff;
+                        width: 1.06rem;
+                        position: absolute;
+                        right: .08rem;
+                        top:.3rem;
+                        text-align: center;
+                        span{
+                            font-size: .30rem;
+                        }
+                        p{
+                            font-size: .13rem;
+                        }
+                    }
+                    .e-left{
+                        position: absolute;
+                        top:0;  
+                    }
+                }
+            }
+            .e1{
+                width: 3.42rem;
+                .e-left{
+                    width: 2.22rem;
+                    height: 100%;
+                    background: url(../../images/course/das-1.png); 
+                    background-size: 100% 100%;
+                    left: 0px;
+                }
+                .e-right{
+                    &:hover{
+                        .e-left{
+                            background: url(../../images/course/das-1-1.png); 
+                            background-size: 100% 100%;
+                        }
+                    }
+                }
+            }
+            .e2{
+                width: 3.77rem;
+                .e-left{
+                    width:2.58rem;
+                    height: 100%;
+                    background: url(../../images/course/das-2.png);
+                    background-size: 100% 100%;
+                    left: 0px;
+                }
+                .e-right{
+                    &:hover{
+                        .e-left{
+                            background: url(../../images/course/das-2-2.png); 
+                            background-size: 100% 100%;
+                        }
+                    }
+                }
+            }
+            .e3{
+                width: 3.77rem;
+                .e-left{
+                    width: 2.58rem;
+                    height: 100%;
+                    background: url(../../images/course/das-3.png);
+                    background-size: 100% 100%;
+                    right: 0;
+                }
+                .e-right{
+                    &:hover{
+                        .e-left{
+                            background: url(../../images/course/das-3-3.png);
+                            background-size: 100% 100%; 
+                        }
+                    }
+                }
+                .e-text{
+                    left: .06rem;
+                    margin-top: .15rem;
+                }
+            }
+            .e4{
+                width: 3.42rem;
+                .e-left{
+                    width:2.22rem;
+                    height: 100%;
+                    background: url(../../images/course/das-4.png);
+                    background-size: 100% 100%; 
+                    right: 0;
+                }
+                .e-right{
+                    &:hover{
+                        .e-left{
+                            background: url(../../images/course/das-4-4.png); 
+                            background-size: 100% 100%; 
+                        }
+                    }
+                }
+                .e-text{
+                    left: .06rem;
+                }
+            }
+            .e5{
+                width: 3.42rem;
+                .e-left{
+                    width:2.22rem;
+                    height: 100%;
+                    background: url(../../images/course/das-5.png);
+                    background-size: 100% 100%; 
+                    left: 0px;
+                }
+                .e-right{
+                    &:hover{
+                        .e-left{
+                            background: url(../../images/course/das-5-5.png); 
+                            background-size: 100% 100%; 
+                        }
+                    }
+                }
+                .e-text{
+                    margin-top: .15rem;
+                }
+            }
+            .e6{
+                width: 3.77rem;
+                .e-left{
+                    width: 2.58rem;
+                    height: 100%;
+                    background: url(../../images/course/das-6.png);
+                    background-size: 100% 100%; 
+                    left: 0px;
+                }
+                .e-right{
+                    &:hover{
+                        .e-left{
+                            background: url(../../images/course/das-6-6.png); 
+                            background-size: 100% 100%; 
+                        }
+                    }
+                }
+                .e-text{
+                    margin-top: .15rem;
+                }
+            }
+
+        }
+        .emerge-text{
+            font-size: .16rem;
+            line-height: .28rem;
+            padding:.04rem .25rem;
+        }
+    }
+    //MUST行为引导技术——原理
+    .theory{
+        width: 100%;
+        height: 20.2rem;
+        padding-top: .59rem;
+        .theory-c{
+            width: 6.59rem;
+            height: 4.38rem;
+            background: url(../../img/course/c-bg.png);
+            background-size: 100% 100%;
+            margin: .72rem auto 0;
+            .t1{
+                
+                width: 1.95rem;
+                font-size: .22rem;
+                line-height: .36rem;
+                top:-.19rem;
+                left: .27rem;    
+                b{
+                    font-size: .30rem;   
+                }
+            }
+            .t2{
+                top:.66rem;
+                left: 2.35rem;
+                li{
+                    font-size: .21rem;
+                    line-height:.25rem;
+                    margin-right: 0.06rem;
+                }
+            }
+            .t3{
+                top:.30rem;
+                right:.18rem;
+                h3{
+                    font-size: .24rem;
+                    line-height: .24rem;
+                }
+                h4{
+                    font-size: .16rem;
+                    line-height:.24rem;
+                }
+                p{
+                    font-size: .16rem;
+                    line-height: .24rem;
+                }
+            }
+            .t4{
+                width:2.65rem;
+                top:1.76rem;
+                left: .40rem;
+                li{
+                    font-size: .14rem;
+                    line-height: .18rem;
+                    &:first-child{
+                        width: 2.58rem;
+                    }
+                    p{
+                        font-size: .18rem;
+                        line-height: .18rem;
+                        margin: .05rem 0 .02rem;
+                    }
+                }
+                .three{
+                    width: 2.3rem;
+                }
+            }
+            .t5{
+                top: 2.05rem;
+                left: 3.77rem;
+                font-size: .22rem;
+                line-height: .29rem;
+            }
+            .t6{
+                top:2.95rem;
+                right: .48rem;
+                p{
+                    line-height: .46rem;
+                }
+            }
+
+        }
+        .motive{
+            height: 2.3rem;
+            margin-top: .66rem;
+            .m-left{
+                width: 1.82rem;
+            }
+            .m-right{
+                
+                h3{
+                    font-size: .16rem;
+                    line-height: .16rem;
+                    padding-left: .06rem;
+                    margin-top:.11rem ;
+                }
+                p{
+                    width: 4.65rem;
+                    font-size:.16rem;
+                    line-height: .24rem;
+                    padding-left: .06rem;
+                    span{
+                        font-size: .24rem;
+                    }
+                }
+                .m-img{
+                    width: 5.4rem;
+	                height: 1.86rem;
+                }
+            }
+        }
+        .intellect{
+            height: 2.3rem;
+            margin-top: .48rem;
+            .i-left{
+                width: 1.82rem;
+            }
+            .i-right{
+                width: 5.48rem;
+                p{
+                    font-size: .16rem;
+                    padding-left: .15rem;
+                    margin-top: .15rem;
+                    span{
+                        font-size: .28rem;
+                    }
+                }
+                .i-list{
+                    height: 1.70rem;
+                    li{
+                        width: 1.37rem;
+                        height: .85rem;
+                        .i-img{
+                            width: .44rem;
+                            height: .44rem;
+                            margin: .04rem auto .02rem;
+                        }
+                        .chinese{
+                            font-size: .16rem;
+                            line-height: .16rem;
+                        }
+                        .english{
+                            font-size: .16rem;
+                            line-height: .16rem;
+                            
+                        }
+                    }
+                }
+            }
+        }
+        .skill{
+            height: 2.3rem;
+            .s-list{
+            width: 4.95rem;
+            height: 1.06rem; 
+            margin:  .42rem 0 0 .15rem;
+            ul{
+                width: 5.3rem;
+                li{
+                    width: .98rem;
+                    height:.39rem;
+                    margin:0 .3rem .30rem 0;
+                    .s-text{
+                        padding-top:0.03rem;
+                        font-size:.16rem;
+                        line-height: .18rem;
+                        width: .71rem;
+                        margin-right: 0.02rem;
+                        span{
+                            font-size:.16rem;
+                        }
+                    }
+                    .s-img{
+                        width: .25rem;
+                        height: .39rem;
+                        background: url(../../images/course/ts-13.png);
+                        background-size: 100% 100%;
+                    }
+                }
+            }
+            }
+        }
+        .way{
+            height: 5.5rem;
+            margin-top: .48rem;
+            .w-left{
+                p{
+                    width: 5.2rem;
+                    font-size: .16rem;
+                    margin: .15rem 0 0 .16rem;
+                    span{
+                        font-size: .24rem;
+                    }
+                }
+                .w-list{
+                    width: 5.1rem;
+                    height: 100%;
+                    overflow: hidden;
+                    margin:.1rem 0 .15rem;
+                    padding-left: .3rem;
+                    ul{
+                        width: 5.54rem;
+                        li{
+                            width: 2.37rem;
+                            height: 1.5rem;
+                            margin-right: .40rem;
+                            .w-img{
+                                width: .60rem;
+                                height: .71rem;
+                                margin: .05rem auto .10rem;
+                            }
+                            .w-tit{
+                                width: 100%;
+                                font-size: .18rem;
+                                line-height: .18rem;
+                                margin-bottom: .05rem;
+                            }
+                            .w-txt{
+                                width: 100%;
+                                font-size: .14rem;
+                                
+                            }
+                        }
+                    }
+                }
+            }
+            .w-right{
+                width: 1.82rem;
+                height: 100%;
+                img{
+                    width: 100%;
+                    height: 100%;
+                }
+            }
+        }
+    }
+
+    //MUST行为引导技术——特点
+    .peculiarity{
+        height:5.2rem;
+        padding-top: .50rem;
+        .pec-c{
+            width:4.02rem;
+            height: 4.02rem;
+            background: url(../../images/course/ts-15.png);
+            background-size: 100% 100%;
+            margin: .36rem auto 0;
+            .public{
+                font-size: .14rem;
+                line-height: .20rem;
+                height: .6rem;
+                padding:.05rem 0;
+                p{
+                    font-size: .21rem;
+                    line-height:.24rem;
+
+                }
+            }
+            .system{
+                top: .62rem;
+                left: -0.2rem;
+            }
+            .entire{
+                top:.18rem;
+                right:-.65rem;
+                padding-left: .6rem;
+            
+            }
+            .effective{
+                height:.80rem;
+                bottom: .19rem;
+                right: -1.05rem;
+            }
+            ul{
+                width: 2.8rem;
+                position: absolute;
+                top:1.65rem;
+                left: .71rem;
+                li{
+                    font-size: .21rem;
+                    line-height: .26rem;
+                    margin: 0 .25rem;
+                }
+            }
+        }
+    }
+    //MUST行为引导技术——成果
+    .fruit{
+        width: 100%;
+        height: 6.32rem;
+        padding-top: .48rem;
+        background: url(../../img/course/fruit.png);
+        background-size: 100% 100%;
+        .fruit-txt{
+            width:2.3rem;
+            font-size: .14rem;
+            line-height: .20rem;
+            margin: .55rem 0 0 .73rem;
+            p{
+                font-size: .18rem;
+            }
+        }
+        .histogram{
+            width: 5.78rem;
+            height: 4.55rem;
+            background: url(../../images/course/ts-16.png);
+            background-size: 100% 100%;
+            margin:   0 auto;
+            bottom: .70rem;
+            left: 50%;
+            margin-left: -2.89rem;
+            position: absolute;
+        }
+    }
+    //成果说明
+    .explain{
+        height: 1.60rem;
+        padding-top: .20rem;
+        .explain-list{
+            width: 6.86rem;
+            ul{
+                width: 7.7rem;
+            }
+            li{
+                width: 2.03rem;
+                height: 100%;
+                font-size: .14rem;
+                line-height: .20rem;
+                margin-right: .40rem;
+                p{
+                    font-size: .18rem;
+                    margin-bottom: .04rem;
+                    padding-top: .04rem;
+                }
+            }
+        }
+    }
+
 }

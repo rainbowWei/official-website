@@ -1,12 +1,10 @@
-.content {
-  width: 1200px;
-  height: 100%;
-  margin: 0 auto;
-}
 .i-banner {
   width: 100%;
   height: 480px;
   background: url(../../images/internet/wx-1.png);
+  background-repeat: no-repeat;
+  background-position: center top;
+  background-size: auto 100%;
 }
 .crowd {
   height: 800px;
@@ -137,6 +135,10 @@
   line-height: 74px;
 }
 .i-course .c-6988 .c-list ul .line2 {
+  padding-top: 0;
+  line-height: 74px;
+}
+.i-course .c-6988 .c-list ul .line3 {
   padding-top: 0;
   line-height: 147px;
 }
@@ -336,15 +338,22 @@
 .declaration .d-list li {
   font-family: 'STZhongsong';
   position: relative;
-  text-indent: 45px;
+  height: 46px;
+  line-height: 46px;
+  margin-bottom: 5px;
 }
 .declaration .d-list li span {
   position: absolute;
-  top: 10px;
+  top: 0;
   left: 0;
   width: 60px;
   height: 46px;
   background: url(../../images/internet/wx-5-1.png);
+}
+.declaration .d-list li b {
+  position: absolute;
+  top: 0;
+  left: 45px;
 }
 .declaration .d-img {
   width: 890px;
@@ -411,6 +420,10 @@
   margin-right: 9px;
   float: left;
 }
+.message .m1 .m1-list ul li img {
+  width: 100%;
+  height: 100%;
+}
 .message .m1 .m1-list .l-btn,
 .message .m1 .m1-list .r-btn {
   width: 34px;
@@ -437,7 +450,6 @@
 }
 .message .m2 .m2-header {
   font-size: 50px;
-  color: #000000;
   margin-left: 227px;
 }
 .message .m2 .m2-header span {
@@ -460,20 +472,21 @@
 }
 .message .m2 .m2-list ul li {
   float: left;
+  height: 100%;
   margin-right: 16px;
-  padding: 25px 30px 0;
-  width: 270px;
-  height: 475px;
-  border: 1px solid #a5a5a5;
-  border-radius: 20px;
-  font-size: 16px;
-  line-height: 24px;
-  color: #000000;
   position: relative;
 }
 .message .m2 .m2-list ul li p {
   font-family: MicrosoftYaHeiLight;
   text-indent: 2em;
+  padding: 25px 30px 0;
+  width: 270px;
+  height: 400px;
+  border: 1px solid #a5a5a5;
+  border-radius: 20px;
+  font-size: 16px;
+  line-height: 24px;
+  color: #000000;
 }
 .message .m2 .m2-list ul .m2-footer {
   position: absolute;
@@ -501,7 +514,454 @@
 .message .m2 .m2-list ul .m2-footer .txt .time {
   color: #595757;
 }
-.media2 {
-  height: 660px;
-  padding-top: 40px;
+@media screen and (max-width: 1024px) {
+  .i-banner {
+    width: 100%;
+    height: 3.5rem;
+    background: url(../../img/internet/banner.png);
+    background-size: 100% 100%;
+  }
+  .crowd {
+    height: 5.3rem;
+    padding-top: .58rem;
+  }
+  .crowd .crowd-bg {
+    background: url(../../images/internet/wx-2-1.png);
+    background-size: 100% 100%;
+  }
+  .crowd .crowd-bg .c-tit {
+    width: 4.36rem;
+    height: .96rem;
+    background: url(../../images/internet/wx-2.png);
+    background-size: 100% 100%;
+    position: absolute;
+    top: -0.44rem;
+    left: 50%;
+    margin-left: -2.18rem;
+    font-size: .30rem;
+    padding-top: .17rem;
+  }
+  .crowd .crowd-bg .c-tit .small {
+    font-size: .21rem;
+  }
+  .crowd .crowd-bg .c-con {
+    width: 4.25rem;
+    height: 3.44rem;
+    background: url(../../images/internet/wx-2-2.png);
+    background-size: 100% 100%;
+    position: absolute;
+    top: .70rem;
+    left: 50%;
+    margin-left: -2.15rem;
+  }
+  .crowd .crowd-bg .c-con li {
+    font-size: .14rem;
+    line-height: .22rem;
+  }
+  .crowd .crowd-bg .c-con .c1 {
+    width: 1rem;
+    left: -1.1rem;
+    top: 1.06rem;
+  }
+  .crowd .crowd-bg .c-con .c2 {
+    width: 1.3rem;
+    left: -0.84rem;
+    top: 2.33rem;
+  }
+  .crowd .crowd-bg .c-con .c3 {
+    width: 2.5rem;
+    bottom: -0.48rem;
+    left: 1.1rem;
+  }
+  .crowd .crowd-bg .c-con .c4 {
+    width: 1.5rem;
+    bottom: .33rem;
+    right: -1.2rem;
+  }
+  .crowd .crowd-bg .c-con .c5 {
+    width: 1.2rem;
+    right: -1.35rem;
+    top: .82rem;
+  }
+  .i-course {
+    height: 100%;
+  }
+  .i-course .i-ctit {
+    width: 4.25rem;
+    height: .72rem;
+    background: url(../../images/internet/wx-3.png);
+    background-size: 100% 100%;
+    margin: .52rem auto 0;
+    font-size: .30rem;
+    line-height: .62rem;
+  }
+  .i-course .c-6988 {
+    width: 100%;
+    height: 100%;
+  }
+  .i-course .c-6988 .c-list {
+    width: 100%;
+    height: 4.52rem;
+    background: url(../../img/internet/6988-bg.png);
+    background-size: 100% 100%;
+    margin-top: .14rem;
+  }
+  .i-course .c-6988 .c-list h3 {
+    font-size: .30rem;
+    height: .50rem;
+    line-height: .50rem;
+    margin-left: 2.06rem;
+  }
+  .i-course .c-6988 .c-list h3 span {
+    font-size: .20rem;
+  }
+  .i-course .c-6988 .c-list ul {
+    float: left;
+    margin-top: 3px;
+  }
+  .i-course .c-6988 .c-list ul li {
+    font-size: .16rem;
+    line-height: .24rem;
+    height: .74rem;
+    padding-top: .06rem;
+    font-family: 'STZhongsong';
+  }
+  .i-course .c-6988 .c-list ul .t-header {
+    font-size: .30rem;
+    line-height: .80rem;
+    height: .80rem;
+  }
+  .i-course .c-6988 .c-list ul .line {
+    padding-top: .1rem;
+    height: .7rem;
+    line-height: .24rem;
+  }
+  .i-course .c-6988 .c-list ul .line2 {
+    padding-top: .06rem;
+    line-height: .74rem;
+  }
+  .i-course .c-6988 .c-list ul .line3 {
+    padding-top: 0;
+    line-height: 1.6rem;
+  }
+  .i-course .c-6988 .c-list .left {
+    width: 2.62rem;
+    padding: 0 .05rem 0 .05rem;
+  }
+  .i-course .c-6988 .c-list .center {
+    width: 2.64rem;
+    padding: 0 .05rem 0 .05rem;
+  }
+  .i-course .c-6988 .c-list .right {
+    width: 1.84rem;
+    text-align: center;
+  }
+  .i-course .road {
+    width: 100%;
+    height: 1.20rem;
+    padding-top: .07rem;
+    background: url(../../images/internet/wx-3-4.png);
+    background-size: 100% 100%;
+    margin-top: 1px;
+  }
+  .i-course .road li {
+    float: left;
+  }
+  .i-course .road .r1 {
+    width: 1.12rem;
+    height: 1.1rem;
+    background: url(../../images/internet/wx-3-2.png);
+    background-size: 100% 100%;
+    font-size: .20rem;
+    line-height: 1.1rem;
+    margin: 0 .05rem 0 .25rem;
+  }
+  .i-course .road .r2 {
+    width: 3.9rem;
+    margin-top: .24rem;
+  }
+  .i-course .road .r2 p {
+    font-size: .16rem;
+    line-height: .23rem;
+  }
+  .i-course .road .r3,
+  .i-course .road .r4 {
+    width: .8rem;
+    margin-top: .16rem;
+  }
+  .i-course .road .r3 p,
+  .i-course .road .r4 p {
+    font-size: .12rem;
+    margin-top: .04rem;
+  }
+  .i-course .road .r3 .img,
+  .i-course .road .r4 .img {
+    width: .73rem;
+    height: .73rem;
+  }
+  .i-course .road .r3 {
+    margin-left: .08rem;
+    margin-right: .27rem;
+  }
+  .i-course .c-1688 .c-list {
+    height: 3.72rem;
+    background: url(../../img/internet/1688-bg.png);
+    background-size: 100% 100%;
+  }
+  .i-course .c-1688 .c-list ul .t-header {
+    font-size: .30rem;
+    line-height: .80rem;
+    height: .80rem;
+    text-align: center;
+    padding-top: 0;
+  }
+  .i-serve {
+    width: 100%;
+    height: 4.56rem;
+    position: relative;
+    margin-top: .84rem;
+  }
+  .i-serve .i-stit {
+    width: 4.36rem;
+    height: .72rem;
+    background: url(../../images/internet/wx-4.png);
+    background-size: 100% 100%;
+    font-size: .21rem;
+    line-height: .6rem;
+    position: absolute;
+    top: -0.26rem;
+    left: 50%;
+    margin-left: -2.18rem;
+  }
+  .i-serve .i-stit span {
+    font-size: .36rem;
+  }
+  .i-serve .i-con {
+    height: 3.53rem;
+    padding-top: 1.03rem;
+    margin-top: 0;
+  }
+  .i-serve .i-slist {
+    width: 100%;
+    height: 2.2rem;
+  }
+  .i-serve .i-slist li {
+    width: 2.37rem;
+    line-height: .24rem;
+  }
+  .i-serve .i-slist li h3 {
+    padding: 0 .16rem;
+    font-size: .26rem;
+    margin-bottom: .1rem;
+  }
+  .i-serve .i-slist li p {
+    padding: 0 .16rem;
+    width: 2.05rem;
+    height: 100%;
+    border-left: 1px solid #91792a;
+    font-size: .16rem;
+  }
+  .i-serve .i-slist li span {
+    font-size: .20rem;
+    margin-top: .20rem;
+  }
+  .i-serve .i-txt {
+    font-size: .36rem;
+    line-height: .36rem;
+    margin-top: .56rem;
+  }
+  .declaration {
+    height: 5.46rem;
+    width: 100%;
+    background: url(../../images/internet/wx-5-2.png);
+    background-size: 100% 100%;
+  }
+  .declaration .d-tit {
+    font-size: .36rem;
+    height: .6rem;
+    line-height: .6rem;
+  }
+  .declaration .d-tit span {
+    margin: .03rem 0 0 .24rem;
+    width: .67rem;
+    height: .50rem;
+    background: url(../../images/internet/wx-5.png);
+    background-size: 100% 100%;
+  }
+  .declaration h3 {
+    font-size: .36rem;
+    line-height: .36rem;
+    margin: .15rem 0 .10rem 0;
+  }
+  .declaration .d-list {
+    width: 4.48rem;
+    height: 1.3rem;
+    font-size: .21rem;
+    line-height: .43rem;
+  }
+  .declaration .d-list li {
+    height: .33rem;
+    line-height: .33rem;
+    margin-bottom: 0;
+  }
+  .declaration .d-list li span {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: .44rem;
+    height: .33rem;
+    background: url(../../images/internet/wx-5-1.png);
+    background-size: 100% 100%;
+  }
+  .declaration .d-list li b {
+    left: .35rem;
+  }
+  .declaration .d-img {
+    width: 5.5rem;
+    height: 2.6rem;
+    margin: 0 auto ;
+  }
+  .declaration .d-img .d-left {
+    width: 2rem;
+    height: 100%;
+    background: url(../../images/internet/wx-5-3.png);
+    background-size: 100% 100%;
+    margin-top: -0.02rem;
+  }
+  .declaration .d-img .d-right {
+    width: 3.14rem;
+    height: 1.83rem;
+    background: url(../../images/internet/wx-5-4.jpg);
+    background-size: 100% 100%;
+    margin-top: .39rem;
+  }
+  .message {
+    width: 100%;
+    height: 100%;
+    padding: .10rem 0 .52rem;
+    background: url(../../images/internet/wx-6.png);
+    background-size: 100% 100%;
+  }
+  .message .m1 {
+    width: 100%;
+    height: 5.58rem;
+  }
+  .message .m1 .m1-header {
+    width: 100%;
+    height: 1.38rem;
+    background: url(../../images/internet/wx-6-2.png);
+    background-size: 100% 100%;
+  }
+  .message .m1 .m1-list {
+    width: 100%;
+    height: 4.22rem;
+    position: relative;
+    overflow: hidden;
+  }
+  .message .m1 .m1-list h3,
+  .message .m1 .m1-list h4 {
+    width: 100%;
+    position: absolute;
+    left: 0;
+    background: #000;
+    filter: alpha(opacity=80);
+    opacity: 0.8;
+  }
+  .message .m1 .m1-list h3 {
+    top: 0;
+    height: .36rem;
+  }
+  .message .m1 .m1-list h4 {
+    bottom: 0;
+    height: .30rem;
+  }
+  .message .m1 .m1-list ul {
+    width: 7.38rem;
+    height: 100%;
+  }
+  .message .m1 .m1-list ul li {
+    width: 2.38rem;
+    height: 100%;
+    margin-right: .08rem;
+    float: left;
+  }
+  .message .m1 .m1-list .l-btn,
+  .message .m1 .m1-list .r-btn {
+    width: .30rem;
+    height: .53rem;
+    position: absolute;
+    top: 50%;
+    margin-top: -0.26rem;
+    cursor: pointer;
+  }
+  .message .m1 .m1-list .l-btn {
+    left: .20rem;
+    background: url(../../images/internet/wx-6-3.png);
+    background-size: 100% 100%;
+  }
+  .message .m1 .m1-list .r-btn {
+    right: .20rem;
+    background: url(../../images/internet/wx-6-4.png);
+    background-size: 100% 100%;
+  }
+  .message .m2 {
+    width: 7.15rem;
+    height: 6.44rem;
+    padding-top: 1.20rem;
+    background: url(../../img/internet/message-bg.png);
+    background-size: 100% 100%;
+    margin: .12rem auto 0;
+  }
+  .message .m2 .m2-header {
+    font-size: .30rem;
+    margin-left: 1.38rem;
+  }
+  .message .m2 .m2-header span {
+    font-size: .16rem;
+    line-height: .18rem;
+    margin-left: .10rem;
+  }
+  .message .m2 .m2-list {
+    width: 6.28rem;
+    height: 5.60rem;
+    overflow: hidden;
+    margin: .16rem 0 0 .55rem;
+  }
+  .message .m2 .m2-list ul {
+    width: 6.42rem;
+    height: 100%;
+  }
+  .message .m2 .m2-list ul li {
+    height: 100%;
+    margin-right: .14rem;
+  }
+  .message .m2 .m2-list ul li p {
+    padding: .05rem .05rem 0;
+    width: 1.84rem;
+    height: 4.8rem;
+    border: 1px solid #a5a5a5;
+    border-radius: .20rem;
+    font-size: .16rem;
+    line-height: .24rem;
+  }
+  .message .m2 .m2-list ul .m2-footer {
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    height: .68rem;
+  }
+  .message .m2 .m2-list ul .m2-footer .icon {
+    width: .26rem;
+    height: .23rem;
+    background: url(../../images/internet/wx-6-5.png);
+    background-size: 100% 100%;
+    margin-left: 0;
+  }
+  .message .m2 .m2-list ul .m2-footer .txt {
+    width: 100%;
+    font-size: .16rem;
+    line-height: .24rem;
+    margin-right: .03rem;
+  }
 }

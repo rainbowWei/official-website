@@ -7,6 +7,9 @@
   width: 100%;
   height: 480px;
   background: url(../../images/aboutus/banner.png);
+  background-repeat: no-repeat;
+  background-position: center top;
+  background-size: auto 100%;
 }
 .l-tab {
   width: 100%;
@@ -161,6 +164,19 @@
   font-size: 24px;
   line-height: 24px;
   margin-top: 28px;
+  position: relative;
+}
+.l-tab .volunteer .v-list .list-c li:before {
+  content: "";
+  display: inline-block;
+  width: 4px;
+  height: 4px;
+  background-color: #e94f65;
+  border-radius: 50%;
+  position: absolute;
+  left: -10px;
+  top: 50%;
+  margin-top: -2px;
 }
 .l-tab .volunteer .v-list .list-c li span {
   font-family: 'STZhongsong';
@@ -168,7 +184,7 @@
 }
 .l-tab .volunteer .v-list .list-c div {
   width: 920px;
-  margin-left: 191px;
+  margin-left: 168px;
 }
 .l-tab .volunteer .v-list .list-c div p {
   font-family: 'STZhongsong';
@@ -242,6 +258,7 @@
   vertical-align: middle;
   text-align: center;
   color: #333333;
+  font-family: 'STZhongsong';
 }
 .l-tab .volunteer .entry .tbody .table tr td input {
   height: 100%;
@@ -266,21 +283,20 @@
 }
 .l-tab .volunteer .entry .tbody .t-txt p {
   font-family: 'STZhongsong';
+  float: left;
 }
 .l-tab .volunteer .entry .tbody .submit {
   width: 300px;
   height: 55px;
   background: #fff;
-  position: absolute;
-  bottom: 63px;
-  left: 50%;
-  margin-left: -150px;
   font-size: 36px;
   line-height: 55px;
   color: #e94f65;
   border-radius: 60px;
+  margin: 40px auto 0;
   text-align: center;
   font-family: 'STZhongsong';
+  display: block;
 }
 .l-tab .donation {
   display: none;
@@ -460,4 +476,391 @@
 }
 .l-tab .donation .goods .fund-h {
   margin-top: 0;
+}
+@media screen and (max-width: 1024px) {
+  .love-bg {
+    height: .36rem;
+  }
+  .l-banner {
+    width: 100%;
+    height: 3.5rem;
+    background: url(../../img/love/banner.png);
+    background-size: 100% 100%;
+  }
+  .l-tab .tab-bg {
+    height: .50rem;
+    margin-top: 1.36rem;
+  }
+  .l-tab .tab-c {
+    font-size: .25rem;
+    line-height: .27rem;
+    width: 3.6rem;
+    position: absolute;
+    top: -1.13rem;
+    left: 50%;
+    margin-left: -1.74rem;
+  }
+  .l-tab .tab-c li {
+    width: 1.58rem;
+    height: 1.58rem;
+    border-radius: .20rem;
+  }
+  .l-tab .tab-c li:first-child {
+    margin-right: .25rem;
+  }
+  .l-tab .tab-c li div {
+    width: .84rem;
+    height: .82rem;
+    background: url(../../images/aboutus/z2-2.png);
+    background-size: 100% 100%;
+    margin: .25rem auto .10rem;
+  }
+  .l-tab .tab-c .tab_on {
+    background: #e94f65;
+  }
+  .l-tab .tab-c .tab_on div {
+    background: url(../../images/aboutus/z2-1.png);
+    background-size: 100% 100%;
+  }
+  .l-tab .v-header {
+    height: 1.4rem;
+    margin-top: .22rem;
+    border-radius: .20rem 0 0 .20rem;
+  }
+  .l-tab .v-header .v-icon {
+    width: 1.4rem;
+    height: 1.4rem;
+    border-radius: .20rem;
+  }
+  .l-tab .v-header .v-icon div {
+    width: .74rem;
+    height: .71rem;
+    background: url(../../images/aboutus/z3-1.png);
+    background-size: 100% 100%;
+    margin: .22rem  auto .10rem;
+  }
+  .l-tab .v-header .v-icon p {
+    font-size: .22rem;
+  }
+  .l-tab .v-header .v-txt {
+    width: 5.88rem;
+    height: .95rem;
+    padding-top: .45rem;
+  }
+  .l-tab .v-header .v-txt h3 {
+    font-size: .30rem;
+    line-height: .30rem;
+    margin-bottom: .16rem;
+  }
+  .l-tab .v-header .v-txt p {
+    font-size: .22rem;
+    line-height: .22rem;
+  }
+  .l-tab .volunteer {
+    width: 100%;
+    height: 100%;
+  }
+  .l-tab .volunteer .v-list {
+    width: 100%;
+    height: 100%;
+  }
+  .l-tab .volunteer .v-list li {
+    margin-top: .44rem;
+  }
+  .l-tab .volunteer .v-list .tit {
+    height: .25rem;
+    padding-top: .24rem;
+    background: url(../../images/aboutus/z4-1.png);
+    background-size: 100% 100%;
+  }
+  .l-tab .volunteer .v-list .tit div {
+    font-size: .22rem;
+    line-height: .22rem;
+  }
+  .l-tab .volunteer .v-list .tit .t1 {
+    margin: 0 .29rem 0 .52rem;
+  }
+  .l-tab .volunteer .v-list .tit .t3 {
+    width: 1.22rem;
+    top: -0.12rem;
+    right: .33rem;
+  }
+  .l-tab .volunteer .v-list .tit .t3 a {
+    width: 100%;
+    height: 100%;
+  }
+  .l-tab .volunteer .v-list .tit .t3 span {
+    width: .40rem;
+    height: .38rem;
+    background: url(../../images/aboutus/z4-2.png);
+    background-size: 100% 100%;
+  }
+  .l-tab .volunteer .v-list .tit .t3 p {
+    width: 100%;
+    height: .22rem;
+    border-radius: .05rem;
+    line-height: .22rem;
+    font-size: .16rem;
+  }
+  .l-tab .volunteer .v-list .list-c {
+    margin: .20rem 0 0 .32rem;
+  }
+  .l-tab .volunteer .v-list .list-c li {
+    font-size: .18rem;
+    line-height: .18rem;
+    margin-top: .18rem;
+    position: relative;
+  }
+  .l-tab .volunteer .v-list .list-c li:before {
+    content: "";
+    display: inline-block;
+    width: .04rem;
+    height: .04rem;
+    background-color: #e94f65;
+    border-radius: 50%;
+    position: absolute;
+    left: -0.1rem;
+    top: 50%;
+    margin-top: -0.02rem;
+  }
+  .l-tab .volunteer .v-list .list-c div {
+    width: 5.3rem;
+    margin-left: 1.26rem;
+  }
+  .l-tab .volunteer .v-list .list-c div p {
+    font-size: .18rem;
+    line-height: .36rem;
+    margin-top: .05rem;
+  }
+  .l-tab .volunteer .v-list .list-c div .small {
+    font-size: .14rem;
+    line-height: .22rem;
+  }
+  .l-tab .volunteer .l-table {
+    width: 100%;
+    height: 100%;
+    padding: .28rem  0 .36rem;
+    margin-top: .60rem;
+  }
+  .l-tab .volunteer .entry {
+    width: 7.3rem;
+    height: 100%;
+  }
+  .l-tab .volunteer .entry .theader {
+    width: 3.05rem;
+    height: .54rem;
+    line-height: .54rem;
+    font-size: .30rem;
+    border-radius: .60rem;
+    left: 50%;
+    margin-left: -1.52rem;
+    top: -0.27rem;
+  }
+  .l-tab .volunteer .entry .tbody {
+    width: 100%;
+    height: 100%;
+  }
+  .l-tab .volunteer .entry .tbody .table {
+    border-right: .02rem solid #e94f65;
+    border-bottom: .02rem solid #e94f65;
+  }
+  .l-tab .volunteer .entry .tbody .table tr {
+    height: .38rem;
+  }
+  .l-tab .volunteer .entry .tbody .table tr input,
+  .l-tab .volunteer .entry .tbody .table tr textarea {
+    width: 2.32rem;
+    font-size: .16rem;
+  }
+  .l-tab .volunteer .entry .tbody .table tr .w1 {
+    width: 100%;
+    padding: 0 .10rem;
+  }
+  .l-tab .volunteer .entry .tbody .table tr .w2 {
+    width: 2.27rem;
+    padding-left: .05rem;
+  }
+  .l-tab .volunteer .entry .tbody .table tr td {
+    border-left: .02rem solid #e94f65;
+    border-top: .02rem solid #e94f65;
+    font-size: .18rem;
+  }
+  .l-tab .volunteer .entry .tbody .table tr td input {
+    height: .39rem;
+  }
+  .l-tab .volunteer .entry .tbody .table tr td textarea {
+    height: .38rem;
+    width: 2.27rem;
+  }
+  .l-tab .volunteer .entry .tbody .table tr td .experience {
+    width: 5.95rem;
+  }
+  .l-tab .volunteer .entry .tbody .t-txt {
+    width: 7rem;
+    font-size: .18rem;
+    margin: 0;
+    padding: .10rem 0 0 .35rem;
+  }
+  .l-tab .volunteer .entry .tbody .t-txt .big {
+    font-size: .24rem;
+    line-height: .24rem;
+  }
+  .l-tab .volunteer .entry .tbody .submit {
+    width: 2.76rem;
+    height: .50rem;
+    font-size: .33rem;
+    margin-top: .25rem;
+    line-height: .50rem;
+    border-radius: .60rem;
+  }
+  .l-tab .donation {
+    display: none;
+  }
+  .l-tab .donation .v-header {
+    height: 1.4rem;
+  }
+  .l-tab .donation .fund {
+    height: 100%;
+  }
+  .l-tab .donation .fund .fund-h {
+    height: 1.33rem;
+    border-bottom: .02rem solid #e94f65;
+    margin-top: .48rem;
+  }
+  .l-tab .donation .fund .fund-h .fund-icon {
+    width: 1.41rem;
+    height: .94rem;
+    margin: 0 .06rem 0 2.95rem;
+    padding-top: .15rem;
+  }
+  .l-tab .donation .fund .fund-h .fund-icon p {
+    width: .74rem;
+    height: .71rem;
+    background: url(../../images/aboutus/jz-1.png);
+    background-size: 100% 100%;
+    margin: 0 auto;
+  }
+  .l-tab .donation .fund .fund-h .fund-icon div {
+    width: 1.4rem;
+    height: .49rem;
+    font-size: .30rem;
+    line-height: .49rem;
+    border-radius: .10rem;
+  }
+  .l-tab .donation .fund .fund-h .fund-txt {
+    width: 2.86rem;
+    height: 1.2rem;
+    font-size: .20rem;
+    line-height: .30rem;
+    border-radius: .20rem;
+    margin-top: .1rem;
+  }
+  .l-tab .donation .fund .fund-h .fund-txt span {
+    font-size: .16rem;
+  }
+  .l-tab .donation .fund .fund-c {
+    width: 7rem;
+    height: 100%;
+    margin: 0 auto;
+  }
+  .l-tab .donation .fund .fund-c ul {
+    width: 100%;
+    height: 5.9rem;
+    margin-top: .62rem;
+  }
+  .l-tab .donation .fund .fund-c ul .f-img {
+    width: 2.4rem;
+    height: 3.48rem;
+  }
+  .l-tab .donation .fund .fund-c ul .f-img img {
+    width: 100%;
+    height: 100%;
+  }
+  .l-tab .donation .fund .fund-c ul .f-text {
+    width: 4.32rem;
+    font-size: .20rem;
+    line-height: .36rem;
+  }
+  .l-tab .donation .fund .fund-c ul .f-text p {
+    margin-bottom: .14rem;
+    text-indent: 2em;
+  }
+  .l-tab .donation .fund .fund-c .f-news {
+    width: 100%;
+    height: 4.8rem;
+    margin-top: 0;
+  }
+  .l-tab .donation .fund .fund-c .f-news h3 {
+    height: .50rem;
+    font-size: .36rem;
+    line-height: .50rem;
+  }
+  .l-tab .donation .fund .fund-c .table2 {
+    width: 100%;
+    height: 2.07rem;
+    border-right: .02rem solid #fff;
+    border-bottom: .02rem solid #fff;
+    font-size: .20rem;
+    margin-top: .18rem;
+  }
+  .l-tab .donation .fund .fund-c .table2 tr {
+    height: .65rem;
+    line-height: .26rem;
+  }
+  .l-tab .donation .fund .fund-c .table2 tr td {
+    border-left: .02rem  solid #fff;
+    border-top: .02rem  solid #fff;
+  }
+  .l-tab .donation .fund .fund-c .table2 tr span {
+    font-size: .24rem;
+  }
+  .l-tab .donation .fund .fund-c .table2 .f-w1 {
+    width: 1rem;
+  }
+  .l-tab .donation .fund .fund-c .table2 .f-w2 {
+    width: 2.6rem;
+  }
+  .l-tab .donation .fund .fund-c .table2 .f-w3 {
+    width: 1rem;
+  }
+  .l-tab .donation .fund .fund-c .table2 .f-w4 {
+    width: 2.6rem;
+  }
+  .l-tab .donation .fund .fund-c .notice {
+    font-size: .17rem;
+    line-height: .36rem;
+    margin-top: .15rem;
+  }
+  .l-tab .donation .fund .fund-c .notice .tit {
+    font-size: .22rem;
+  }
+  .l-tab .donation .fund .table3 {
+    width: 100%;
+    height: 6.30rem;
+    border-right: .02rem solid #fff;
+    border-bottom: .02rem solid #fff;
+    font-family: 'STZhongsong';
+    font-size: .21rem;
+    margin-top: .24rem;
+  }
+  .l-tab .donation .fund .table3 tr {
+    height: .55rem;
+    line-height: .55rem;
+  }
+  .l-tab .donation .fund .table3 tr td {
+    width: 1.83rem;
+    border-top: .02rem solid #fff;
+  }
+  .l-tab .donation .fund .table3 tr span {
+    font-size: .21rem;
+  }
+  .l-tab .donation .fund .table3 .blod {
+    font-size: .27rem;
+  }
+  .l-tab .donation .goods {
+    height: 8.52rem;
+  }
+  .l-tab .donation .goods .fund-h {
+    margin-top: 0;
+  }
 }

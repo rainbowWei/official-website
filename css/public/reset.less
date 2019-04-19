@@ -53,29 +53,18 @@ textarea{
 
 //分页样式
 #page-table2 a{
-    margin-right:5px;
+    margin:8px;
     color: #5d5d5d;
 }
 #page-table2 span.current{
-    margin-right:5px;
+    margin:8px;
     color:#f08300;
     font-weight:bold;
 }
 #page-table2 a.next{
-    margin-left:38px;
+    margin-left:20px;
 }
-#page-table a{
-    margin-right:5px;
-    color: #5d5d5d;
-}
-#page-table span.current{
-    margin-right:5px;
-    color:#f08300;
-    font-weight:bold;
-}
-#page-table a.next{
-    margin-left:38px;
-}
+
   //客服图标
   div#mobile_icon_div {
     font-size: 0;
@@ -92,12 +81,24 @@ textarea{
 .mobile-none {
     display: block;
 }
+.m-nav2{
+    display: none;
+}
+.video-pro{
+    display: none;
+}
 @media screen and (max-width: 1024px){
     .mobile-show {
         display: block;
     }
     .mobile-none {
         display: none;
+    }
+    .m-nav2{
+        display: block;
+    }
+    .video-pro{
+        display: block;
     }
 //分页样式
     #page-table2 a{
@@ -108,13 +109,8 @@ textarea{
         padding:.05rem;
         margin:.05rem;
     }
-    #page-table a {
-        padding:.05rem;
-        margin:.05rem;
-    }
-      #page-table span.current {
-        padding:.05rem;
-        margin:.05rem;
+    #page-table2 a.next{
+        margin-left:.20rem;
     }
 }
 

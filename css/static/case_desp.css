@@ -5,10 +5,10 @@
   padding-bottom: 100px;
 }
 .case-c .case-h {
-  width: 100%;
+  width: 1200px;
   height: 210px;
   background: url(../../images/case/banner.png);
-  margin: 10px 0 14px;
+  margin: 10px auto 14px;
 }
 .case-c .case-h .case-img {
   width: 288px;
@@ -41,9 +41,15 @@
   height: 448px;
   margin: 0 auto;
 }
+.case-c .c-text .video .player {
+  width: 590px;
+  height: 340px;
+  margin: 0 auto;
+}
 .case-c .c-text .video video {
   width: 100%;
   height: 100%;
+  text-align: center;
 }
 .case-c .c-text h3 {
   font-size: 22px;
@@ -58,4 +64,92 @@
   margin-bottom: 23px;
   text-indent: 2em;
   line-height: 24px;
+}
+@media screen and (max-width: 1024px) {
+  .case-c {
+    padding-bottom: .30rem;
+  }
+  .case-c .case-h {
+    width: 100%;
+    height: 1.3rem;
+    background: url(../../images/case/banner.png);
+    background-size: 100% 100%;
+    margin: 0;
+  }
+  .case-c .case-h .case-img {
+    width: 1.81rem;
+    height: 1.07rem;
+    position: relative;
+    margin: .02rem 0 0 .05rem;
+  }
+  .case-c .case-h .case-txt {
+    width: 5.62rem;
+    line-height: 1.3rem;
+    font-size: .30rem;
+  }
+  .case-c .c-text {
+    padding: .30rem .55rem .40rem;
+    font-size: .18rem;
+    margin-top: .08rem;
+  }
+  .case-c .c-text .video {
+    width: 4.2rem;
+    height: 3.3rem;
+  }
+  .case-c .c-text .video .player {
+    width: 3.80rem;
+    height: 2.25rem;
+    margin: 0 auto;
+  }
+  .case-c .c-text .video .video-pro {
+    padding-left: 1.74rem;
+    width: 2.07rem;
+    height: .45rem;
+    margin: .02rem auto 0;
+    background: #edf9f0;
+  }
+  .case-c .c-text .video .video-pro li {
+    width: .76rem;
+    height: 100%;
+    float: left;
+    font-size: .16rem;
+    line-height: .45rem;
+    margin-right: .24rem;
+    color: #97CCB4;
+    position: relative;
+  }
+  .case-c .c-text .video .video-pro li span {
+    width: .31rem;
+    height: .31rem;
+    display: inline-block;
+    margin-left: .1rem;
+    background: url(../../img/index/play.png);
+    background-size: 100% 100%;
+    position: absolute;
+    right: 0;
+    top: 0.08rem;
+  }
+  .case-c .c-text .video .video-pro li i {
+    position: absolute;
+    top: .01rem;
+    left: 0;
+  }
+  .case-c .c-text .video .video-pro .span-bg span {
+    background: url(../../img/index/pause.png);
+    background-size: 100% 100%;
+  }
+  .case-c .c-text h3 {
+    font-size: .24rem;
+    margin-bottom: 5px;
+  }
+  .case-c .c-text .tit {
+    font-size: .18rem;
+    text-align: center;
+    margin-top: .10rem;
+  }
+  .case-c .c-text p {
+    margin-bottom: .3rem;
+    text-indent: 2em;
+    line-height: .36rem;
+  }
 }

@@ -30,7 +30,6 @@
   float: left;
   margin: 22px 80px 0 0;
   width: 88px;
-  height: 155px;
 }
 .service-class .s-big {
   font-size: 18px;
@@ -64,7 +63,7 @@
 .tel-box {
   float: right;
   width: 120px;
-  height: 155px;
+  height: 206px;
   text-align: center;
   margin-left: 35px;
 }
@@ -105,33 +104,33 @@
 @media screen and (max-width: 1024px) {
   .friendly-link {
     width: 100%;
-    height: .34rem;
-    line-height: .34rem;
-    font-size: .18rem;
-    margin-bottom: .1rem;
+    height: .2rem;
+    line-height: .2rem;
+    font-size: .12rem;
+    border-top: 1px solid #535353;
   }
   .friendly-link p {
     width: 7.3rem;
   }
   .post-service {
-    height: 2.64rem;
+    height: 2.80rem;
   }
   .other-service {
     width: 7.3rem;
-    height: 2.22rem;
-  }
-  .post-service-per {
-    height: 1.35rem;
+    height: 2.20rem;
   }
   .service-class {
-    margin: .27rem 0 0 0;
-    width: 1rem;
-    height: 1.55rem;
+    margin: .12rem .3rem 0 0;
+    width: .88rem;
   }
-  .w-200 {
-    width: 1.5rem;
+  .service-class .s-big {
+    font-size: .14rem;
+    line-height: .24rem;
   }
-  .w-150 {
+  .last {
+    margin-right: 0;
+  }
+  .w-127 {
     width: 1.2rem;
   }
   .service-class a span {
@@ -140,27 +139,51 @@
   }
   .service-class a {
     font-size: .14rem;
-    line-height: .23rem;
+    line-height: .24rem;
   }
-  .service-class a:hover {
-    text-decoration: underline;
+  .service-class p {
+    font-size: .16rem;
+    line-height: .18rem;
+    height: .18rem;
+    border-left: 1px solid #dcdcdd;
+    margin-left: -0.06rem;
+    padding-left: .06rem;
+    color: #dcdcdd;
+    margin-bottom: 0rem;
+  }
+  .service-class p a {
+    font-size: .14rem;
+    line-height: .18rem;
   }
   .tel-box {
-    width: 1.42rem;
-    height: 1.42rem;
+    width: 1rem;
+    height: 1rem;
+    margin: 0;
   }
-  .tel-icon {
-    width: 1.42rem;
-    height: 1.42rem;
-    margin: .3rem auto 0;
+  .tel-box .tel-icon {
+    width: .74rem;
+    height: .74rem;
+    margin: 0 auto;
   }
-  .week {
-    font-size: .18rem;
+  .tel-box .week {
+    font-size: .12rem;
     line-height: .24rem;
-    letter-spacing: 1px;
+    letter-spacing: 0;
+    text-align: center;
+  }
+  .tel-box p {
+    font-size: .12rem;
+    line-height: .12rem;
+  }
+  .f-ml {
+    margin-top: .1rem;
   }
   .copyright-box {
-    font-size: .14rem;
-    margin-bottom: -0.1rem;
+    background: #ef8200;
+    text-align: center;
+    font-size: .12rem;
+    color: #343434;
+    height: .40rem;
+    line-height: .40rem;
   }
 }

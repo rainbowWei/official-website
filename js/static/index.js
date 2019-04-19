@@ -77,14 +77,15 @@ $(function () {
                 $("#bigul").append($("#bigul>li").eq(0));
             })
         }
-        i1 = setInterval(move1, 2000);
-        /*鼠标悬浮事件*/
-        $(".honor-list2").hover(function () {
-            clearInterval(i1);
-        }, function () {
             i1 = setInterval(move1, 2000);
-        });
-     }
+            /*鼠标悬浮事件*/
+            $(".honor-list2").hover(function () {
+                clearInterval(i1);
+            }, function () {
+                i1 = setInterval(move1, 2000);
+            });
+            
+        }
         else{
             //移动端
             var i1;
@@ -101,7 +102,11 @@ $(function () {
             }, function () {
                 i1 = setInterval(move1, 2000);
             });
-    }
+
+            //在移动端删除播放视频的控制台的属性
+            $("#video").removeAttr("controls");
+
+        }
 
     
     //返回顶部

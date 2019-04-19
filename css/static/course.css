@@ -48,11 +48,13 @@
   width: 100%;
   height: 480px;
   background: url(../../images/course/banner.png);
+  background-repeat: no-repeat;
+  background-position: center top;
+  background-size: auto 100%;
 }
 .emerge-tit {
   font-size: 50px;
   line-height: 50px;
-  color: #000000;
   text-align: center;
 }
 .emerge-tit span {
@@ -307,6 +309,10 @@
   width: 100%;
   height: 100%;
 }
+.theory .motive .m-right {
+  position: relative;
+  height: 100%;
+}
 .theory .motive .m-right h3 {
   font-size: 24px;
   line-height: 24px;
@@ -323,7 +329,8 @@
 .theory .motive .m-right .m-img {
   width: 900px;
   height: 311px;
-  margin-top: -6px;
+  position: absolute;
+  bottom: 0;
 }
 .theory .motive .m-right .m-img img {
   width: 100%;
@@ -343,6 +350,11 @@
   width: 100%;
   height: 100%;
 }
+.theory .intellect .i-right {
+  height: 100%;
+  width: 900px;
+  position: relative;
+}
 .theory .intellect .i-right p {
   font-size: 24px;
   padding-left: 68px;
@@ -352,9 +364,11 @@
   font-size: 48px;
 }
 .theory .intellect .i-right .i-list {
-  width: 900px;
+  width: 100%;
   height: 280px;
-  margin-top: 15px;
+  position: absolute;
+  bottom: 0;
+  right: 0;
 }
 .theory .intellect .i-right .i-list li {
   float: left;
@@ -430,7 +444,7 @@
 }
 .theory .way {
   width: 100%;
-  height: 850px;
+  height: 100%;
   background: #f5f5fc;
   margin-top: 109px;
 }
@@ -468,6 +482,8 @@
   position: absolute;
   top: 0;
   left: 0;
+  width: 100%;
+  height: 100%;
 }
 .theory .way .w-left .w-list ul li .w-tit {
   width: 100%;
@@ -478,6 +494,14 @@
 .theory .way .w-left .w-list ul li .w-txt {
   width: 100%;
   font-size: 18px;
+}
+.theory .way .w-right {
+  width: 300px;
+  height: 850px;
+}
+.theory .way .w-right img {
+  width: 100%;
+  height: 100%;
 }
 .peculiarity {
   width: 100%;
@@ -592,4 +616,491 @@
 .explain .explain-list li p {
   font-size: 30px;
   margin-bottom: 6px;
+}
+@media screen and (max-width: 1024px) {
+  html {
+    font-size: .1rem;
+  }
+  .course-header {
+    display: none;
+  }
+  .c-banner {
+    width: 100%;
+    height: 3.5rem;
+    background: url(../../img/course/banner.png);
+    background-size: 100% 100%;
+  }
+  .emerge-tit {
+    font-size: .36rem;
+    line-height: .36rem;
+    text-align: center;
+  }
+  .emerge-tit span {
+    font-family: Arial;
+  }
+  .emerge {
+    width: 100%;
+    height: 5.62rem;
+    padding-top: .38rem;
+    background: #f5f5fc;
+  }
+  .emerge .emerge-list {
+    width: 7.2rem;
+    height: 3.6rem;
+    margin: .2rem auto .12rem;
+  }
+  .emerge .emerge-list li {
+    float: left;
+    height: 1.2rem;
+  }
+  .emerge .emerge-list li .e-right {
+    width: 100%;
+    height: 100%;
+    background: #f05924;
+    position: relative;
+    cursor: pointer;
+  }
+  .emerge .emerge-list li .e-right .e-text {
+    font-size: .16rem;
+    line-height: .30rem;
+    color: #ffffff;
+    width: 1.06rem;
+    position: absolute;
+    right: .08rem;
+    top: .3rem;
+    text-align: center;
+  }
+  .emerge .emerge-list li .e-right .e-text span {
+    font-size: .30rem;
+  }
+  .emerge .emerge-list li .e-right .e-text p {
+    font-size: .13rem;
+  }
+  .emerge .emerge-list li .e-right .e-left {
+    position: absolute;
+    top: 0;
+  }
+  .emerge .emerge-list .e1 {
+    width: 3.42rem;
+  }
+  .emerge .emerge-list .e1 .e-left {
+    width: 2.22rem;
+    height: 100%;
+    background: url(../../images/course/das-1.png);
+    background-size: 100% 100%;
+    left: 0px;
+  }
+  .emerge .emerge-list .e1 .e-right:hover .e-left {
+    background: url(../../images/course/das-1-1.png);
+    background-size: 100% 100%;
+  }
+  .emerge .emerge-list .e2 {
+    width: 3.77rem;
+  }
+  .emerge .emerge-list .e2 .e-left {
+    width: 2.58rem;
+    height: 100%;
+    background: url(../../images/course/das-2.png);
+    background-size: 100% 100%;
+    left: 0px;
+  }
+  .emerge .emerge-list .e2 .e-right:hover .e-left {
+    background: url(../../images/course/das-2-2.png);
+    background-size: 100% 100%;
+  }
+  .emerge .emerge-list .e3 {
+    width: 3.77rem;
+  }
+  .emerge .emerge-list .e3 .e-left {
+    width: 2.58rem;
+    height: 100%;
+    background: url(../../images/course/das-3.png);
+    background-size: 100% 100%;
+    right: 0;
+  }
+  .emerge .emerge-list .e3 .e-right:hover .e-left {
+    background: url(../../images/course/das-3-3.png);
+    background-size: 100% 100%;
+  }
+  .emerge .emerge-list .e3 .e-text {
+    left: .06rem;
+    margin-top: .15rem;
+  }
+  .emerge .emerge-list .e4 {
+    width: 3.42rem;
+  }
+  .emerge .emerge-list .e4 .e-left {
+    width: 2.22rem;
+    height: 100%;
+    background: url(../../images/course/das-4.png);
+    background-size: 100% 100%;
+    right: 0;
+  }
+  .emerge .emerge-list .e4 .e-right:hover .e-left {
+    background: url(../../images/course/das-4-4.png);
+    background-size: 100% 100%;
+  }
+  .emerge .emerge-list .e4 .e-text {
+    left: .06rem;
+  }
+  .emerge .emerge-list .e5 {
+    width: 3.42rem;
+  }
+  .emerge .emerge-list .e5 .e-left {
+    width: 2.22rem;
+    height: 100%;
+    background: url(../../images/course/das-5.png);
+    background-size: 100% 100%;
+    left: 0px;
+  }
+  .emerge .emerge-list .e5 .e-right:hover .e-left {
+    background: url(../../images/course/das-5-5.png);
+    background-size: 100% 100%;
+  }
+  .emerge .emerge-list .e5 .e-text {
+    margin-top: .15rem;
+  }
+  .emerge .emerge-list .e6 {
+    width: 3.77rem;
+  }
+  .emerge .emerge-list .e6 .e-left {
+    width: 2.58rem;
+    height: 100%;
+    background: url(../../images/course/das-6.png);
+    background-size: 100% 100%;
+    left: 0px;
+  }
+  .emerge .emerge-list .e6 .e-right:hover .e-left {
+    background: url(../../images/course/das-6-6.png);
+    background-size: 100% 100%;
+  }
+  .emerge .emerge-list .e6 .e-text {
+    margin-top: .15rem;
+  }
+  .emerge .emerge-text {
+    font-size: .16rem;
+    line-height: .28rem;
+    padding: .04rem .25rem;
+  }
+  .theory {
+    width: 100%;
+    height: 20.2rem;
+    padding-top: .59rem;
+  }
+  .theory .theory-c {
+    width: 6.59rem;
+    height: 4.38rem;
+    background: url(../../img/course/c-bg.png);
+    background-size: 100% 100%;
+    margin: .72rem auto 0;
+  }
+  .theory .theory-c .t1 {
+    width: 1.95rem;
+    font-size: .22rem;
+    line-height: .36rem;
+    top: -0.19rem;
+    left: .27rem;
+  }
+  .theory .theory-c .t1 b {
+    font-size: .30rem;
+  }
+  .theory .theory-c .t2 {
+    top: .66rem;
+    left: 2.35rem;
+  }
+  .theory .theory-c .t2 li {
+    font-size: .21rem;
+    line-height: .25rem;
+    margin-right: 0.06rem;
+  }
+  .theory .theory-c .t3 {
+    top: .30rem;
+    right: .18rem;
+  }
+  .theory .theory-c .t3 h3 {
+    font-size: .24rem;
+    line-height: .24rem;
+  }
+  .theory .theory-c .t3 h4 {
+    font-size: .16rem;
+    line-height: .24rem;
+  }
+  .theory .theory-c .t3 p {
+    font-size: .16rem;
+    line-height: .24rem;
+  }
+  .theory .theory-c .t4 {
+    width: 2.65rem;
+    top: 1.76rem;
+    left: .40rem;
+  }
+  .theory .theory-c .t4 li {
+    font-size: .14rem;
+    line-height: .18rem;
+  }
+  .theory .theory-c .t4 li:first-child {
+    width: 2.58rem;
+  }
+  .theory .theory-c .t4 li p {
+    font-size: .18rem;
+    line-height: .18rem;
+    margin: .05rem 0 .02rem;
+  }
+  .theory .theory-c .t4 .three {
+    width: 2.3rem;
+  }
+  .theory .theory-c .t5 {
+    top: 2.05rem;
+    left: 3.77rem;
+    font-size: .22rem;
+    line-height: .29rem;
+  }
+  .theory .theory-c .t6 {
+    top: 2.95rem;
+    right: .48rem;
+  }
+  .theory .theory-c .t6 p {
+    line-height: .46rem;
+  }
+  .theory .motive {
+    height: 2.3rem;
+    margin-top: .66rem;
+  }
+  .theory .motive .m-left {
+    width: 1.82rem;
+  }
+  .theory .motive .m-right h3 {
+    font-size: .16rem;
+    line-height: .16rem;
+    padding-left: .06rem;
+    margin-top: .11rem ;
+  }
+  .theory .motive .m-right p {
+    width: 4.65rem;
+    font-size: .16rem;
+    line-height: .24rem;
+    padding-left: .06rem;
+  }
+  .theory .motive .m-right p span {
+    font-size: .24rem;
+  }
+  .theory .motive .m-right .m-img {
+    width: 5.4rem;
+    height: 1.86rem;
+  }
+  .theory .intellect {
+    height: 2.3rem;
+    margin-top: .48rem;
+  }
+  .theory .intellect .i-left {
+    width: 1.82rem;
+  }
+  .theory .intellect .i-right {
+    width: 5.48rem;
+  }
+  .theory .intellect .i-right p {
+    font-size: .16rem;
+    padding-left: .15rem;
+    margin-top: .15rem;
+  }
+  .theory .intellect .i-right p span {
+    font-size: .28rem;
+  }
+  .theory .intellect .i-right .i-list {
+    height: 1.70rem;
+  }
+  .theory .intellect .i-right .i-list li {
+    width: 1.37rem;
+    height: .85rem;
+  }
+  .theory .intellect .i-right .i-list li .i-img {
+    width: .44rem;
+    height: .44rem;
+    margin: .04rem auto .02rem;
+  }
+  .theory .intellect .i-right .i-list li .chinese {
+    font-size: .16rem;
+    line-height: .16rem;
+  }
+  .theory .intellect .i-right .i-list li .english {
+    font-size: .16rem;
+    line-height: .16rem;
+  }
+  .theory .skill {
+    height: 2.3rem;
+  }
+  .theory .skill .s-list {
+    width: 4.95rem;
+    height: 1.06rem;
+    margin: .42rem 0 0 .15rem;
+  }
+  .theory .skill .s-list ul {
+    width: 5.3rem;
+  }
+  .theory .skill .s-list ul li {
+    width: .98rem;
+    height: .39rem;
+    margin: 0 .3rem .30rem 0;
+  }
+  .theory .skill .s-list ul li .s-text {
+    padding-top: 0.03rem;
+    font-size: .16rem;
+    line-height: .18rem;
+    width: .71rem;
+    margin-right: 0.02rem;
+  }
+  .theory .skill .s-list ul li .s-text span {
+    font-size: .16rem;
+  }
+  .theory .skill .s-list ul li .s-img {
+    width: .25rem;
+    height: .39rem;
+    background: url(../../images/course/ts-13.png);
+    background-size: 100% 100%;
+  }
+  .theory .way {
+    height: 5.5rem;
+    margin-top: .48rem;
+  }
+  .theory .way .w-left p {
+    width: 5.2rem;
+    font-size: .16rem;
+    margin: .15rem 0 0 .16rem;
+  }
+  .theory .way .w-left p span {
+    font-size: .24rem;
+  }
+  .theory .way .w-left .w-list {
+    width: 5.1rem;
+    height: 100%;
+    overflow: hidden;
+    margin: .1rem 0 .15rem;
+    padding-left: .3rem;
+  }
+  .theory .way .w-left .w-list ul {
+    width: 5.54rem;
+  }
+  .theory .way .w-left .w-list ul li {
+    width: 2.37rem;
+    height: 1.5rem;
+    margin-right: .40rem;
+  }
+  .theory .way .w-left .w-list ul li .w-img {
+    width: .60rem;
+    height: .71rem;
+    margin: .05rem auto .10rem;
+  }
+  .theory .way .w-left .w-list ul li .w-tit {
+    width: 100%;
+    font-size: .18rem;
+    line-height: .18rem;
+    margin-bottom: .05rem;
+  }
+  .theory .way .w-left .w-list ul li .w-txt {
+    width: 100%;
+    font-size: .14rem;
+  }
+  .theory .way .w-right {
+    width: 1.82rem;
+    height: 100%;
+  }
+  .theory .way .w-right img {
+    width: 100%;
+    height: 100%;
+  }
+  .peculiarity {
+    height: 5.2rem;
+    padding-top: .50rem;
+  }
+  .peculiarity .pec-c {
+    width: 4.02rem;
+    height: 4.02rem;
+    background: url(../../images/course/ts-15.png);
+    background-size: 100% 100%;
+    margin: .36rem auto 0;
+  }
+  .peculiarity .pec-c .public {
+    font-size: .14rem;
+    line-height: .20rem;
+    height: .6rem;
+    padding: .05rem 0;
+  }
+  .peculiarity .pec-c .public p {
+    font-size: .21rem;
+    line-height: .24rem;
+  }
+  .peculiarity .pec-c .system {
+    top: .62rem;
+    left: -0.2rem;
+  }
+  .peculiarity .pec-c .entire {
+    top: .18rem;
+    right: -0.65rem;
+    padding-left: .6rem;
+  }
+  .peculiarity .pec-c .effective {
+    height: .80rem;
+    bottom: .19rem;
+    right: -1.05rem;
+  }
+  .peculiarity .pec-c ul {
+    width: 2.8rem;
+    position: absolute;
+    top: 1.65rem;
+    left: .71rem;
+  }
+  .peculiarity .pec-c ul li {
+    font-size: .21rem;
+    line-height: .26rem;
+    margin: 0 .25rem;
+  }
+  .fruit {
+    width: 100%;
+    height: 6.32rem;
+    padding-top: .48rem;
+    background: url(../../img/course/fruit.png);
+    background-size: 100% 100%;
+  }
+  .fruit .fruit-txt {
+    width: 2.3rem;
+    font-size: .14rem;
+    line-height: .20rem;
+    margin: .55rem 0 0 .73rem;
+  }
+  .fruit .fruit-txt p {
+    font-size: .18rem;
+  }
+  .fruit .histogram {
+    width: 5.78rem;
+    height: 4.55rem;
+    background: url(../../images/course/ts-16.png);
+    background-size: 100% 100%;
+    margin: 0 auto;
+    bottom: .70rem;
+    left: 50%;
+    margin-left: -2.89rem;
+    position: absolute;
+  }
+  .explain {
+    height: 1.60rem;
+    padding-top: .20rem;
+  }
+  .explain .explain-list {
+    width: 6.86rem;
+  }
+  .explain .explain-list ul {
+    width: 7.7rem;
+  }
+  .explain .explain-list li {
+    width: 2.03rem;
+    height: 100%;
+    font-size: .14rem;
+    line-height: .20rem;
+    margin-right: .40rem;
+  }
+  .explain .explain-list li p {
+    font-size: .18rem;
+    margin-bottom: .04rem;
+    padding-top: .04rem;
+  }
 }

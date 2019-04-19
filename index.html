@@ -21,12 +21,12 @@
 <div class="w100">
     <div id="lunbo" class="pos1">
         <ul id="one">
-            <li class="on"><a href="/pags/news/fresh.html?a=5"><img src="/images/banner.jpg" alt=""></a></li>
-            <li><a href="/pags/news/fresh.html?a=5"><img src="/images/banner2.jpg" alt=""></a></li>
-            <li><a href="/pags/internet/internet.html"><img src="/images/banner3.jpg" alt=""></a></li>
-            <li><a href="/pags/course/course.html"><img src="/images/banner4.jpg" alt=""></a></li>
-            <li><a href="/pags/underCourse/underCourse.html"><img src="/images/banner5.jpg" alt=""></a></li>
-            <li><a href="/pags/news/fresh.html?a=5"><img src="/images/banner6.jpg" alt=""></a></li>
+            <li class="on img1"><a href="/pags/news/fresh.html?a=5"></a></li>
+            <li class="img2"><a href="/pags/news/fresh.html?a=5"></a></li>
+            <li class="img3"><a href="/pags/internet/internet.html"></a></li>
+            <li class="img4"><a href="/pags/course/course.html"></a></li>
+            <li class="img5"><a href="/pags/underCourse/underCourse.html"></a></li>
+            <li class="img6"><a href="/pags/news/fresh.html?a=5"></a></li>
         </ul>
         <ul id="two">
             <li class="on"></li>
@@ -43,7 +43,49 @@
         </div>
     </div>
 </div>
-
+<!-- 移动端的导航 -->
+<ul class="m-nav2 clearfix">
+    <li>
+        <a href="/">
+            <div class="nav-img">
+                <img src="/img/index/nav1.png" alt="">
+            </div>
+            <p>首页</p>
+        </a>
+    </li>
+    <li>
+        <a href="/pags/course/course.html">
+            <div class="nav-img">
+                <img src="/img/index/nav2.png" alt="">
+            </div>
+            <p>MUST课程</p>
+        </a>
+    </li>
+    <li>
+        <a href="/pags/underCourse/underCourse.html">
+            <div class="nav-img">
+                <img src="/img/index/nav3.png" alt="">
+            </div>
+            <p>线下校区</p>
+        </a>
+    </li>
+    <li>
+        <a href="/pags/internet/internet.html">
+            <div class="nav-img">
+                <img src="/img/index/nav4.png" alt="">
+            </div>
+            <p>网校学习</p>
+        </a>
+    </li>
+    <li>
+        <a href="/pags/aboutus/company.html">
+            <div class="nav-img">
+                <img src="/img/index/nav5.png" alt="">
+            </div>
+            <p>简介</p>
+        </a>
+    </li>
+</ul>
  <!-- 让1300万孤独症家庭更从容 -->
 <div class="w-1300">
     <div class="content">
@@ -82,14 +124,19 @@
 <div class="intro">
     <div class="content">
         <div class="intro-c clearfix">
-            <div class="i-video fl" id="video" >
+            <div class="i-video fl" >
                 <div class="player">
-                    <video poster="/images/vadio3.png"  controls playsinline   preload="auto">
-                        <source src="./video/movie3.mp4" type="video/mp4">
+                    <video poster="/images/vadio3.png"  playsinline controls preload="auto" id="video">
+                        <source src="/video/movie3.mp4" type="video/mp4">
                             您的浏览器版本过低不支持Video标签，请您升级此浏览器。
                     </video>
                 </div>
+                <div class="video-pro clearfix">
+                    <li onclick="playVid()"><i>播放</i><span></span></li>
+                    <li onclick="pauseVid()" class="span-bg"><i>暂停</i><span></span></li>
+                </div>
             </div>
+
             <div class="i-text fl">
                 <h3>星希望教育</h3>
                 <p>成立于2011年，以“MUST行为引导技术”为核心，旗下包括 “星希望康复中心”、“星希望网校”、“MUST研发中心” 三大业务板块。
@@ -98,7 +145,7 @@
             </div>
         </div>
         <div class="intro-bg">
-            <div class="intro-list">
+            <div class="intro-list clearfix">
                 <ul>
                     <li>
                         <div></div>
@@ -204,8 +251,8 @@
                     <b>海淀校区</b>  
                 </div>
             </div>
-            <div class="c-tit3">
-                海淀校区是星希望MUST行为引导技术研究院
+            <div class="c-tit2 c-tit3">
+                海淀校区是星希望MUST行为引导技术研究院<br/>
                 也是北京星希望孤独症康复中心在海淀区建立的一所教研实践基地
             </div>
             <div class="ca1-c">
@@ -245,7 +292,7 @@
         </div>
         <div class="learn-c">
             <div class="c1-tit">
-                <h3><span>MUST</span>理论技术创造人<b>亲自授课</b></h3>
+                <h3><span>MUST</span>理论技术创始人<b>亲自授课</b></h3>
                 <p>实战教学 只为线上课程更有效</p>
             </div>
         </div>
@@ -386,7 +433,7 @@
         </div>
     </div>
     <div class="honor-list">
-        <div class="list-content">
+        <div class="content">
             <div class="hidden" >
                 <ul class="list clearfix">
                     <li>
@@ -418,7 +465,7 @@
         </div>
     </div>
     <div class="honor-list honor-list2">
-        <div class="list-content">
+        <div class="content list-content">
             <div class="hidden" >
                 <ul class="list clearfix"id="bigul">
                     <li>
@@ -627,6 +674,7 @@
 <script src="/js/plugins/jquery.cookie.js"></script>
 <script src="/js/static/utils.js"></script>
 <script src="/js/static/test.js"></script>
+<script src="/js/static/video.js"></script>
 <script>
     $.ajax({
             type:'get',
@@ -646,6 +694,18 @@
     var width = $(window).width();
     $(".learn-left , .learn-right").attr("width");
     $(".learn-left , .learn-right").css("width",(width-1200)/2 + "px");
+</script>
+<script>
+  var myvideo=document.getElementById("video");
+      //播放视频
+      function playVid(){
+        myvideo.play();
+        setInterval(pro1,1000);
+    }
+    //暂停视频
+    function pauseVid(){
+        myvideo.pause();
+    }
 </script>
 
 <script>

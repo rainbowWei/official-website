@@ -14,7 +14,7 @@
 .ec-banner {
   width: 100%;
   height: 210px;
-  background: url(../../images/read-banner.png);
+  background: url(../../images/parentR-banner.png);
   background-size: 100% 100%;
   margin-bottom: 14px;
 }
@@ -76,6 +76,7 @@
 .ency .ency-list li .text {
   width: 622px;
   height: 100%;
+  position: relative;
 }
 .ency .ency-list li .text .tit {
   font-size: 24px;
@@ -90,7 +91,9 @@
 .ency .ency-list li .text .en-time {
   text-align: right;
   font-size: 14px;
-  margin-top: 45px;
+  position: absolute;
+  right: 0;
+  bottom: 0;
 }
 .ency .ency-list li .text .en-time a {
   color: #7eafe7;
@@ -107,83 +110,104 @@
   line-height: 60px;
   background: #7EB0E6;
 }
-.ency .ency-footer #page-table {
+.ency .ency-footer #page-table2 {
   text-align: right;
   font-size: 16px;
   width: 100%;
   height: 100%;
 }
 @media screen and (max-width: 1024px) {
+  .state-bg2 {
+    display: none;
+  }
   .ec-bg {
     height: .48rem;
     font-size: .24rem;
     line-height: .48rem;
   }
   .ec-banner {
-    height: 2.8rem;
+    height: 2rem;
+    background: url(../../img/news/parentR-banner.png);
+    background-size: 100% 100%;
+    margin-bottom: .10rem;
   }
   .ec-banner1 {
-    height: 2.8rem;
+    height: 2rem;
+    background: url(../../img/news/science-banner.png);
+    background-size: 100% 100%;
+    margin-bottom: .10rem;
   }
   .ency {
     width: 7.3rem;
     height: 100%;
     margin: 0 auto;
-    padding-bottom: 1rem;
+    padding-bottom: .3rem;
   }
   .ency .ency-h {
-    height: .30rem;
-    font-size: .26rem;
-    line-height: .30rem;
-    padding-left: .10rem;
-    margin: .20rem 0 .20rem;
-    border-left: 0.06rem solid #f08300;
+    height: .60rem;
+    font-size: .36rem;
+    line-height: .60rem;
   }
   .ency .ency-list {
-    width: 7.1rem;
+    width: 100%;
     height: 100%;
     margin: 0 auto;
+    padding: .65rem 0 .35rem;
   }
   .ency .ency-list li {
     width: 100%;
-    height: 1.75rem;
-    border-bottom: 1px solid  #e5e5e5;
-    padding-bottom: .10rem;
-    margin-bottom: .2rem;
+    height: 1.6rem;
+    margin-bottom: .57rem;
+  }
+  .ency .ency-list li .detail {
+    width: 100%;
+    height: 1.40rem;
   }
   .ency .ency-list li .img {
-    width: 3.06rem;
-    height: 1.75rem;
+    width: 2.34rem;
+    height: 1.30rem;
   }
   .ency .ency-list li .img img {
     width: 100%;
     height: 100%;
   }
   .ency .ency-list li .text {
-    width: 3.89rem;
-    height: 100%;
+    width: 4.7rem;
+    height: 1.40rem;
   }
   .ency .ency-list li .text .tit {
-    font-size: .20rem;
+    font-size: .22rem;
     line-height: .24rem;
     margin: 0.07rem 0 .03rem;
   }
-  .ency .ency-list li .text .content1 {
-    font-size: .14rem;
-    line-height: .26rem;
+  .ency .ency-list li .text .en-desp {
+    font-size: .16rem;
+    line-height: .24rem;
     text-indent: 2em;
   }
-  .ency .ency-list li .text .content1 span {
-    letter-spacing: -0.03rem;
-    font-size: .14rem;
-  }
-  .ency #page-table {
-    position: absolute;
-    bottom: .30rem;
-    right: 0;
+  .ency .ency-list li .text .en-time {
     text-align: right;
-    font-size: .18rem;
+    font-size: .16rem;
+  }
+  .ency .ency-list li .text .en-time a {
+    color: #7eafe7;
+  }
+  .ency .ency-list li .en-line {
     width: 100%;
-    height: .50rem;
+    height: .15rem;
+    background: url("../../images/aboutus/line.png");
+    background-size: 100% 100%;
+    margin: .08rem auto 0;
+  }
+  .ency .ency-footer {
+    width: 100%;
+    height: .40rem;
+    line-height: .40rem;
+  }
+  .ency .ency-footer #page-table2 {
+    text-align: right;
+    font-size: .20rem;
+    width: 100%;
+    height: 100%;
   }
 }

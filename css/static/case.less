@@ -2,12 +2,12 @@
     width: 100%;
     height: 100%;
     background: #f7f7f7;
-    padding-bottom: 120px;
+    padding-bottom: 80px;
     .case-h{
-        width: 100%;
+        width: 1200px;
         height: 210px;
         background: url(../../images/aboutus/case.png);
-        margin-top: 10px;
+        margin: 10px auto 0;
     }
     .case-list{
         width: 100%;
@@ -18,19 +18,18 @@
             width: 950px;
             height: 195px;
             margin: 18px auto 0;
+            position: relative;
             li{
                 font-size: 16px;
                 line-height: 30px;
                 h3{
                     font-size: 24px;
-                    margin: 9px 0;
-                    a{
-                       color: #f18101;  
-                    }   
+                    margin: 9px 0;  
                 }
                 div{
-                    text-align: right;
-                    margin-top: 35px;
+                    position: absolute;
+                    bottom: 25px;
+                    right: 0;
                     a{
                          color: #ee8102;
                     }
@@ -59,6 +58,77 @@
     .sta-footer{
         width: 100%;
         height: 60px;
+        line-height: 60px;
         background: #f7ceae;
+        #page-table2{
+            text-align: right;
+            font-size: 18px;
+            width:100%;
+            height:100%;
+        }
+    }
+}
+
+@media screen and (max-width:1024px){
+    .aboutus-case{
+        padding-bottom: .30rem;
+        .case-h{
+            width: 100%;
+            height: 1.3rem;
+            background: url(../../images/aboutus/case.png);
+            background-size: 100% 100%;
+            margin-top: 0;
+        }
+        .case-list{
+            width: 100%;
+            height: 100%;
+            background: #fff;
+            padding: .01rem 0 .48rem;
+            margin-top: .06rem;
+            .item{
+                width: 7.1rem;
+                height: 1.35rem;
+                margin: .27rem auto 0;
+                li{
+                    font-size: .16rem;
+                    line-height: .25rem;
+                    h3{
+                        font-size: .26rem;
+                        margin: 0 0 .09rem;  
+                    }
+                    div{
+                       bottom: .10rem;
+                    }
+                }
+                .list-img{
+                    width: 2.15rem;
+                    height: 1.27rem;
+                    img{
+                        width: 100%;
+                        height: 100%;
+                    }
+                }
+                .list-text{
+                    width: 4.64rem;
+                }
+               
+            }
+        }
+        .line{
+            width: 7.1rem;
+            height: .15rem;
+            background:url("../../images/aboutus/line.png");
+            background-size: 100% 100%;
+            margin:  0 auto;
+        }
+        .sta-footer{
+            height: .40rem;
+            #page-table2{
+                text-align: right;
+                font-size: .18rem;
+                width:100%;
+                height:100%;
+            }
+        }
     }
 }

@@ -27,7 +27,6 @@
 }
 .glory .glory-list {
   width: 1188px;
-  padding-top: 80px;
   padding: 80px 0 50px 12px;
   margin: 0 auto;
   overflow: hidden;
@@ -63,51 +62,44 @@
 }
 @media screen and (max-width: 1024px) {
   .glory {
-    height: 100%;
+    padding-bottom: .30rem;
+  }
+  .glory .glory-h {
+    height: 2rem;
+  }
+  .glory .glory-h p {
+    font-size: .36rem;
+    line-height: .36rem;
+    top: 1.46rem;
+    left: .62rem;
+  }
+  .glory .glory-h .glory-img {
+    top: .18rem;
+    right: .16rem;
+    width: 3.22rem;
+    height: 1.78rem;
+    background: url(../../images/aboutus/glory.png);
+    background-size: 100% 100%;
+  }
+  .glory .glory-list {
     width: 100%;
+    padding: .2rem 0 0 0;
   }
-  .glory .glory-c {
-    padding: .28rem 0 1.20rem;
-    height: 9.14rem;
-  }
-  .glory .glory-c .glory-tit {
-    font-size: .3rem;
-    line-height: .3rem;
-    margin-bottom: .2rem;
-  }
-  .glory .glory-c .glory-list {
-    width: 100%;
-  }
-  .glory .glory-c .list {
-    width: 7.44rem;
-  }
-  .glory .glory-c .list li {
-    margin: 0 .14rem .16rem 0;
-    width: 2.33rem;
-    height: 2.10rem;
-    position: relative;
-  }
-  .glory .glory-c .list li .img {
-    position: relative;
-    width: 1.95rem;
-    height: 1.39rem;
-    margin: .21rem .20rem 0;
-  }
-  .glory .glory-c .list li .img img {
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
+  .glory .list {
+    width: 7.42rem;
     height: 100%;
   }
-  .glory .glory-c .list li p {
-    position: absolute;
-    bottom: 0.05rem;
-    left: 0;
+  .glory .list li {
+    margin-right: .10rem;
+    width: 1.75rem;
+    height: 2rem;
+  }
+  .glory .list li .img {
     width: 100%;
-    text-align: center;
-    line-height: .44rem;
-    font-size: .18rem;
-    margin-top: 0rem;
+    height: 1.15rem;
+  }
+  .glory .list li p {
+    line-height: .28rem;
+    font-size: .14rem;
   }
 }

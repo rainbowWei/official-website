@@ -27,18 +27,22 @@
             </div>
         </div>
         <div class="case-c">
+            <ul class="case-h clearfix">
+                <li class="case-img fl"><img src="../../images/case2.png" alt=""></li>
+                <li class="case-txt fr">康复训练案例</li>
+            </ul>
             <div class="content">
-                <ul class="case-h clearfix">
-                    <li class="case-img fl"><img src="../../images/case2.png" alt=""></li>
-                    <li class="case-txt fr">康复训练案例</li>
-                </ul>
                 <div class="c-text">
-                    <div class="video" id="video">
+                    <div class="video" >
                         <div class="player">
-                            <video poster="/images/vadio2.png"  controls  playsinline   preload="auto">
+                            <video poster="/images/vadio2.png"  controls  playsinline   preload="auto" id="video">
                                 <source src="/video/movie2.mp4" type="video/mp4">
                                     您的浏览器版本过低不支持Video标签，请您升级此浏览器。
                             </video>
+                        </div>
+                        <div class="video-pro clearfix">
+                            <li onclick="playVid()"><i>播放</i><span></span></li>
+                            <li onclick="pauseVid()" class="span-bg"><i>暂停</i><span></span></li>
                         </div>
                         <div class="tit">自闭症儿童小雄在“星星相印活动”中演奏钢琴</div>
                     </div>
@@ -54,6 +58,18 @@
     <div id="footer"></div>
     <script src="/js/plugins/jquery-1.11.3.min.js"></script>
     <script src="/js/static/index.js"></script>
+    <script>
+        var myvideo=document.getElementById("video");
+            //播放视频
+            function playVid(){
+                myvideo.play();
+                setInterval(pro1,1000);
+            }
+            //暂停视频
+            function pauseVid(){
+                myvideo.pause();
+            }
+    </script>
     <script>
             $("#header").load("/pags/public/header.html");
             $("#footer").load("/pags/public/footer.html");

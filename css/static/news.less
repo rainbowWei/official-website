@@ -1,7 +1,7 @@
 
 .activity{
     background: #fcf3eb;
-    padding-bottom: 120px;
+    padding-bottom: 80px;
     .act-h{
         width: 100%;
         height: 320px;
@@ -9,7 +9,7 @@
     }
     .act-list{
         height:100%;
-        padding: 57px 15px 0;
+        padding: 57px 15px 50px;
         width: 1170px;
         overflow: hidden;
         background: #fff;
@@ -40,6 +40,7 @@
                 h3{
                     font-size: 16px;
                     line-height: 24px;
+                    height: 60px;
                     color: #333333;
                     padding-top: 16px;
                 }
@@ -47,10 +48,7 @@
                     font-size: 16px;
                     line-height: 27px;
                     color: #999999;
-                    span{
-                        margin-right: 40px;
-                        display: inline-block;
-                    }
+                    text-align: right;
                 }
             }
         }
@@ -72,94 +70,59 @@
 
 @media screen and (max-width: 1024px) {
     .activity{
-        width:7.3rem;
-        height:100%;
-        padding:.08rem 0 1rem;
+        width: 100%;
+        padding-bottom: .30rem;
         .act-h{
-            font-size:.3rem;
-            line-height: .3rem;
-            padding-left:.46rem;
-            span{
-                width: .38rem;
-                height:.33rem;
-                position: absolute;
-                top:-0.03rem;
-                left:2.81rem;
-            }
-        }
-        .fresh{
-            span{
-                width: .36rem;
-                height:.36rem;
-                top:-0.06rem;
-                left: 2.86rem;
-            }
-        }
-        .industry{
-            span{
-                top:.01rem;
-                width: .40rem;
-                height:.30rem;
-            }
-        }
-        .media{
-            span{
-                top:-0.06rem;
-                width: .40rem;
-                height:.36rem;
-                
-            }
+            width: 100%;
+            height:2rem;
+            background: url(../../img/news/banner.png);
+            background-size: 100% 100%;
         }
         .act-list{
             height:100%;
-            width: 7.1rem;
+            width: 7.06rem;
+            padding: .35rem .12rem .40rem;
             overflow: hidden;
-            margin:.20rem auto 0;
             ul{
                 width:7.3rem;
             }
             li{
-                width: 3.54rem;
-                height:3.36rem;
-                margin-right:.1rem;
-                margin-bottom: .2rem;
+                width: 2.32rem;
+                height:2.26rem;
+                margin: 0 .05rem 0 0;
                 .img{
-                    height: 2.50rem;
+                    height: 1.26rem;
                     img{
                         width: 100%;
                         height:100%;
                     }
                 }
                 .text{
-                    height:.90rem;
+                    height:1rem;
                     h3{
-                        font-size: .20rem;
-                        line-height: .26rem;
-                        padding-right: 0;
-                        padding-top: 0;
-                        margin-top: .14rem;
+                        font-size: .16rem;
+                        line-height: .24rem;
+                        padding-top: 0.05rem;
+                        height: .7rem;
                     }
                     p{
                         font-size: .16rem;
                         line-height: .16rem;
-                        margin-top: .07rem;
-                        span{
-                            margin-right: .40rem;
-                            display: inline-block;
-                        }
+                        padding-right: .08rem;
                     }
                 }
             }
         }
-        #page-table2{
-            position: absolute;
-            bottom: .30rem;
-            right: 0;
-            text-align: right;
-            font-size: .18rem;
-            width:100%;
-            height:.50rem;
-    
+        .page{
+            width: 100%;
+            height: .40rem;
+            line-height: .40rem;
+            #page-table2{
+                text-align: right;
+                font-size: .18rem;
+                width:100%;
+                height:100%;
+            }
         }
     }
     
