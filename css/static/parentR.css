@@ -86,7 +86,6 @@
 .ency .ency-list li .text .en-desp {
   font-size: 16px;
   line-height: 30px;
-  text-indent: 2em;
 }
 .ency .ency-list li .text .en-time {
   text-align: right;
@@ -183,7 +182,6 @@
   .ency .ency-list li .text .en-desp {
     font-size: .16rem;
     line-height: .24rem;
-    text-indent: 2em;
   }
   .ency .ency-list li .text .en-time {
     text-align: right;

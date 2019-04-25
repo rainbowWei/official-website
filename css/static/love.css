@@ -686,10 +686,10 @@
     font-size: .18rem;
   }
   .l-tab .volunteer .entry .tbody .table tr td input {
-    height: .39rem;
+    height: .345rem;
   }
   .l-tab .volunteer .entry .tbody .table tr td textarea {
-    height: .38rem;
+    height: .345rem;
     width: 2.27rem;
   }
   .l-tab .volunteer .entry .tbody .table tr td .experience {
@@ -730,7 +730,7 @@
   .l-tab .donation .fund .fund-h .fund-icon {
     width: 1.41rem;
     height: .94rem;
-    margin: 0 .06rem 0 2.95rem;
+    margin: 0 .05rem 0 2.95rem;
     padding-top: .15rem;
   }
   .l-tab .donation .fund .fund-h .fund-icon p {
@@ -748,7 +748,7 @@
     border-radius: .10rem;
   }
   .l-tab .donation .fund .fund-h .fund-txt {
-    width: 2.86rem;
+    width: 2.89rem;
     height: 1.2rem;
     font-size: .20rem;
     line-height: .30rem;
@@ -820,7 +820,7 @@
   .l-tab .donation .fund .fund-c .table2 .f-w2 {
     width: 2.6rem;
   }
-  .l-tab .donation .fund .fund-c .table2 .f-w3 {
+  .l-tab .donation .fund .fund-c .table2 s .f-w3 {
     width: 1rem;
   }
   .l-tab .donation .fund .fund-c .table2 .f-w4 {

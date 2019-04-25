@@ -44,31 +44,13 @@
         background-position: center top;
         background-size: auto 100%;
     }
-    .img4{
-        background: url(../../images/banner4.jpg);
-        background-repeat: no-repeat;
-        background-position: center top;
-        background-size: auto 100%;
-    }
-    .img5{
-        background: url(../../images/banner5.jpg);
-        background-repeat: no-repeat;
-        background-position: center top;
-        background-size: auto 100%;
-    }
-    .img6{
-        background: url(../../images/banner6.jpg);
-        background-repeat: no-repeat;
-        background-position: center top;
-        background-size: auto 100%;
-    }
     .on{
         display:block;
     }
 }
 #two{
     position:absolute;
-    margin-left: -150px;
+    margin-left: -110px;
     left:50%;
     bottom:41px;
     li{
@@ -118,8 +100,8 @@
 
 .w-1300{
     width:100%;
-    height: 350px;
-    padding-top: 50px;
+    height: 466px;
+    padding-top: 84px;
     .w-title{
         font-size: 40px;
         line-height: 40px;
@@ -127,37 +109,40 @@
         text-align: center;
     }
     .w-list{
-        width: 954px;
-        height: 218px;
-        margin: 43px auto 0;
-        overflow: hidden;
-        .list-c{
-            width: 1048px;
+        width: 1080px;
+        height: 300px;
+        margin: 59px auto 0;
+        overflow: hidden;   
+        li{
+            float: left;
+            width: 220px;
             height: 100%;
-            
-            li{
-                float: left;
-                width: 167px;
-                height: 100%;
-                margin-right:95px;
-                .w-img{
+            margin:0 25px;
+            .w-img{
+                width: 100%;
+                height: 110px;
+                position: relative;
+                img{
                     width: 100%;
-                    height: 167px;
-                    position: relative;
-                    img{
-                        width: 100%;
-                        height: 100%;
-                        position: absolute;
-                        top:0;
-                        left: 0;
-                    }
+                    height: 100%;
+                    position: absolute;
+                    top:0;
+                    left: 0;
                 }
-                .w-text{
-                    font-size: 24px;
-                    line-height: 24px;
-                    margin-top: 28px;
-                    text-align: center;
+            }
+            .w-text{
+                width: 100%;
+                h3{
+                    font-size: 30px;
+                    line-height: 30px;
+                    margin: 20px 0 26px;
+                    text-align: center;  
                 }
+                p{
+                    font-size: 18px;
+                    line-height: 28px;
+                }
+                
             }
         }
     }
@@ -168,8 +153,8 @@
     background:#e0f0e7;
     padding: 40px 0 40px;
     .i-video{
-        width: 480px;
-        height: 271px;
+        width: 619px;
+        height: 348px;
         border:8px solid #fff;
         font-size: 16px;
         video{
@@ -178,46 +163,63 @@
         }
     }
     .i-text{
-        width: 592px;
-        font-size: 16px;
+        width: 513px;
+        font-size: 18px;
         line-height: 36px;
-        margin-left: 52px;
+        margin-left: 12px;
         margin-top: 20px;
         h3{
-            font-size: 24px;
+            font-size: 30px;
             margin-bottom: 5px;
+        }
+        p{
+            margin-bottom: 10px;
         }
     }
     .intro-bg{
         width: 100%;
-        height: 131px;
+        height: 220px;
         background: #edf9f0;
         margin-top: 23px;
+        border-radius: 20px;
         .intro-list{
-            width: 1086px;
+            width: 1180px;
             height: 99px;
-            padding-top: 32px;
-            overflow: hidden;
+            padding:0 0 0 20px;
             margin:  0 auto;
-            ul{
-                width: 1180px;
-                li{
+            li{
+                float: left;
+                width: 295px;
+                .i-img{
+                    width: 82px;
+                    height: 82px;
                     float: left;
-                    margin-right: 110px;
-                    div{
-                        width: 67px;
-                        height: 67px;
-                        background: url(../../images/4.png);
-                        float: left;
-                        margin-right: 22px;
+                    margin-right: 10px;
+                    margin-top: 24px;
+                    position: relative;
+                    img{
+                        position: absolute;
+                        top:0;
+                        left: 0;
+                        width: 100%;
+                        height: 100%;
+                    }
+                }
+                .i-txt{
+                    float: left;
+                    width: 168px;
+                    margin-top: 50px;
+                    h3{
+                        font-size: 24px;
+                        margin-bottom: 20px;
                     }
                     p{
-                        float: right;
-                        font-size: 24px;
-                        line-height: 67px;
+                        font-size: 18px;
+                        line-height: 28px;
                     }
                 }
             }
+            
         }
     }
    
@@ -288,6 +290,7 @@
             position: absolute;
             top:0;
             left:96px;
+            width: 150px;
             p{
                 font-size: 29px;
                 span{
@@ -393,45 +396,36 @@
 //星希望网校学习
 .learn{
     width:100%;
-    height: 801px;
-    background: #d1edd8;
-   
-    
-    .padding-top{
-       padding-top: 82px; 
-       height: 719px;
-       position: relative;
-    }
-    .learn-left{
-        height: 801px;
-        background: url(../../images/left.jpg) repeat-x;
-    }
-    .learn-right{
-        height: 801px;
-        background: url(../../images/right.jpg) repeat-x;
-    }
+    padding-top: 82px; 
+    height: 718px;
+    background: #d1edd8; 
     .learn-c{
-        width: 1074px;
-        height: 163px;
-        margin-top: 33px;
-        padding-top: 56px;
-        background: url(../../images/9.png);
+        width: 1100px;
+        height: 220px;
+        margin-top: 95px;
+        div{
+            float: left;
+        }
         .c1-tit{
-            width: 770px;
+            width: 750px;
             text-align: center;
-            margin-left: 226px;
+            margin-left: 130px;
             h3{
-                font-size: 56px;
-                color: #fff;
-                line-height: 56px;
-                font-weight: 400;
+                font-size: 52px;
+                color: #095696;
+                line-height: 52px;
+                font-weight: bold;
+                font-family: '华文中宋';
                 span{
                     font-size: 46px;
                     font-family: Arial;
+                    font-family: '华文中宋';
+                    font-weight: bold;
                 }
                 b{
                     margin-left: 12px;
-                    font-weight: 400;
+                    font-family: '华文中宋';
+                    font-weight: bold;
                 }
             }
             p{
@@ -441,32 +435,40 @@
                 color: #f06e7a;
             }
         }
+        .funder{
+            width: 212px;
+            height: 300px;
+            background: url(../../images/funder.png);
+            margin-top: -80px;
+        }
     }
     .learn-c2{
-        width: 984px;
-        height: 285px;
-        margin:9px 0 0 216px;
-        padding-top: 60px;
-        background: url(../../images/10.png);
-        position: absolute;
-        right: 0;
-        bottom: 0;
+        width: 1110px;
+        height: 255px;
+        padding-top: 25px;
+        margin: 0 auto;
+        background: #f06e7a;
+        border-radius: 20px;
         .c2-list{
-            margin-left: 334px;
+            margin-left: 60px;
             h3{
                 font-size: 40px;
                 line-height: 38px;
                 color: #ffffff;
-                width: 378px;
-                border-bottom:3px solid #7bb7fa;
+                width: 957px;
+                border-bottom:2px solid #d1edd8;
+                padding-left: 23px;
+                margin-bottom: 5px;
                 span{
-                    font-size: 18px;
+                    font-size: 22px;
+                    margin-left: 10px;
                 }
             }
             p{
-                font-size: 18px;
+                font-size: 22px;
                 line-height: 36px;
                 color: #ffffff;
+                margin-left: 150px;
             }
         }
     }
@@ -662,12 +664,13 @@
                 width: 80px;
                 height: 80px;
                 border-radius: 50%;
-                background: #79556d;
+                background: url(../../images/cgal-1.png);
+                background-size: 100% 100%;
                 margin: 0 auto;
             }
             div{
                 width: 270px;
-                // height: 166px;
+                height: 180px;
                 font-size: 18px;
                 line-height: 36px;
                 padding-right: 18px;
@@ -676,12 +679,14 @@
         }
         .c1{
             p{
-                background: #b8888d;
+                background: url(../../images/cgal-2.png);
+                background-size: 100% 100%;
             }
         }
         .c2{
             p{
-                background: #b6b457;
+                background: url(../../images/cgal-3.png);
+                background-size: 100% 100%;
             }
         }
         .border-n{
@@ -689,7 +694,8 @@
                 border-right: none; 
             }
             p{
-                background: #778cde;
+                background: url(../../images/cgal-4.png);
+                background-size: 100% 100%;
             }
         }
     }
@@ -834,10 +840,10 @@
         height:448px;
         padding:33px 10px 0px 10px;
         background-color: #ffffff;
-        box-shadow: inset 1px 2px 7px 0px 
-            rgba(0, 0, 0, 0.24), 
-            inset 0px -2px 7px 0px 
-            rgba(0, 0, 0, 0.24);
+        box-shadow: inset 1px 2px 3px 0px 
+            rgba(3, 173, 203, .3), 
+            inset -1px -2px 3px 0px 
+            rgba(3, 173, 203, .3);
         .list{
            
             width:100%;
@@ -1035,7 +1041,7 @@
     }
     #one{      
         .img1{
-            background: url(../../img/index/banner1.jpg);
+            background: url(../../img/index/banner.jpg);
             background-size: 100% 100%;
         }
         .img2{
@@ -1046,24 +1052,12 @@
             background: url(../../img/index/banner3.jpg);
             background-size: 100% 100%;
         }
-        .img4{
-            background: url(../../img/index/banner4.jpg);
-            background-size: 100% 100%;
-        }
-        .img5{
-            background: url(../../img/index/banner5.jpg);
-            background-size: 100% 100%;
-        }
-        .img6{
-            background: url(../../img/index/banner6.jpg);
-            background-size: 100% 100%;
-        }
         .on{
             display:block;
         }
     }
     #two{
-        margin-left: -1.5rem;
+        margin-left: -.8rem;
         bottom:.15rem;
         li{
             width: .10rem;
@@ -1115,34 +1109,42 @@
     //让1300万孤独症家庭更从容
 
     .w-1300{
-        height: 2.78rem;
-        padding-top: .58rem;
+        height: 100%;
+        padding: .69rem 0 .45rem;
+        .content{
+            width: 7.4rem;
+        }
         .w-title{
-            font-size: .36rem;
-            line-height: .36rem;
+            font-size: .30rem;
+            line-height: .30rem;
         }
         .w-list{
-            width: 6.55rem;
-            height: 1.6rem;
-            margin: .43rem auto 0;
-            .list-c{
-                width: 6.81rem;
+            width:100%;
+            height: 100%;
+            margin: .56rem auto 0;
+            li{
+                width: 1.55rem;
                 height: 100%;
-                li{
-                    width: 1.45rem;
-                    height: 100%;
-                    margin-right:.25rem;
-                    .w-img{
-                        width: 1.21rem;
-	                    height: 1.21rem;
-                        position: relative;
-                        margin:  0 auto;
+                margin:0 .15rem;
+                .w-img{
+                    width: 100%;
+                    height: .78rem;
+                    position: relative;
+                    margin:  0 auto;
+                }
+                .w-text{
+                    width: 100%;
+                    h3{
+                        font-size: .22rem;
+                        line-height: .22rem;
+                        margin: .13rem 0 .18rem;
+                        text-align: center;  
                     }
-                    .w-text{
-                        font-size: .24rem;
+                    p{
+                        font-size: .16rem;
                         line-height: .24rem;
-                        margin-top: .14rem;
                     }
+                    
                 }
             }
         }
@@ -1153,14 +1155,14 @@
         background:#e0f0e7;
         padding: .28rem 0 .28rem;
         .i-video{
-            width: 4.97rem;
-            height: 3.25rem;
+            width: 6.19rem;
+            height: 4.13rem;
             font-size: .16rem;
-            margin-left: 1.25rem;
+            margin-left: .47rem;
             border: none;
             .player{
-                width: 4.81rem;
-                height: 2.71rem;
+                width: 6.19rem;
+                height: 3.48rem;
                 border:.08rem solid #fff;
             }
             video{
@@ -1168,7 +1170,7 @@
                 height: 100%;
             }
             .video-pro{
-                padding-left: 2.9rem;
+                padding-left: 4.26rem;
                 width: 2.07rem;
                 height:.45rem;
                 margin-top: .02rem;
@@ -1210,41 +1212,55 @@
             
         }
         .i-text{
-            width: 6.44rem;
+            width: 6.5rem;
             font-size: .16rem;
             line-height: .30rem;
-            margin-left: .43rem;
+            margin-left: .42rem;
             margin-top: .27rem;
             h3{
                 font-size: .24rem;
                 margin-bottom: .05rem;
             }
+            p{
+                margin-bottom: .10rem;
+            }
         }
         .intro-bg{
             width: 100%;
-            height: .80rem;
+            height: 2.3rem;
             margin-top: .26rem;
+            border-radius: .20rem;
             .intro-list{
-                width: 6.6rem;
-                height: .60rem;
-                padding-top: .20rem;
-                ul{
-                    width: 6.94rem;
-                    li{
-                        margin-right:.3rem;
-                        div{
-                            width: .47rem;
-                            height: .47rem;
-                            background: url(../../images/4.png);
-                            background-size: 100% 100%;
-                            margin-right: .10rem;
+                width: 100%;
+                height: 99px;
+                padding:0;
+                margin:  0 auto;
+                li{
+                    width:1.82rem;
+                    .i-img{
+                        width: .82rem;
+                        height: .82rem;
+                        margin: .14rem auto 0;
+                        left: 50%;
+                        margin-left: -.41rem;
+                    }
+                    .i-txt{
+                        width: 1.69rem;
+                        margin-top: .08rem;
+                        h3{
+                            font-size: .24rem;
+                            margin-bottom: .06rem;
+                            text-align: center;
+                            color: #fc6815;
                         }
                         p{
-                            font-size: .20rem;
-                            line-height: .47rem;
+                            font-size: .16rem;
+                            line-height: .24rem;
+                            padding-left: .13rem;
                         }
                     }
                 }
+                
             }
         }
     
@@ -1296,6 +1312,7 @@
             .s1{
                 top:-.06rem;
                 left:.68rem;
+                width: 1.5rem;
                 p{
                     font-size: .20rem;
                     span{
@@ -1388,83 +1405,70 @@
     //星希望网校学习
     .learn{
         width:100%;
-        height: 5.21rem; 
+        padding-top:.42rem; 
+        height: 6.68rem;
         position: relative;  
-        .padding-top{
-            padding-top:.42rem; 
-            height: 4.79rem;
-            width: 7.5rem;
-            margin:  0 auto;
-            
-        }
-        .learn-left{
-            width: .01rem;
-            height: 5.21rem; 
-            background: url(../../img/index/left.png) repeat-x;
-            background-size: 100% 100%;
-        }
-        .learn-right{
-            width: .01rem;
-            height: 5.21rem; 
-            background: url(../../img/index/right.png) repeat-x;
-            background-size: 100% 100%;
-        }
         .learn-c{
-            width: 6.62rem;
-            height: 1.02rem;
-            margin-top: .2rem;
-            padding-top: .3rem;
-            background: url(../../images/9.png);
-            background-size: 100% 100%;
-            position: absolute;
-            left: 0;
+            width: 100%;
+            height:1.94rem;
+            margin-top: .80rem;
             .c1-tit{
-                width:4.7rem;
+                width:5.2rem;
                 text-align: center;
-                margin-left: 1.49rem;
+                margin-left: .35rem;
                 h3{
-                    font-size: .32rem;
-                    line-height: .32rem;
+                    font-size: .36rem;
+                    line-height: .36rem;
+                    font-family: '华文中宋';
+                    font-weight: bold;
                     span{
-                        font-size:.28rem;
+                        font-size:.30rem;
+                        font-family: '华文中宋';
+                        font-weight: bold;
                     }
                     b{
                         margin-left: .12rem;
+                        font-family: '华文中宋';
+                        font-weight: bold;
                     }
                 }
                 p{
-                    font-size: .30rem;
-                    line-height: .30rem;
+                    font-size: .36rem;
+                    line-height: .36rem;
                     margin-top: .20rem;
                 }
             }
+            .funder{
+                width: 1.73rem;
+                height: 2.6rem;
+                background: url(../../images/funder.png);
+                background-size: 100% 100%;
+                margin-top: -.66rem;
+                margin-left: -.3rem;
+            }
         }
         .learn-c2{
-            width: 6.84rem;
-            height:1.96rem;
-            margin:.06rem 0 0 0;
-            padding-top: .14rem;
-            background: url(../../img/index/c-bg.png);
-            background-size: 100% 100%;
-            position: absolute;
-            right: 0;
-            bottom: .20rem;
+            width:100%;
+            height: 2.5rem;
+            padding-top: .30rem;
+            border-radius: .2rem;
             .c2-list{
-                margin-left: 2.30rem;
-                width:4rem;
+                margin-left: .15rem;
                 h3{
-                    font-size: .24rem;
-                    line-height: .30rem;
-                    width:100%;
-                    border-bottom:1px solid #7bb7fa;
+                    font-size: .40rem;
+                    line-height: .40rem;
+                    width:7rem;
+                    border-bottom:1px solid #d1edd8;
                     margin-bottom: .05rem;
+                    padding-left: .11rem;
                     span{
-                        font-size: .16rem;
+                        font-size: .22rem;
                     }
                 }
                 p{
-                    font-size:.16rem;
-                    line-height: .24rem;
+                    font-size:.22rem;
+                    line-height: .36rem;
+                    margin-left: .10rem;
                 }
             }
         }
@@ -1706,9 +1710,9 @@
                         height:1.3rem;
                     }
                     .title{
-                        font-size: .16rem;
+                        font-size: .18rem;
                         line-height: .24rem;
-                        margin: .07rem 0 .15rem;
+                        margin: .1rem 0 .15rem;
                         height:.45rem;
                     }
                 

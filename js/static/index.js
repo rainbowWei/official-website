@@ -33,9 +33,11 @@ $(function () {
         $('#one li').eq(i).addClass('on').siblings().removeClass('on');
     }
     $('#left').click(function () {
+        clearInterval(t);
         moveL();
     })
     $('#right').click(function () {
+        clearInterval(t);
         move();
     })
     //鼠标移入移除
