@@ -882,6 +882,7 @@
   width: 100%;
   height: 518px;
   padding-top: 82px;
+  background: #f4f5f7;
 }
 .receive .r-tit {
   width: 412px;
@@ -907,6 +908,7 @@
   position: relative;
   text-indent: 67px;
   border-radius: 5px;
+  background: #FFF;
 }
 .receive .r-input span {
   display: inline-block;

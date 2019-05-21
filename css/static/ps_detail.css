@@ -37,12 +37,22 @@
   color: #fff;
   position: relative;
 }
-.detail-con .detail-c .detail-h .time {
-  font-size: 16px;
-  line-height: 16px;
+.detail-con .detail-c .detail-h p {
+  font-size: 28px;
+  line-height: 28px;
+  text-align: center;
+}
+.detail-con .detail-c .detail-h .s-t {
   position: absolute;
-  right: 18px;
   bottom: 10px;
+  right: 20px;
+  height: 20px;
+}
+.detail-con .detail-c .detail-h .s-t div {
+  float: left;
+  font-size: 14px;
+  line-height: 20px;
+  margin-left: 30px;
 }
 .detail-con .detail-c .detail-txt {
   padding: 54px 170px;
@@ -53,12 +63,29 @@
   width: 100%;
   height: 60px;
   line-height: 60px;
-  font-family: Arial;
   background: #7EB0E6;
-  text-align: center;
-  font-size: 24px;
   color: #ffffff;
+  position: relative;
+}
+.detail-footer div {
+  width: 60px;
+  position: absolute;
+  top: 0;
+  left: 50%;
+  margin-left: -30px;
   text-transform: uppercase;
+  font-size: 24px;
+  font-family: Arial;
+}
+.detail-footer .sta-pags {
+  position: absolute;
+  right: 20px;
+  top: 0;
+  font-size: 20px;
+}
+.detail-footer .sta-pags a {
+  color: #ffffff;
+  margin-left: 10px;
 }
 @media screen and (max-width: 1024px) {
   .asd-banner {
@@ -91,11 +118,21 @@
     padding: .25rem .10rem 0;
     font-size: .24rem;
   }
-  .detail-con .detail-c .detail-h .time {
-    font-size: .16rem;
-    line-height: .16rem;
-    right: .25rem;
-    bottom: 0.04rem;
+  .detail-con .detail-c .detail-h p {
+    font-size: .18rem;
+    line-height: .27rem;
+  }
+  .detail-con .detail-c .detail-h .s-t {
+    position: absolute;
+    bottom: .04rem;
+    right: .10rem;
+    height: .20rem;
+  }
+  .detail-con .detail-c .detail-h .s-t div {
+    float: left;
+    font-size: .14rem;
+    line-height: .20rem;
+    margin-left: .30rem;
   }
   .detail-con .detail-c .detail-txt {
     padding: .60rem .55rem;
@@ -113,7 +150,21 @@
   .detail-footer {
     width: 100%;
     height: .40rem;
+    font-size: .16rem;
     line-height: .40rem;
-    font-size: .24rem;
+  }
+  .detail-footer div {
+    width: .60rem;
+    margin-left: -0.3rem;
+    font-size: .16rem;
+  }
+  .detail-footer .sta-pags {
+    position: absolute;
+    right: .20rem;
+    top: 0;
+    font-size: .16rem;
+  }
+  .detail-footer .sta-pags a {
+    margin-left: .10rem;
   }
 }
