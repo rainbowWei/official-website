@@ -32,7 +32,7 @@ function getParams(x) {
 
 var URL = ['index', 'news', 'course', 'underCourse','internet', 'aboutus', 'love'];
 
-var a = Number(getParams("a"))
+var a = Number(localStorage.getItem('remark'));
 if (isNaN(a)) {
   a = getUrlParams(URL);
 }
@@ -40,3 +40,10 @@ if (isNaN(a)) {
 $(".nav li p").removeClass("line");
 $(".nav li").eq(a).children("p").addClass("line");
 $(".nav li").eq(a).addClass("active");
+
+// 导航点击事件
+$("[data-href]").on('click', function (e) {
+  const remark = $(this).attr('data-remark');
+  localStorage.setItem('remark',remark);
+  window.location.href = $(this).attr('data-href');
+})
