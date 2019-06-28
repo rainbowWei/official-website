@@ -29,7 +29,7 @@ iframe {
   height: 100%;
 }
 .header .header-c .nav {
-  width: 750px;
+  width: 760px;
   margin-left: 35px;
   height: 100%;
   padding-top: 32px;
@@ -37,10 +37,11 @@ iframe {
 }
 .header .header-c .nav li {
   float: left;
-  margin-left: 42px;
+  margin-left: 40px;
   position: relative;
   height: 30px;
   cursor: pointer;
+  user-select: none;
 }
 .header .header-c .nav li:first-child {
   margin-left: 0px;

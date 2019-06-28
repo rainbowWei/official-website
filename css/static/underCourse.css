@@ -65,6 +65,11 @@
   margin-top: 17px;
   float: left;
   margin-bottom: 37px;
+  box-shadow: 1px 1px 8px  #dcdcdc;
+  cursor: pointer;
+}
+.suggest .s-list ul li:hover .s-left {
+  box-shadow: 5px 5px 5px #c8c8c8;
 }
 .suggest .s-list ul li .s-bg {
   height: 350px;
@@ -489,6 +494,11 @@
     margin-right: .10rem;
     margin-top: .10rem;
     margin-bottom: .35rem;
+    box-shadow: none;
+    cursor: pointer;
+  }
+  .suggest .s-list ul li:hover .s-left {
+    box-shadow: .05rem .05rem .05rem #c8c8c8;
   }
   .suggest .s-list ul li .s-bg {
     height: 2.8rem;

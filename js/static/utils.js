@@ -17,6 +17,10 @@ function getUrlParams(URL) {
   return I;
 }
 
+/**
+ * 地址栏加参数的函数  —— 目前没有用到了
+ */
+
 function getParams(x) {
   var search = location.search.substr(1).split("&");
   var obj = {}
@@ -30,7 +34,7 @@ function getParams(x) {
   return obj
 }
 
-var URL = ['index', 'news', 'course', 'underCourse','internet', 'aboutus', 'love'];
+var URL = ['index','news', 'course', 'underCourse','internet', 'aboutus', 'love'];
 
 var a = Number(localStorage.getItem('remark'));
 if (isNaN(a)) {
@@ -43,7 +47,14 @@ $(".nav li").eq(a).addClass("active");
 
 // 导航点击事件
 $("[data-href]").on('click', function (e) {
-  const remark = $(this).attr('data-remark');
+  var remark = $(this).attr('data-remark');
   localStorage.setItem('remark',remark);
   window.location.href = $(this).attr('data-href');
+})
+
+//链接在新窗口打开
+$("a").on('click', function (e) {
+  if(($(this).attr('target'))){
+    window.open("data-href","_blank"); 
+  }
 })
