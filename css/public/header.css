@@ -77,15 +77,6 @@ iframe {
 .header .header-c .nav li .menu a:hover {
   background: #fcb45f;
 }
-.header .header-c .nav li .line {
-  width: 48px;
-  height: 4px;
-  background: #f08300;
-  position: absolute;
-  top: 26px;
-  left: 50%;
-  margin-left: -24px;
-}
 .header .header-c .nav li a {
   font-size: 18px;
   color: #333333;
@@ -99,6 +90,15 @@ iframe {
 .header .header-c .nav .active .title {
   color: #f08300;
   font-weight: bold;
+}
+.header .header-c .nav .active p {
+  width: 48px;
+  height: 4px;
+  background: #f08300;
+  position: absolute;
+  top: 26px;
+  left: 50%;
+  margin-left: -24px;
 }
 .header .header-c .nav .on {
   width: 48px;

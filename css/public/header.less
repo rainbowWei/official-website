@@ -78,16 +78,6 @@ iframe{
                       }
                   }
               }
-              .line{
-                  width: 48px;
-                  height: 4px;
-                  background: #f08300;
-                  position: absolute;
-                  top:26px;
-                  left: 50%;
-                  margin-left:-24px;
-                  // display: none;
-              }
               a{
                   font-size: 18px;
                   color: #333333;
@@ -102,14 +92,23 @@ iframe{
               }
           }
           
-          .active .title{
-            color:#f08300;
-            font-weight: bold;
-        }
-          .on{
-              width: 48px;
-              border-bottom: 4px solid   #f08300;
-          }
+            .active .title{
+                        color:#f08300;
+                        font-weight: bold;
+                    }
+            .active p{
+                    width: 48px;
+                    height: 4px;
+                    background: #f08300;
+                    position: absolute;
+                    top:26px;
+                    left: 50%;
+                    margin-left:-24px;
+                }
+            .on{
+                width: 48px;
+                border-bottom: 4px solid   #f08300;
+            }
       }
       .contact{
           width: 225px;
