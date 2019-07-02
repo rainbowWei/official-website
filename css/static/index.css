@@ -42,6 +42,12 @@
   background-position: center top;
   background-size: auto 100%;
 }
+#one .img4 {
+  background: url(../../images/banner4.jpg);
+  background-repeat: no-repeat;
+  background-position: center top;
+  background-size: auto 100%;
+}
 #one .on {
   display: block;
 }
@@ -1015,6 +1021,10 @@
   }
   #one .img3 {
     background: url(../../img/index/banner3.jpg);
+    background-size: 100% 100%;
+  }
+  #one .img4 {
+    background: url(../../img/index/banner4.jpg);
     background-size: 100% 100%;
   }
   #one .on {
